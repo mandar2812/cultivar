@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>cultivar — how it works</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9/dist/leaflet.css" />
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; color: #2d3748; }
+#header {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+  background: rgba(255,255,255,0.95); padding: 12px 20px;
+  display: flex; align-items: center; gap: 16px;
+  border-bottom: 1px solid #ddd;
+}
+#header h1 { font-size: 18px; font-weight: 600; color: #2d3748; }
+#header .subtitle { font-size: 13px; color: #718096; }
+.nav-tab { font-size: 13px; color: #4299e1; text-decoration: none; padding: 4px 10px; border-radius: 4px; }
+.nav-tab:hover { background: #ebf8ff; }
+.nav-tab.active { color: #2b6cb0; font-weight: 600; }
+#content { max-width: 720px; margin: 80px auto 40px; padding: 0 24px; }
+h2 { font-size: 22px; font-weight: 700; margin: 28px 0 12px; color: #1a202c; }
+h3 { font-size: 16px; font-weight: 600; margin: 20px 0 8px; color: #2d3748; }
+p { font-size: 15px; line-height: 1.7; margin-bottom: 14px; color: #4a5568; }
+ul { font-size: 15px; line-height: 1.7; margin: 0 0 14px 20px; color: #4a5568; }
+li { margin-bottom: 6px; }
+hr { border: 0; border-top: 1px solid #e2e8f0; margin: 28px 0; }
+</style>
+</head>
+<body>
+
+<div id="header">
+  <h1>🌱 cultivar</h1>
+  <span class="subtitle">in-season yield forecasts</span>
+  <a href="index.html" class="nav-tab">Map</a>
+  <a href="about.html" class="nav-tab active">How it works</a>
+</div>
+
+<div id="content">
+
+<h2>How the forecasts work</h2>
+
+<p>These are in-season estimates of grain yield per acre. The general idea is
+to take everything known about the current season so far &mdash; weather, soils,
+planting progress &mdash; and combine it with an understanding of how crops
+respond to their environment to project what final yield will look like.</p>
+
+<h3>What goes into the estimate</h3>
+
+<ul>
+  <li><strong>Current-season weather</strong> &mdash; temperature, rainfall, and sunlight from the start of the year up to today.</li>
+  <li><strong>Projected weather</strong> &mdash; plausible conditions for the rest of the growing season, based on historical patterns and adjusted for what we have observed so far.</li>
+  <li><strong>Soil characteristics</strong> &mdash; the water-holding capacity and rooting depth of the soil at each location.</li>
+  <li><strong>Planting and harvest timing</strong> &mdash; when farmers in each area typically get into the field, drawn from long-running surveys.</li>
+</ul>
+
+<h3>How they are produced</h3>
+
+<p>All of the above information is fed into a framework that relates growing
+conditions to yield outcomes. The framework captures how crops respond
+to heat, moisture, and other stresses in different situations.</p>
+
+<p>Rather than producing a single number, the method generates a distribution
+of possible outcomes across thousands of representative locations in the region.
+County-level and state-level figures are obtained by averaging over these
+individual estimates.</p>
+
+<h3>Weather scenarios</h3>
+
+<p>Because the remainder of the season is unknown, the projection is repeated
+under several different assumptions about future weather:</p>
+
+<ul>
+  <li><strong>Normal</strong> &mdash; what a typical season would look like, given what has happened so far.</li>
+  <li><strong>Dry</strong> &mdash; a scenario where a drier, hotter historical year plays out for the rest of the season.</li>
+  <li><strong>Hot</strong> &mdash; a scenario with anomalously high temperatures through the remainder of the growing window.</li>
+  <li><strong>Wet</strong> &mdash; a scenario with above-normal rainfall to see how much excess moisture might matter.</li>
+</ul>
+
+<p>Comparing across scenarios gives a sense of how sensitive the outcome is to
+the weather we might get in the coming weeks.</p>
+
+<hr>
+
+<p style="font-size:13px;color:#a0aec0;">This is a research tool. Forecasts are not guaranteed and should not be used for financial or operational decisions.</p>
+
+</div>
+
+</body>
+</html>

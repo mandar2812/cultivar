@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>cultivar — in-season yield forecasts</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.9/dist/leaflet.js"></script>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/topojson-client@3"></script>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+#header {
+  position: absolute; top: 0; left: 0; right: 0; z-index: 1000;
+  background: rgba(255,255,255,0.95); padding: 12px 20px;
+  display: flex; align-items: center; gap: 16px;
+  border-bottom: 1px solid #ddd;
+}
+#header h1 { font-size: 18px; font-weight: 600; color: #2d3748; }
+#header .subtitle { font-size: 13px; color: #718096; }
+.nav-tab { font-size: 13px; color: #4299e1; text-decoration: none; padding: 4px 10px; border-radius: 4px; }
+.nav-tab:hover { background: #ebf8ff; }
+.nav-tab.active { color: #2b6cb0; font-weight: 600; }
+#controls { margin-left: auto; display: flex; gap: 12px; align-items: center; }
+.control-group { display: flex; align-items: center; gap: 4px; }
+.control-group label { font-size: 12px; color: #718096; white-space: nowrap; }
+#controls select, #controls button {
+  font-size: 13px; padding: 4px 10px; border: 1px solid #cbd5e0;
+  border-radius: 4px; background: white; cursor: pointer;
+}
+#controls button { background: #4299e1; color: white; border-color: #4299e1; }
+#controls button:hover { background: #3182ce; }
+#map { position: absolute; top: 0; left: 0; right: 0; bottom: 0; }
+#legend {
+  position: absolute; bottom: 30px; right: 20px; z-index: 1000;
+  background: rgba(255,255,255,0.9); padding: 10px 14px;
+  border-radius: 6px; font-size: 12px; box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+}
+#legend h4 { font-weight: 600; margin-bottom: 4px; color: #4a5568; }
+.legend-item { display: flex; align-items: center; gap: 6px; margin: 2px 0; }
+.legend-swatch { width: 14px; height: 14px; border-radius: 2px; border: 1px solid rgba(0,0,0,0.1); }
+
+#histogramPanel {
+  position: absolute; bottom: 30px; left: 50%; transform: translateX(-50%);
+  z-index: 1000; background: rgba(255,255,255,0.95);
+  padding: 14px 20px; border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  font-size: 12px; display: none; min-width: 560px;
+}
+#histogramPanel h4 { font-weight: 600; color: #4a5568; margin-bottom: 8px; }
+#histogramPanel .histo-controls { display: flex; gap: 12px; align-items: center; margin-bottom: 8px; }
+#histogramPanel .histo-controls label { font-size: 12px; color: #718096; }
+#histogramPanel select {
+  font-size: 12px; padding: 3px 8px; border: 1px solid #cbd5e0;
+  border-radius: 4px; background: white;
+}
+#histogramPanel .histo-close {
+  margin-left: auto; cursor: pointer; color: #a0aec0; font-size: 16px; line-height: 1;
+}
+#histogramPanel .histo-close:hover { color: #4a5568; }
+#histoChart { width: 100%; height: 240px; }
+.histo-bar-pred { fill: #4299e1; opacity: 0.35; }
+.histo-bar-pred.dim { opacity: 0.12; }
+.histo-bar-pred.highlight { opacity: 0.85; }
+.histo-bar-pred.hover { opacity: 1.0; }
+.histo-bar-usda { fill: #48bb78; opacity: 0.35; }
+.histo-bar-usda.dim { opacity: 0.12; }
+.histo-bar-usda.highlight { opacity: 0.85; }
+.histo-bar-usda.hover { opacity: 1.0; }
+.histo-legend { display: flex; gap: 16px; justify-content: center; margin-top: 6px; font-size: 11px; color: #4a5568; }
+.histo-legend-item { display: flex; align-items: center; gap: 4px; cursor: pointer; }
+.histo-legend-item:hover { color: #2d3748; }
+.histo-legend-swatch { width: 10px; height: 10px; border-radius: 2px; display: inline-block; }
+.histo-legend-swatch.histo-bar-pred { background-color: #4299e1; opacity: 1; }
+.histo-legend-swatch.histo-bar-usda { background-color: #48bb78; opacity: 1; }
+
+#tooltip {
+  position: absolute; z-index: 1001; pointer-events: none;
+  background: rgba(0,0,0,0.8); color: white; padding: 8px 12px;
+  border-radius: 6px; font-size: 13px; line-height: 1.4;
+  display: none; max-width: 220px;
+}
+#countyTsTitle { display: none; }
+#status {
+  position: absolute; bottom: 30px; left: 52px; z-index: 1000;
+  background: rgba(255,255,255,0.9); padding: 6px 12px;
+  border-radius: 4px; font-size: 12px; color: #718096;
+}
+</style>
+</head>
+<body>
+
+<div id="header">
+  <h1>🌱 cultivar</h1>
+  <span class="subtitle">in-season yield forecasts</span>
+  <a href="about.html" class="nav-tab">How it works</a>
+  <div id="controls">
+    <div class="control-group">
+      <label for="cropSelect">Crop</label>
+      <select id="cropSelect"></select>
+    </div>
+    <div class="control-group">
+      <label for="scenarioSelect">Weather</label>
+      <select id="scenarioSelect">
+        <option value="normal">Normal</option>
+        <option value="dry">Dry</option>
+        <option value="hot">Hot</option>
+        <option value="wet">Wet</option>
+      </select>
+    </div>
+    <button id="refreshBtn">↻ Refresh</button>
+  </div>
+</div>
+
+<div id="map"></div>
+
+<div id="legend">
+  <h4>Yield (bu/ac)</h4>
+</div>
+
+<div id="histogramPanel">
+  <div class="histo-controls">
+    <label for="histoStateSelect">State</label>
+    <select id="histoStateSelect"></select>
+    <label for="histoYearSelect">Historical year</label>
+    <select id="histoYearSelect"></select>
+    <span class="histo-close" id="histoCloseBtn">&times;</span>
+  </div>
+  <div id="histoChart"></div>
+  <div class="histo-legend">
+    <div class="histo-legend-item" data-series="pred"><span class="histo-legend-swatch histo-bar-pred"></span> Predicted</div>
+    <div class="histo-legend-item" data-series="usda"><span class="histo-legend-swatch histo-bar-usda"></span> Historical (USDA)</div>
+  </div>
+  <hr style="margin:8px 0;border:0;border-top:1px solid #e2e8f0;">
+  <div id="countyTsTitle" style="font-weight:600;color:#4a5568;font-size:12px;display:none;"></div>
+  <div id="countyTsChart" style="height:140px;"></div>
+</div>
+
+<div id="tooltip"></div>
+<div id="status">Loading... </div>
+
+<script>
+function predictionsUrl() {
+  const crop = document.getElementById('cropSelect').value;
+  return 'predictions/' + crop + '.json';
+}
+const COUNTIES_URL = 'https://cdn.jsdelivr.net/npm/us-atlas@3/counties-10m.json';
+
+const COLOR_SCALE = d3.scaleQuantize()
+  .domain([30, 70])
+  .range(['#d73027', '#f46d43', '#fdae61', '#fee08b', '#d9ef8b', '#a6d96a', '#66bd63', '#1a9850']);
+
+const map = L.map('map', { zoomControl: false }).setView([44, -92], 6);
+L.control.zoom({ position: 'bottomleft' }).addTo(map);
+L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/">CARTO</a>',
+  subdomains: 'abcd', maxZoom: 19,
+}).addTo(map);
+
+const tooltip = document.getElementById('tooltip');
+const statusEl = document.getElementById('status');
+
+let countyLayer = L.geoJSON(null, {
+  style: { color: '#cbd5e0', weight: 0.5, fillOpacity: 0.7 },
+  onEachFeature: (feat, layer) => {
+    const fips = feat.id;
+    layer.on('mouseover', (e) => {
+      const props = layer.feature.properties;
+      const stateAbbr = fips.slice(0, 2);
+      const stateName = getStateNameFromFips(stateAbbr) || 'Unknown';
+      const stateDisplay = stateName.charAt(0).toUpperCase() + stateName.slice(1);
+      const countyName = props?.county_name || props?.name || fips;
+      const countyDisplay = countyName.charAt(0).toUpperCase() + countyName.slice(1);
+      const yieldVal = yieldData?.[fips];
+      tooltip.innerHTML = `<strong>${countyDisplay}, ${stateDisplay}</strong><br>` +
+        (yieldVal != null ? `Yield: <strong>${yieldVal.toFixed(1)}</strong> bu/ac` : 'No data');
+      tooltip.style.display = 'block';
+      tooltip.style.left = (e.originalEvent.clientX + 12) + 'px';
+      tooltip.style.top = (e.originalEvent.clientY + 12) + 'px';
+      layer.setStyle({ weight: 1.5, color: '#2b6cb0', fillOpacity: 0.9 });
+    });
+    layer.on('mousemove', (e) => {
+      tooltip.style.left = (e.originalEvent.clientX + 12) + 'px';
+      tooltip.style.top = (e.originalEvent.clientY + 12) + 'px';
+    });
+    layer.on('mouseout', () => {
+      tooltip.style.display = 'none';
+      countyLayer.resetStyle(layer);
+      const fips = layer.feature.id;
+      const y = yieldData[fips];
+      layer.setStyle({ fillColor: y != null ? COLOR_SCALE(y) : '#e2e8f0' });
+    });
+    layer.on('click', () => {
+      const fips = layer.feature.id;
+      const stateAbbr = fips.slice(0, 2);
+      const stateName = getStateNameFromFips(stateAbbr);
+      if (stateName && histoStateSel.querySelector(`option[value="${stateName}"]`)) {
+        openHistogram(stateName, fips);
+      }
+    });
+  },
+}).addTo(map);
+
+let yieldData = {};
+let currentHistoState = null;
+let currentCountyFips = null;
+let countiesJson = null;
+let usdaYields = {};
+let fipsCountyMap = {};
+let highlightedSeries = null; // null = both, 'pred', 'usda'
+
+async function loadCounties() {
+  const resp = await fetch(COUNTIES_URL);
+  countiesJson = await resp.json();
+}
+
+async function loadUsdaYields() {
+  try {
+    const resp = await fetch('predictions/usda_yields.json');
+    usdaYields = await resp.json();
+  } catch (e) {
+    console.error('Failed to load USDA yields:', e);
+  }
+}
+
+async function loadFipsCounty() {
+  try {
+    const resp = await fetch('predictions/fips_county.json');
+    fipsCountyMap = await resp.json();
+  } catch (e) {
+    console.error('Failed to load FIPS county map:', e);
+  }
+}
+
+function updateMap() {
+  if (!countiesJson) return;
+  const states = new Set(Object.keys(yieldData).map(f => f.slice(0, 2)));
+  const features = topojson.feature(countiesJson, countiesJson.objects.counties);
+  features.features = features.features.filter(f => states.has(f.id.slice(0, 2)));
+  countyLayer.clearLayers();
+  countyLayer.addData(features);
+  countyLayer.eachLayer((layer) => {
+    const fips = layer.feature.id;
+    const y = yieldData[fips];
+    layer.setStyle({ fillColor: y != null ? COLOR_SCALE(y) : '#e2e8f0' });
+  });
+}
+
+// --- Histogram ---
+const histoPanel = document.getElementById('histogramPanel');
+const histoStateSel = document.getElementById('histoStateSelect');
+const histoYearSel = document.getElementById('histoYearSelect');
+const histoChartEl = document.getElementById('histoChart');
+
+function getStateNameFromFips(fips) {
+  const code = fips.slice(0, 2);
+  const lookup = {
+    '17': 'illinois', '19': 'iowa', '27': 'minnesota', '55': 'wisconsin'
+  };
+  return lookup[code] || null;
+}
+
+function openHistogram(state, fips) {
+  currentHistoState = state;
+  currentCountyFips = fips || null;
+  histoStateSel.value = state;
+  populateYearSelect(state);
+  histoPanel.style.display = 'block';
+  renderHistogram(state, histoYearSel.value);
+  renderCountyTimeSeries(state, fips);
+}
+
+function closeHistogram() {
+  histoPanel.style.display = 'none';
+}
+
+function populateYearSelect(state) {
+  const stateYields = usdaYields[state];
+  if (!stateYields) return;
+  const years = Object.keys(stateYields).sort();
+  histoYearSel.innerHTML = '';
+  for (const y of years) {
+    const opt = document.createElement('option');
+    opt.value = y;
+    opt.textContent = y;
+    histoYearSel.appendChild(opt);
+  }
+  // Pick the most recent year
+  if (years.length > 0) histoYearSel.value = years[years.length - 1];
+}
+
+function getPredictedYields(state) {
+  const vals = [];
+  const stateFipsPrefix = {
+    'illinois': '17', 'iowa': '19', 'minnesota': '27', 'wisconsin': '55'
+  }[state];
+  if (!stateFipsPrefix) return vals;
+  for (const [fips, yld] of Object.entries(yieldData)) {
+    if (fips.startsWith(stateFipsPrefix)) vals.push(yld);
+  }
+  return vals;
+}
+
+function getUsdaYields(state, year) {
+  const vals = [];
+  const stateYields = usdaYields[state];
+  if (!stateYields || !stateYields[year]) return vals;
+  for (const yld of Object.values(stateYields[year])) {
+    vals.push(yld);
+  }
+  return vals;
+}
+
+function renderHistogram(state, year) {
+  const predVals = getPredictedYields(state);
+  const usdaVals = getUsdaYields(state, year);
+
+  const margin = { top: 10, right: 10, bottom: 40, left: 55 };
+  const width = histoChartEl.clientWidth || 560;
+  const height = 240;
+  const innerWidth = width - margin.left - margin.right;
+  const innerHeight = height - margin.top - margin.bottom;
+
+  const svg = d3.select('#histoChart').selectAll('svg').data([null]);
+  const svgEnter = svg.enter().append('svg').attr('width', width).attr('height', height);
+  const svgMerge = svg.merge(svgEnter);
+  svgMerge.attr('width', width).attr('height', height);
+  const g = svgMerge.select('.chart-content');
+  const gEnter = g.empty() ? svgMerge.append('g').attr('class', 'chart-content').attr('transform', `translate(${margin.left},${margin.top})`) : g;
+
+  const allVals = [...predVals, ...usdaVals];
+  if (allVals.length === 0) {
+    gEnter.selectAll('*').remove();
+    return;
+  }
+
+  const minVal = Math.floor(Math.min(...allVals) / 5) * 5;
+  const maxVal = Math.ceil(Math.max(...allVals) / 5) * 5;
+  const binCount = 10;
+  const binWidth = (maxVal - minVal) / binCount;
+
+  const bins = d3.bin().domain([minVal, maxVal]).thresholds(binCount);
+  const predHist = bins(predVals);
+  const usdaHist = bins(usdaVals);
+
+  const x = d3.scaleLinear().domain([minVal, maxVal]).range([0, innerWidth]);
+  const yMax = Math.max(
+    d3.max(predHist, d => d.length) || 1,
+    d3.max(usdaHist, d => d.length) || 1
+  );
+  const y = d3.scaleLinear().domain([0, yMax]).range([innerHeight, 0]).nice();
+
+  // Axes
+  gEnter.select('.x-axis').remove();
+  gEnter.append('g')
+    .attr('class', 'x-axis')
+    .attr('transform', `translate(0,${innerHeight})`)
+    .call(d3.axisBottom(x).ticks(6).tickFormat(d => d.toFixed(0)));
+
+  gEnter.select('.y-axis').remove();
+  gEnter.append('g')
+    .attr('class', 'y-axis')
+    .call(d3.axisLeft(y).ticks(4));
+
+  // X axis label
+  gEnter.select('.x-label').remove();
+  gEnter.append('text')
+    .attr('class', 'x-label')
+    .attr('x', innerWidth / 2)
+    .attr('y', innerHeight + 26)
+    .attr('text-anchor', 'middle')
+    .attr('font-size', '10px')
+    .attr('fill', '#718096')
+    .text('Yield (bu/ac)');
+
+  // Y axis label
+  gEnter.select('.y-label').remove();
+  gEnter.append('text')
+    .attr('class', 'y-label')
+    .attr('x', -innerHeight / 2)
+    .attr('y', -32)
+    .attr('transform', 'rotate(-90)')
+    .attr('text-anchor', 'middle')
+    .attr('font-size', '10px')
+    .attr('fill', '#718096')
+    .text('Counties');
+
+  function getBarClass(series) {
+    if (!highlightedSeries) return '';
+    return highlightedSeries === series ? 'highlight' : 'dim';
+  }
+  function applyBarAttrs(sel) {
+    return sel
+      .attr('x', d => x(d.x0) + 2)
+      .attr('y', d => y(d.length))
+      .attr('width', d => Math.max(0, x(d.x1) - x(d.x0) - 4))
+      .attr('height', d => innerHeight - y(d.length));
+  }
+  function addBarInteraction(sel) {
+    return sel
+      .on('mouseover', function () { d3.select(this).classed('hover', true); })
+      .on('mouseout', function () { d3.select(this).classed('hover', false); });
+  }
+
+  // Predicted bars
+  gEnter.selectAll('.histo-bar-pred').remove();
+  gEnter.selectAll('.histo-bar-pred')
+    .data(predHist)
+    .enter().append('rect')
+    .attr('class', d => 'histo-bar-pred ' + getBarClass('pred'))
+    .call(applyBarAttrs)
+    .call(addBarInteraction);
+
+  // USDA bars
+  gEnter.selectAll('.histo-bar-usda').remove();
+  gEnter.selectAll('.histo-bar-usda')
+    .data(usdaHist)
+    .enter().append('rect')
+    .attr('class', d => 'histo-bar-usda ' + getBarClass('usda'))
+    .call(applyBarAttrs)
+    .call(addBarInteraction);
+}
+
+// ── County time series ──
+const countyTsTitle = document.getElementById('countyTsTitle');
+const countyTsChartEl = document.getElementById('countyTsChart');
+
+function renderCountyTimeSeries(state, fips) {
+  if (!fips) { countyTsTitle.style.display = 'none'; return; }
+  const cinfo = fipsCountyMap[fips];
+  if (!cinfo) { countyTsTitle.style.display = 'none'; return; }
+  const countyName = cinfo.county;
+  const stateYields = usdaYields[state];
+  if (!stateYields) { countyTsTitle.style.display = 'none'; return; }
+
+  const years = Object.keys(stateYields).sort((a, b) => +a - +b);
+  const data = [];
+  for (const y of years) {
+    const yld = stateYields[y]?.[countyName];
+    if (yld != null) data.push({ year: +y, yield: yld, source: 'usda' });
+  }
+  const predYield = yieldData[fips];
+  if (predYield != null) data.push({ year: +years[years.length - 1] + 1, yield: predYield, source: 'pred' });
+
+  if (data.length < 2) { countyTsTitle.style.display = 'none'; return; }
+  countyTsTitle.style.display = 'block';
+  countyTsTitle.textContent = `${countyName.charAt(0).toUpperCase() + countyName.slice(1)}, ${state.charAt(0).toUpperCase() + state.slice(1)}`;
+
+  const margin = { top: 8, right: 12, bottom: 24, left: 42 };
+  const width = countyTsChartEl.clientWidth || 420;
+  const height = 150;
+  const innerW = width - margin.left - margin.right;
+  const innerH = height - margin.top - margin.bottom;
+
+  const svg = d3.select('#countyTsChart').selectAll('svg').data([null]);
+  const svgEnter = svg.enter().append('svg').attr('width', width).attr('height', height + 20);
+  const svgMerge = svg.merge(svgEnter).attr('width', width).attr('height', height + 20);
+  const g = svgMerge.select('.ts-content');
+  const gEnter = g.empty()
+    ? svgMerge.append('g').attr('class', 'ts-content').attr('transform', `translate(${margin.left},${margin.top})`)
+    : g;
+
+  const x = d3.scaleLinear()
+    .domain(d3.extent(data, d => d.year))
+    .range([0, innerW]);
+  const y = d3.scaleLinear()
+    .domain([0, d3.max(data, d => d.yield) * 1.1])
+    .range([innerH, 0]).nice();
+
+  // Axes
+  gEnter.select('.ts-x').remove();
+  gEnter.append('g').attr('class', 'ts-x')
+    .attr('transform', `translate(0,${innerH})`)
+    .call(d3.axisBottom(x).tickFormat(d3.format('d')).ticks(6));
+
+  gEnter.select('.ts-y').remove();
+  gEnter.append('g').attr('class', 'ts-y')
+    .call(d3.axisLeft(y).ticks(4));
+
+  // Line: USDA historical only
+  const lineData = data.filter(d => d.source === 'usda');
+  if (lineData.length > 1) {
+    const line = d3.line()
+      .x(d => x(d.year))
+      .y(d => y(d.yield));
+    gEnter.select('.ts-line').remove();
+    gEnter.append('path').datum(lineData)
+      .attr('class', 'ts-line')
+      .attr('d', line)
+      .attr('fill', 'none')
+      .attr('stroke', '#48bb78')
+      .attr('stroke-width', 2)
+      .attr('stroke-linejoin', 'round');
+  }
+
+  // Dashed line from last USDA point to prediction
+  const predPoint = data.find(d => d.source === 'pred');
+  const lastUsda = lineData.length > 0 ? lineData[lineData.length - 1] : null;
+  if (predPoint && lastUsda) {
+    const dashLine = d3.line().x(d => x(d.year)).y(d => y(d.yield));
+    gEnter.select('.ts-dash').remove();
+    gEnter.append('path').datum([lastUsda, predPoint])
+      .attr('class', 'ts-dash')
+      .attr('d', dashLine)
+      .attr('fill', 'none')
+      .attr('stroke', '#718096')
+      .attr('stroke-width', 1.5)
+      .attr('stroke-dasharray', '4,3')
+      .attr('stroke-linejoin', 'round');
+  }
+
+  // Dots: all data points
+  gEnter.selectAll('.ts-dot').remove();
+  gEnter.selectAll('.ts-dot')
+    .data(data)
+    .enter().append('circle')
+    .attr('class', 'ts-dot')
+    .attr('cx', d => x(d.year))
+    .attr('cy', d => y(d.yield))
+    .attr('r', d => d.source === 'pred' ? 6 : 3.5)
+    .attr('fill', d => d.source === 'pred' ? '#e53e3e' : '#48bb78')
+    .attr('stroke', d => d.source === 'pred' ? '#fff' : 'none')
+    .attr('stroke-width', d => d.source === 'pred' ? 2 : 0)
+    .on('mouseover', function (event, d) {
+      tooltip.innerHTML = `<strong>${d.year}</strong>: ${d.yield.toFixed(1)} bu/ac` +
+        (d.source === 'pred' ? ' <em>(predicted)</em>' : '');
+      tooltip.style.display = 'block';
+      tooltip.style.left = (event.pageX + 12) + 'px';
+      tooltip.style.top = (event.pageY - 10) + 'px';
+    })
+    .on('mousemove', function (event) {
+      tooltip.style.left = (event.pageX + 12) + 'px';
+      tooltip.style.top = (event.pageY - 10) + 'px';
+    })
+    .on('mouseout', function () { tooltip.style.display = 'none'; });
+
+  // Legend
+  gEnter.select('.ts-legend').remove();
+  const legendG = gEnter.append('g').attr('class', 'ts-legend')
+    .attr('transform', `translate(${innerW - 140}, -4)`);
+  legendG.append('line')
+    .attr('x1', 0).attr('y1', 0).attr('x2', 16).attr('y2', 0)
+    .attr('stroke', '#48bb78').attr('stroke-width', 2);
+  legendG.append('text').attr('x', 20).attr('y', 4)
+    .attr('font-size', '10px').attr('fill', '#718096').text('Historical');
+  legendG.append('circle')
+    .attr('cx', 80).attr('cy', 0).attr('r', 4)
+    .attr('fill', '#e53e3e').attr('stroke', '#fff').attr('stroke-width', 1.5);
+  legendG.append('text').attr('x', 90).attr('y', 4)
+    .attr('font-size', '10px').attr('fill', '#718096').text('Prediction');
+}
+
+async function loadCrops() {
+  const resp = await fetch('predictions/crops.json?t=' + Date.now());
+  const crops = await resp.json();
+  const sel = document.getElementById('cropSelect');
+  sel.innerHTML = '';
+  for (const c of crops) {
+    const opt = document.createElement('option');
+    opt.value = c;
+    opt.textContent = c.charAt(0).toUpperCase() + c.slice(1);
+    sel.appendChild(opt);
+  }
+  return crops;
+}
+
+async function loadPredictions() {
+  statusEl.textContent = 'Loading predictions... ';
+  try {
+    const url = predictionsUrl() + '?t=' + Date.now();
+    const resp = await fetch(url);
+    const data = await resp.json();
+    const scenario = document.getElementById('scenarioSelect').value;
+    const scenarioData = data.scenarios?.[scenario];
+    if (!scenarioData) throw new Error(`Scenario "${scenario}" not found in predictions`);
+    const dataThrough = data.data_through_julian || '?';
+    const runDate = data.run_date || '?';
+    // Build state list for histogram
+    const states = [];
+    yieldData = {};
+    for (const [state, counties] of Object.entries(scenarioData)) {
+      states.push(state);
+      for (const [fips, info] of Object.entries(counties)) {
+        yieldData[fips] = info.yield_bu_ac;
+      }
+    }
+    updateMap();
+    statusEl.textContent = `Data through DOY ${dataThrough} | Run: ${runDate} | ${Object.keys(yieldData).length} counties`;
+
+    // Update histogram state selector
+    histoStateSel.innerHTML = '';
+    for (const s of states) {
+      const opt = document.createElement('option');
+      opt.value = s;
+      opt.textContent = s.charAt(0).toUpperCase() + s.slice(1);
+      histoStateSel.appendChild(opt);
+    }
+    if (states.length > 0) histoStateSel.value = states[0];
+    populateYearSelect(histoStateSel.value);
+    if (histoPanel.style.display === 'block') {
+      renderHistogram(histoStateSel.value, histoYearSel.value);
+      renderCountyTimeSeries(histoStateSel.value, currentCountyFips);
+    }
+  } catch (e) {
+    statusEl.textContent = 'Error loading predictions: ' + e.message;
+    console.error(e);
+  }
+}
+
+document.getElementById('cropSelect').addEventListener('change', loadPredictions);
+document.getElementById('scenarioSelect').addEventListener('change', () => {
+  updateMap();
+  if (histoPanel.style.display === 'block') {
+    renderHistogram(histoStateSel.value, histoYearSel.value);
+    renderCountyTimeSeries(histoStateSel.value, currentCountyFips);
+  }
+});
+document.getElementById('refreshBtn').addEventListener('click', loadPredictions);
+
+function setHighlight(series) {
+  highlightedSeries = highlightedSeries === series ? null : series;
+  document.querySelectorAll('.histo-legend-item').forEach(el => {
+    el.style.fontWeight = el.dataset.series === highlightedSeries ? '700' : '400';
+  });
+  if (currentHistoState) renderHistogram(currentHistoState, histoYearSel.value);
+}
+
+document.querySelectorAll('.histo-legend-item').forEach(el => {
+  el.addEventListener('click', () => setHighlight(el.dataset.series));
+});
+
+histoStateSel.addEventListener('change', () => {
+  populateYearSelect(histoStateSel.value);
+  renderHistogram(histoStateSel.value, histoYearSel.value);
+  renderCountyTimeSeries(histoStateSel.value, currentCountyFips);
+});
+histoYearSel.addEventListener('change', () => {
+  renderHistogram(histoStateSel.value, histoYearSel.value);
+});
+document.getElementById('histoCloseBtn').addEventListener('click', closeHistogram);
+
+(async () => {
+  await Promise.all([loadCounties(), loadUsdaYields(), loadFipsCounty()]);
+  const crops = await loadCrops();
+  if (crops.length > 0) await loadPredictions();
+})();
+</script>
+</body>
+</html>
