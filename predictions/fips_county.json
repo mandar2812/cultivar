@@ -1,1 +1,1442 @@
-{"27119": {"state": "minnesota", "county": "polk"}, "18093": {"state": "indiana", "county": "lawrence"}, "18079": {"state": "indiana", "county": "jennings"}, "17053": {"state": "illinois", "county": "ford"}, "55075": {"state": "wisconsin", "county": "marinette"}, "19013": {"state": "iowa", "county": "blackhawk"}, "19081": {"state": "iowa", "county": "hancock"}, "27125": {"state": "minnesota", "county": "redlake"}, "19179": {"state": "iowa", "county": "wapello"}, "19031": {"state": "iowa", "county": "cedar"}, "27093": {"state": "minnesota", "county": "meeker"}, "55137": {"state": "wisconsin", "county": "waushara"}, "55113": {"state": "wisconsin", "county": "sawyer"}, "19089": {"state": "iowa", "county": "howard"}, "18075": {"state": "indiana", "county": "jay"}, "19181": {"state": "iowa", "county": "warren"}, "17165": {"state": "illinois", "county": "saline"}, "18081": {"state": "indiana", "county": "johnson"}, "27059": {"state": "minnesota", "county": "isanti"}, "19185": {"state": "iowa", "county": "wayne"}, "27133": {"state": "minnesota", "county": "rock"}, "19127": {"state": "iowa", "county": "marshall"}, "55135": {"state": "wisconsin", "county": "waupaca"}, "27019": {"state": "minnesota", "county": "carver"}, "17065": {"state": "illinois", "county": "hamilton"}, "27067": {"state": "minnesota", "county": "kandiyohi"}, "55071": {"state": "wisconsin", "county": "manitowoc"}, "19069": {"state": "iowa", "county": "franklin"}, "18113": {"state": "indiana", "county": "noble"}, "19055": {"state": "iowa", "county": "delaware"}, "17201": {"state": "illinois", "county": "winnebago"}, "19019": {"state": "iowa", "county": "buchanan"}, "19187": {"state": "iowa", "county": "webster"}, "19015": {"state": "iowa", "county": "boone"}, "17037": {"state": "illinois", "county": "dekalb"}, "19159": {"state": "iowa", "county": "ringgold"}, "19165": {"state": "iowa", "county": "shelby"}, "19175": {"state": "iowa", "county": "union"}, "17123": {"state": "illinois", "county": "marshall"}, "17147": {"state": "illinois", "county": "piatt"}, "19003": {"state": "iowa", "county": "adams"}, "17159": {"state": "illinois", "county": "richland"}, "18177": {"state": "indiana", "county": "wayne"}, "19123": {"state": "iowa", "county": "mahaska"}, "17107": {"state": "illinois", "county": "logan"}, "18049": {"state": "indiana", "county": "fulton"}, "19001": {"state": "iowa", "county": "adair"}, "27033": {"state": "minnesota", "county": "cottonwood"}, "27047": {"state": "minnesota", "county": "freeborn"}, "17051": {"state": "illinois", "county": "fayette"}, "17049": {"state": "illinois", "county": "effingham"}, "27009": {"state": "minnesota", "county": "benton"}, "27041": {"state": "minnesota", "county": "douglas"}, "55069": {"state": "wisconsin", "county": "lincoln"}, "55119": {"state": "wisconsin", "county": "taylor"}, "27101": {"state": "minnesota", "county": "murray"}, "55133": {"state": "wisconsin", "county": "waukesha"}, "27117": {"state": "minnesota", "county": "pipestone"}, "18063": {"state": "indiana", "county": "hendricks"}, "17093": {"state": "illinois", "county": "kendall"}, "18149": {"state": "indiana", "county": "starke"}, "18145": {"state": "indiana", "county": "shelby"}, "27017": {"state": "minnesota", "county": "carlton"}, "27001": {"state": "minnesota", "county": "aitkin"}, "17095": {"state": "illinois", "county": "knox"}, "17099": {"state": "illinois", "county": "lasalle"}, "19079": {"state": "iowa", "county": "hamilton"}, "19083": {"state": "iowa", "county": "hardin"}, "19093": {"state": "iowa", "county": "ida"}, "19125": {"state": "iowa", "county": "marion"}, "19157": {"state": "iowa", "county": "poweshiek"}, "17179": {"state": "illinois", "county": "tazewell"}, "19153": {"state": "iowa", "county": "polk"}, "19121": {"state": "iowa", "county": "madison"}, "27131": {"state": "minnesota", "county": "rice"}, "27165": {"state": "minnesota", "county": "watonwan"}, "55073": {"state": "wisconsin", "county": "marathon"}, "27111": {"state": "minnesota", "county": "ottertail"}, "27113": {"state": "minnesota", "county": "pennington"}, "17021": {"state": "illinois", "county": "christian"}, "18169": {"state": "indiana", "county": "wabash"}, "19177": {"state": "iowa", "county": "vanburen"}, "17171": {"state": "illinois", "county": "scott"}, "18003": {"state": "indiana", "county": "allen"}, "19087": {"state": "iowa", "county": "henry"}, "18011": {"state": "indiana", "county": "boone"}, "18103": {"state": "indiana", "county": "miami"}, "27087": {"state": "minnesota", "county": "mahnomen"}, "55019": {"state": "wisconsin", "county": "clark"}, "27135": {"state": "minnesota", "county": "roseau"}, "17063": {"state": "illinois", "county": "grundy"}, "19033": {"state": "iowa", "county": "cerrogordo"}, "55097": {"state": "wisconsin", "county": "portage"}, "18023": {"state": "indiana", "county": "clinton"}, "55141": {"state": "wisconsin", "county": "wood"}, "19197": {"state": "iowa", "county": "wright"}, "18087": {"state": "indiana", "county": "lagrange"}, "19105": {"state": "iowa", "county": "jones"}, "19027": {"state": "iowa", "county": "carroll"}, "19073": {"state": "iowa", "county": "greene"}, "19063": {"state": "iowa", "county": "emmet"}, "55078": {"state": "wisconsin", "county": "menominee"}, "27091": {"state": "minnesota", "county": "martin"}, "55047": {"state": "wisconsin", "county": "greenlake"}, "17081": {"state": "illinois", "county": "jefferson"}, "19131": {"state": "iowa", "county": "mitchell"}, "17155": {"state": "illinois", "county": "putnam"}, "19137": {"state": "iowa", "county": "montgomery"}, "19017": {"state": "iowa", "county": "bremer"}, "17121": {"state": "illinois", "county": "marion"}, "55103": {"state": "wisconsin", "county": "richland"}, "18047": {"state": "indiana", "county": "franklin"}, "27007": {"state": "minnesota", "county": "beltrami"}, "27137": {"state": "minnesota", "county": "stlouis"}, "19183": {"state": "iowa", "county": "washington"}, "17073": {"state": "illinois", "county": "henry"}, "19141": {"state": "iowa", "county": "obrien"}, "18007": {"state": "indiana", "county": "benton"}, "17117": {"state": "illinois", "county": "macoupin"}, "18065": {"state": "indiana", "county": "henry"}, "18099": {"state": "indiana", "county": "marshall"}, "27039": {"state": "minnesota", "county": "dodge"}, "17039": {"state": "illinois", "county": "dewitt"}, "27079": {"state": "minnesota", "county": "lesueur"}, "55105": {"state": "wisconsin", "county": "rock"}, "27147": {"state": "minnesota", "county": "steele"}, "19151": {"state": "iowa", "county": "pocahontas"}, "27105": {"state": "minnesota", "county": "nobles"}, "19051": {"state": "iowa", "county": "davis"}, "17109": {"state": "illinois", "county": "mcdonough"}, "17191": {"state": "illinois", "county": "wayne"}, "27143": {"state": "minnesota", "county": "sibley"}, "17163": {"state": "illinois", "county": "stclair"}, "17079": {"state": "illinois", "county": "jasper"}, "27109": {"state": "minnesota", "county": "olmsted"}, "19047": {"state": "iowa", "county": "crawford"}, "19075": {"state": "iowa", "county": "grundy"}, "19009": {"state": "iowa", "county": "audubon"}, "27083": {"state": "minnesota", "county": "lyon"}, "17035": {"state": "illinois", "county": "cumberland"}, "18055": {"state": "indiana", "county": "greene"}, "18131": {"state": "indiana", "county": "pulaski"}, "17005": {"state": "illinois", "county": "bond"}, "17045": {"state": "illinois", "county": "edgar"}, "27129": {"state": "minnesota", "county": "renville"}, "27153": {"state": "minnesota", "county": "todd"}, "19113": {"state": "iowa", "county": "linn"}, "19107": {"state": "iowa", "county": "keokuk"}, "27031": {"state": "minnesota", "county": "cook"}, "19161": {"state": "iowa", "county": "sac"}, "18069": {"state": "indiana", "county": "huntington"}, "19193": {"state": "iowa", "county": "woodbury"}, "19155": {"state": "iowa", "county": "pottawattamie"}, "27081": {"state": "minnesota", "county": "lincoln"}, "27127": {"state": "minnesota", "county": "redwood"}, "19139": {"state": "iowa", "county": "muscatine"}, "19129": {"state": "iowa", "county": "mills"}, "19143": {"state": "iowa", "county": "osceola"}, "18031": {"state": "indiana", "county": "decatur"}, "19065": {"state": "iowa", "county": "fayette"}, "19099": {"state": "iowa", "county": "jasper"}, "17141": {"state": "illinois", "county": "ogle"}, "18129": {"state": "indiana", "county": "posey"}, "17085": {"state": "illinois", "county": "jodaviess"}, "17057": {"state": "illinois", "county": "fulton"}, "27075": {"state": "minnesota", "county": "lake"}, "55059": {"state": "wisconsin", "county": "kenosha"}, "55077": {"state": "wisconsin", "county": "marquette"}, "55099": {"state": "wisconsin", "county": "price"}, "17011": {"state": "illinois", "county": "bureau"}, "18053": {"state": "indiana", "county": "grant"}, "55067": {"state": "wisconsin", "county": "langlade"}, "55017": {"state": "wisconsin", "county": "chippewa"}, "18121": {"state": "indiana", "county": "parke"}, "18143": {"state": "indiana", "county": "scott"}, "27015": {"state": "minnesota", "county": "brown"}, "17177": {"state": "illinois", "county": "stephenson"}, "18025": {"state": "indiana", "county": "crawford"}, "18043": {"state": "indiana", "county": "floyd"}, "18115": {"state": "indiana", "county": "ohio"}, "17149": {"state": "illinois", "county": "pike"}, "19057": {"state": "iowa", "county": "desmoines"}, "55007": {"state": "wisconsin", "county": "bayfield"}, "55123": {"state": "wisconsin", "county": "vernon"}, "17125": {"state": "illinois", "county": "mason"}, "19169": {"state": "iowa", "county": "story"}, "19149": {"state": "iowa", "county": "plymouth"}, "19007": {"state": "iowa", "county": "appanoose"}, "19061": {"state": "iowa", "county": "dubuque"}, "17101": {"state": "illinois", "county": "lawrence"}, "17111": {"state": "illinois", "county": "mchenry"}, "17089": {"state": "illinois", "county": "kane"}, "18123": {"state": "indiana", "county": "perry"}, "18083": {"state": "indiana", "county": "knox"}, "17041": {"state": "illinois", "county": "douglas"}, "17083": {"state": "illinois", "county": "jersey"}, "55037": {"state": "wisconsin", "county": "florence"}, "27069": {"state": "minnesota", "county": "kittson"}, "19071": {"state": "iowa", "county": "fremont"}, "17017": {"state": "illinois", "county": "cass"}, "17127": {"state": "illinois", "county": "massac"}, "18039": {"state": "indiana", "county": "elkhart"}, "17137": {"state": "illinois", "county": "morgan"}, "19053": {"state": "iowa", "county": "decatur"}, "27073": {"state": "minnesota", "county": "lacquiparle"}, "17131": {"state": "illinois", "county": "mercer"}, "19191": {"state": "iowa", "county": "winneshiek"}, "27161": {"state": "minnesota", "county": "waseca"}, "17169": {"state": "illinois", "county": "schuyler"}, "17185": {"state": "illinois", "county": "wabash"}, "27055": {"state": "minnesota", "county": "houston"}, "55089": {"state": "wisconsin", "county": "ozaukee"}, "19041": {"state": "iowa", "county": "clay"}, "18153": {"state": "indiana", "county": "sullivan"}, "27063": {"state": "minnesota", "county": "jackson"}, "55027": {"state": "wisconsin", "county": "dodge"}, "55093": {"state": "wisconsin", "county": "pierce"}, "27163": {"state": "minnesota", "county": "washington"}, "27025": {"state": "minnesota", "county": "chisago"}, "27043": {"state": "minnesota", "county": "faribault"}, "18045": {"state": "indiana", "county": "fountain"}, "55095": {"state": "wisconsin", "county": "polk"}, "55109": {"state": "wisconsin", "county": "stcroix"}, "18089": {"state": "indiana", "county": "lake"}, "19103": {"state": "iowa", "county": "johnson"}, "19117": {"state": "iowa", "county": "lucas"}, "18157": {"state": "indiana", "county": "tippecanoe"}, "17055": {"state": "illinois", "county": "franklin"}, "17059": {"state": "illinois", "county": "gallatin"}, "17061": {"state": "illinois", "county": "greene"}, "18085": {"state": "indiana", "county": "kosciusko"}, "27013": {"state": "minnesota", "county": "blueearth"}, "55021": {"state": "wisconsin", "county": "columbia"}, "27103": {"state": "minnesota", "county": "nicollet"}, "55129": {"state": "wisconsin", "county": "washburn"}, "17047": {"state": "illinois", "county": "edwards"}, "27149": {"state": "minnesota", "county": "stevens"}, "19135": {"state": "iowa", "county": "monroe"}, "55091": {"state": "wisconsin", "county": "pepin"}, "18117": {"state": "indiana", "county": "orange"}, "18125": {"state": "indiana", "county": "pike"}, "18137": {"state": "indiana", "county": "ripley"}, "27095": {"state": "minnesota", "county": "millelacs"}, "19095": {"state": "iowa", "county": "iowa"}, "17187": {"state": "illinois", "county": "warren"}, "18119": {"state": "indiana", "county": "owen"}, "18037": {"state": "indiana", "county": "dubois"}, "19011": {"state": "iowa", "county": "benton"}, "27099": {"state": "minnesota", "county": "mower"}, "18095": {"state": "indiana", "county": "madison"}, "18101": {"state": "indiana", "county": "martin"}, "18181": {"state": "indiana", "county": "white"}, "17009": {"state": "illinois", "county": "brown"}, "18071": {"state": "indiana", "county": "jackson"}, "27051": {"state": "minnesota", "county": "grant"}, "55015": {"state": "wisconsin", "county": "calumet"}, "55087": {"state": "wisconsin", "county": "outagamie"}, "55011": {"state": "wisconsin", "county": "buffalo"}, "55005": {"state": "wisconsin", "county": "barron"}, "55061": {"state": "wisconsin", "county": "kewaunee"}, "17135": {"state": "illinois", "county": "montgomery"}, "18013": {"state": "indiana", "county": "brown"}, "18159": {"state": "indiana", "county": "tipton"}, "19109": {"state": "iowa", "county": "kossuth"}, "17119": {"state": "illinois", "county": "madison"}, "18051": {"state": "indiana", "county": "gibson"}, "19163": {"state": "iowa", "county": "scott"}, "17181": {"state": "illinois", "county": "union"}, "18173": {"state": "indiana", "county": "warrick"}, "18019": {"state": "indiana", "county": "clark"}, "27057": {"state": "minnesota", "county": "hubbard"}, "27011": {"state": "minnesota", "county": "bigstone"}, "18151": {"state": "indiana", "county": "steuben"}, "18167": {"state": "indiana", "county": "vigo"}, "18155": {"state": "indiana", "county": "switzerland"}, "27159": {"state": "minnesota", "county": "wadena"}, "18077": {"state": "indiana", "county": "jefferson"}, "27023": {"state": "minnesota", "county": "chippewa"}, "17151": {"state": "illinois", "county": "pope"}, "27157": {"state": "minnesota", "county": "wabasha"}, "27071": {"state": "minnesota", "county": "koochiching"}, "27107": {"state": "minnesota", "county": "norman"}, "17023": {"state": "illinois", "county": "clark"}, "27005": {"state": "minnesota", "county": "becker"}, "19085": {"state": "iowa", "county": "harrison"}, "18033": {"state": "indiana", "county": "dekalb"}, "55051": {"state": "wisconsin", "county": "iron"}, "18057": {"state": "indiana", "county": "hamilton"}, "18067": {"state": "indiana", "county": "howard"}, "18097": {"state": "indiana", "county": "marion"}, "18107": {"state": "indiana", "county": "montgomery"}, "27049": {"state": "minnesota", "county": "goodhue"}, "19115": {"state": "iowa", "county": "louisa"}, "19145": {"state": "iowa", "county": "page"}, "55023": {"state": "wisconsin", "county": "crawford"}, "27123": {"state": "minnesota", "county": "ramsey"}, "18109": {"state": "indiana", "county": "morgan"}, "18061": {"state": "indiana", "county": "harrison"}, "55013": {"state": "wisconsin", "county": "burnett"}, "55025": {"state": "wisconsin", "county": "dane"}, "55031": {"state": "wisconsin", "county": "douglas"}, "55043": {"state": "wisconsin", "county": "grant"}, "19043": {"state": "iowa", "county": "clayton"}, "55101": {"state": "wisconsin", "county": "racine"}, "19091": {"state": "iowa", "county": "humboldt"}, "27173": {"state": "minnesota", "county": "yellowmedicine"}, "55063": {"state": "wisconsin", "county": "lacrosse"}, "17103": {"state": "illinois", "county": "lee"}, "17173": {"state": "illinois", "county": "shelby"}, "18165": {"state": "indiana", "county": "vermillion"}, "27045": {"state": "minnesota", "county": "fillmore"}, "17031": {"state": "illinois", "county": "cook"}, "55035": {"state": "wisconsin", "county": "eauclaire"}, "18009": {"state": "indiana", "county": "blackford"}, "18179": {"state": "indiana", "county": "wells"}, "17091": {"state": "illinois", "county": "kankakee"}, "18163": {"state": "indiana", "county": "vanderburgh"}, "17153": {"state": "illinois", "county": "pulaski"}, "17025": {"state": "illinois", "county": "clay"}, "18001": {"state": "indiana", "county": "adams"}, "17183": {"state": "illinois", "county": "vermilion"}, "17129": {"state": "illinois", "county": "menard"}, "17133": {"state": "illinois", "county": "monroe"}, "19101": {"state": "iowa", "county": "jefferson"}, "27171": {"state": "minnesota", "county": "wright"}, "17161": {"state": "illinois", "county": "rockisland"}, "18183": {"state": "indiana", "county": "whitley"}, "19167": {"state": "iowa", "county": "sioux"}, "55079": {"state": "wisconsin", "county": "milwaukee"}, "55053": {"state": "wisconsin", "county": "jackson"}, "27167": {"state": "minnesota", "county": "wilkin"}, "55029": {"state": "wisconsin", "county": "door"}, "55083": {"state": "wisconsin", "county": "oconto"}, "55065": {"state": "wisconsin", "county": "lafayette"}, "27151": {"state": "minnesota", "county": "swift"}, "55045": {"state": "wisconsin", "county": "green"}, "19049": {"state": "iowa", "county": "dallas"}, "17199": {"state": "illinois", "county": "williamson"}, "17203": {"state": "illinois", "county": "woodford"}, "27089": {"state": "minnesota", "county": "marshall"}, "27115": {"state": "minnesota", "county": "pine"}, "17069": {"state": "illinois", "county": "hardin"}, "17001": {"state": "illinois", "county": "adams"}, "27139": {"state": "minnesota", "county": "scott"}, "27029": {"state": "minnesota", "county": "clearwater"}, "27035": {"state": "minnesota", "county": "crowwing"}, "27037": {"state": "minnesota", "county": "dakota"}, "18035": {"state": "indiana", "county": "delaware"}, "27061": {"state": "minnesota", "county": "itasca"}, "19029": {"state": "iowa", "county": "cass"}, "17075": {"state": "illinois", "county": "iroquois"}, "19039": {"state": "iowa", "county": "clarke"}, "18141": {"state": "indiana", "county": "stjoseph"}, "19133": {"state": "iowa", "county": "monona"}, "17105": {"state": "illinois", "county": "livingston"}, "17071": {"state": "illinois", "county": "henderson"}, "55125": {"state": "wisconsin", "county": "vilas"}, "18059": {"state": "indiana", "county": "hancock"}, "18111": {"state": "indiana", "county": "newton"}, "27021": {"state": "minnesota", "county": "cass"}, "18139": {"state": "indiana", "county": "rush"}, "19025": {"state": "iowa", "county": "calhoun"}, "27065": {"state": "minnesota", "county": "kanabec"}, "55115": {"state": "wisconsin", "county": "shawano"}, "17007": {"state": "illinois", "county": "boone"}, "17003": {"state": "illinois", "county": "alexander"}, "17015": {"state": "illinois", "county": "carroll"}, "19097": {"state": "iowa", "county": "jackson"}, "55033": {"state": "wisconsin", "county": "dunn"}, "19037": {"state": "iowa", "county": "chickasaw"}, "19077": {"state": "iowa", "county": "guthrie"}, "19189": {"state": "iowa", "county": "winnebago"}, "19059": {"state": "iowa", "county": "dickinson"}, "55121": {"state": "wisconsin", "county": "trempealeau"}, "27141": {"state": "minnesota", "county": "sherburne"}, "17197": {"state": "illinois", "county": "will"}, "55039": {"state": "wisconsin", "county": "fonddulac"}, "19111": {"state": "iowa", "county": "lee"}, "18133": {"state": "indiana", "county": "putnam"}, "19173": {"state": "iowa", "county": "taylor"}, "55003": {"state": "wisconsin", "county": "ashland"}, "27169": {"state": "minnesota", "county": "winona"}, "18147": {"state": "indiana", "county": "spencer"}, "19023": {"state": "iowa", "county": "butler"}, "18127": {"state": "indiana", "county": "porter"}, "17175": {"state": "illinois", "county": "stark"}, "18017": {"state": "indiana", "county": "cass"}, "17157": {"state": "illinois", "county": "randolph"}, "55131": {"state": "wisconsin", "county": "washington"}, "17097": {"state": "illinois", "county": "lake"}, "19067": {"state": "iowa", "county": "floyd"}, "55127": {"state": "wisconsin", "county": "walworth"}, "17115": {"state": "illinois", "county": "macon"}, "17189": {"state": "illinois", "county": "washington"}, "55001": {"state": "wisconsin", "county": "adams"}, "17033": {"state": "illinois", "county": "crawford"}, "18041": {"state": "indiana", "county": "fayette"}, "17013": {"state": "illinois", "county": "calhoun"}, "27121": {"state": "minnesota", "county": "pope"}, "19195": {"state": "iowa", "county": "worth"}, "55107": {"state": "wisconsin", "county": "rusk"}, "19035": {"state": "iowa", "county": "cherokee"}, "18171": {"state": "indiana", "county": "warren"}, "27085": {"state": "minnesota", "county": "mcleod"}, "17113": {"state": "illinois", "county": "mclean"}, "18021": {"state": "indiana", "county": "clay"}, "19147": {"state": "iowa", "county": "paloalto"}, "19171": {"state": "iowa", "county": "tama"}, "19021": {"state": "iowa", "county": "buenavista"}, "55111": {"state": "wisconsin", "county": "sauk"}, "18175": {"state": "indiana", "county": "washington"}, "18029": {"state": "indiana", "county": "dearborn"}, "19119": {"state": "iowa", "county": "lyon"}, "27077": {"state": "minnesota", "county": "lakeofthewoods"}, "17019": {"state": "illinois", "county": "champaign"}, "18027": {"state": "indiana", "county": "daviess"}, "55055": {"state": "wisconsin", "county": "jefferson"}, "17027": {"state": "illinois", "county": "clinton"}, "55085": {"state": "wisconsin", "county": "oneida"}, "17067": {"state": "illinois", "county": "hancock"}, "17195": {"state": "illinois", "county": "whiteside"}, "55081": {"state": "wisconsin", "county": "monroe"}, "55041": {"state": "wisconsin", "county": "forest"}, "17193": {"state": "illinois", "county": "white"}, "19005": {"state": "iowa", "county": "allamakee"}, "18135": {"state": "indiana", "county": "randolph"}, "17167": {"state": "illinois", "county": "sangamon"}, "18073": {"state": "indiana", "county": "jasper"}, "27097": {"state": "minnesota", "county": "morrison"}, "19045": {"state": "iowa", "county": "clinton"}, "17139": {"state": "illinois", "county": "moultrie"}, "55057": {"state": "wisconsin", "county": "juneau"}, "55139": {"state": "wisconsin", "county": "winnebago"}, "17087": {"state": "illinois", "county": "johnson"}, "18005": {"state": "indiana", "county": "bartholomew"}, "27027": {"state": "minnesota", "county": "clay"}, "27053": {"state": "minnesota", "county": "hennepin"}, "18091": {"state": "indiana", "county": "laporte"}, "55009": {"state": "wisconsin", "county": "brown"}, "17143": {"state": "illinois", "county": "peoria"}, "27003": {"state": "minnesota", "county": "anoka"}, "55049": {"state": "wisconsin", "county": "iowa"}, "18105": {"state": "indiana", "county": "monroe"}, "17077": {"state": "illinois", "county": "jackson"}, "27155": {"state": "minnesota", "county": "traverse"}, "17029": {"state": "illinois", "county": "coles"}, "18015": {"state": "indiana", "county": "carroll"}, "55117": {"state": "wisconsin", "county": "sheboygan"}, "27145": {"state": "minnesota", "county": "stearns"}, "17145": {"state": "illinois", "county": "perry"}, "18161": {"state": "indiana", "county": "union"}, "17043": {"state": "illinois", "county": "dupage"}}
+{
+  "17001": {
+    "state": "illinois",
+    "county": "adams"
+  },
+  "17003": {
+    "state": "illinois",
+    "county": "alexander"
+  },
+  "17005": {
+    "state": "illinois",
+    "county": "bond"
+  },
+  "17007": {
+    "state": "illinois",
+    "county": "boone"
+  },
+  "17009": {
+    "state": "illinois",
+    "county": "brown"
+  },
+  "17011": {
+    "state": "illinois",
+    "county": "bureau"
+  },
+  "17013": {
+    "state": "illinois",
+    "county": "calhoun"
+  },
+  "17015": {
+    "state": "illinois",
+    "county": "carroll"
+  },
+  "17017": {
+    "state": "illinois",
+    "county": "cass"
+  },
+  "17019": {
+    "state": "illinois",
+    "county": "champaign"
+  },
+  "17021": {
+    "state": "illinois",
+    "county": "christian"
+  },
+  "17023": {
+    "state": "illinois",
+    "county": "clark"
+  },
+  "17025": {
+    "state": "illinois",
+    "county": "clay"
+  },
+  "17027": {
+    "state": "illinois",
+    "county": "clinton"
+  },
+  "17029": {
+    "state": "illinois",
+    "county": "coles"
+  },
+  "17031": {
+    "state": "illinois",
+    "county": "cook"
+  },
+  "17033": {
+    "state": "illinois",
+    "county": "crawford"
+  },
+  "17035": {
+    "state": "illinois",
+    "county": "cumberland"
+  },
+  "17037": {
+    "state": "illinois",
+    "county": "dekalb"
+  },
+  "17039": {
+    "state": "illinois",
+    "county": "de witt"
+  },
+  "17041": {
+    "state": "illinois",
+    "county": "douglas"
+  },
+  "17043": {
+    "state": "illinois",
+    "county": "dupage"
+  },
+  "17045": {
+    "state": "illinois",
+    "county": "edgar"
+  },
+  "17047": {
+    "state": "illinois",
+    "county": "edwards"
+  },
+  "17049": {
+    "state": "illinois",
+    "county": "effingham"
+  },
+  "17051": {
+    "state": "illinois",
+    "county": "fayette"
+  },
+  "17053": {
+    "state": "illinois",
+    "county": "ford"
+  },
+  "17055": {
+    "state": "illinois",
+    "county": "franklin"
+  },
+  "17057": {
+    "state": "illinois",
+    "county": "fulton"
+  },
+  "17059": {
+    "state": "illinois",
+    "county": "gallatin"
+  },
+  "17061": {
+    "state": "illinois",
+    "county": "greene"
+  },
+  "17063": {
+    "state": "illinois",
+    "county": "grundy"
+  },
+  "17065": {
+    "state": "illinois",
+    "county": "hamilton"
+  },
+  "17067": {
+    "state": "illinois",
+    "county": "hancock"
+  },
+  "17069": {
+    "state": "illinois",
+    "county": "hardin"
+  },
+  "17071": {
+    "state": "illinois",
+    "county": "henderson"
+  },
+  "17073": {
+    "state": "illinois",
+    "county": "henry"
+  },
+  "17075": {
+    "state": "illinois",
+    "county": "iroquois"
+  },
+  "17077": {
+    "state": "illinois",
+    "county": "jackson"
+  },
+  "17079": {
+    "state": "illinois",
+    "county": "jasper"
+  },
+  "17081": {
+    "state": "illinois",
+    "county": "jefferson"
+  },
+  "17083": {
+    "state": "illinois",
+    "county": "jersey"
+  },
+  "17085": {
+    "state": "illinois",
+    "county": "jo daviess"
+  },
+  "17087": {
+    "state": "illinois",
+    "county": "johnson"
+  },
+  "17089": {
+    "state": "illinois",
+    "county": "kane"
+  },
+  "17091": {
+    "state": "illinois",
+    "county": "kankakee"
+  },
+  "17093": {
+    "state": "illinois",
+    "county": "kendall"
+  },
+  "17095": {
+    "state": "illinois",
+    "county": "knox"
+  },
+  "17097": {
+    "state": "illinois",
+    "county": "lake"
+  },
+  "17099": {
+    "state": "illinois",
+    "county": "lasalle"
+  },
+  "17101": {
+    "state": "illinois",
+    "county": "lawrence"
+  },
+  "17103": {
+    "state": "illinois",
+    "county": "lee"
+  },
+  "17105": {
+    "state": "illinois",
+    "county": "livingston"
+  },
+  "17107": {
+    "state": "illinois",
+    "county": "logan"
+  },
+  "17109": {
+    "state": "illinois",
+    "county": "mcdonough"
+  },
+  "17111": {
+    "state": "illinois",
+    "county": "mchenry"
+  },
+  "17113": {
+    "state": "illinois",
+    "county": "mclean"
+  },
+  "17115": {
+    "state": "illinois",
+    "county": "macon"
+  },
+  "17117": {
+    "state": "illinois",
+    "county": "macoupin"
+  },
+  "17119": {
+    "state": "illinois",
+    "county": "madison"
+  },
+  "17121": {
+    "state": "illinois",
+    "county": "marion"
+  },
+  "17123": {
+    "state": "illinois",
+    "county": "marshall"
+  },
+  "17125": {
+    "state": "illinois",
+    "county": "mason"
+  },
+  "17127": {
+    "state": "illinois",
+    "county": "massac"
+  },
+  "17129": {
+    "state": "illinois",
+    "county": "menard"
+  },
+  "17131": {
+    "state": "illinois",
+    "county": "mercer"
+  },
+  "17133": {
+    "state": "illinois",
+    "county": "monroe"
+  },
+  "17135": {
+    "state": "illinois",
+    "county": "montgomery"
+  },
+  "17137": {
+    "state": "illinois",
+    "county": "morgan"
+  },
+  "17139": {
+    "state": "illinois",
+    "county": "moultrie"
+  },
+  "17141": {
+    "state": "illinois",
+    "county": "ogle"
+  },
+  "17143": {
+    "state": "illinois",
+    "county": "peoria"
+  },
+  "17145": {
+    "state": "illinois",
+    "county": "perry"
+  },
+  "17147": {
+    "state": "illinois",
+    "county": "piatt"
+  },
+  "17149": {
+    "state": "illinois",
+    "county": "pike"
+  },
+  "17151": {
+    "state": "illinois",
+    "county": "pope"
+  },
+  "17153": {
+    "state": "illinois",
+    "county": "pulaski"
+  },
+  "17155": {
+    "state": "illinois",
+    "county": "putnam"
+  },
+  "17157": {
+    "state": "illinois",
+    "county": "randolph"
+  },
+  "17159": {
+    "state": "illinois",
+    "county": "richland"
+  },
+  "17161": {
+    "state": "illinois",
+    "county": "rock island"
+  },
+  "17163": {
+    "state": "illinois",
+    "county": "st. clair"
+  },
+  "17165": {
+    "state": "illinois",
+    "county": "saline"
+  },
+  "17167": {
+    "state": "illinois",
+    "county": "sangamon"
+  },
+  "17169": {
+    "state": "illinois",
+    "county": "schuyler"
+  },
+  "17171": {
+    "state": "illinois",
+    "county": "scott"
+  },
+  "17173": {
+    "state": "illinois",
+    "county": "shelby"
+  },
+  "17175": {
+    "state": "illinois",
+    "county": "stark"
+  },
+  "17177": {
+    "state": "illinois",
+    "county": "stephenson"
+  },
+  "17179": {
+    "state": "illinois",
+    "county": "tazewell"
+  },
+  "17181": {
+    "state": "illinois",
+    "county": "union"
+  },
+  "17183": {
+    "state": "illinois",
+    "county": "vermilion"
+  },
+  "17185": {
+    "state": "illinois",
+    "county": "wabash"
+  },
+  "17187": {
+    "state": "illinois",
+    "county": "warren"
+  },
+  "17189": {
+    "state": "illinois",
+    "county": "washington"
+  },
+  "17191": {
+    "state": "illinois",
+    "county": "wayne"
+  },
+  "17193": {
+    "state": "illinois",
+    "county": "white"
+  },
+  "17195": {
+    "state": "illinois",
+    "county": "whiteside"
+  },
+  "17197": {
+    "state": "illinois",
+    "county": "will"
+  },
+  "17199": {
+    "state": "illinois",
+    "county": "williamson"
+  },
+  "17201": {
+    "state": "illinois",
+    "county": "winnebago"
+  },
+  "17203": {
+    "state": "illinois",
+    "county": "woodford"
+  },
+  "19001": {
+    "state": "iowa",
+    "county": "adair"
+  },
+  "19003": {
+    "state": "iowa",
+    "county": "adams"
+  },
+  "19005": {
+    "state": "iowa",
+    "county": "allamakee"
+  },
+  "19007": {
+    "state": "iowa",
+    "county": "appanoose"
+  },
+  "19009": {
+    "state": "iowa",
+    "county": "audubon"
+  },
+  "19011": {
+    "state": "iowa",
+    "county": "benton"
+  },
+  "19013": {
+    "state": "iowa",
+    "county": "black hawk"
+  },
+  "19015": {
+    "state": "iowa",
+    "county": "boone"
+  },
+  "19017": {
+    "state": "iowa",
+    "county": "bremer"
+  },
+  "19019": {
+    "state": "iowa",
+    "county": "buchanan"
+  },
+  "19021": {
+    "state": "iowa",
+    "county": "buena vista"
+  },
+  "19023": {
+    "state": "iowa",
+    "county": "butler"
+  },
+  "19025": {
+    "state": "iowa",
+    "county": "calhoun"
+  },
+  "19027": {
+    "state": "iowa",
+    "county": "carroll"
+  },
+  "19029": {
+    "state": "iowa",
+    "county": "cass"
+  },
+  "19031": {
+    "state": "iowa",
+    "county": "cedar"
+  },
+  "19033": {
+    "state": "iowa",
+    "county": "cerro gordo"
+  },
+  "19035": {
+    "state": "iowa",
+    "county": "cherokee"
+  },
+  "19037": {
+    "state": "iowa",
+    "county": "chickasaw"
+  },
+  "19039": {
+    "state": "iowa",
+    "county": "clarke"
+  },
+  "19041": {
+    "state": "iowa",
+    "county": "clay"
+  },
+  "19043": {
+    "state": "iowa",
+    "county": "clayton"
+  },
+  "19045": {
+    "state": "iowa",
+    "county": "clinton"
+  },
+  "19047": {
+    "state": "iowa",
+    "county": "crawford"
+  },
+  "19049": {
+    "state": "iowa",
+    "county": "dallas"
+  },
+  "19051": {
+    "state": "iowa",
+    "county": "davis"
+  },
+  "19053": {
+    "state": "iowa",
+    "county": "decatur"
+  },
+  "19055": {
+    "state": "iowa",
+    "county": "delaware"
+  },
+  "19057": {
+    "state": "iowa",
+    "county": "des moines"
+  },
+  "19059": {
+    "state": "iowa",
+    "county": "dickinson"
+  },
+  "19061": {
+    "state": "iowa",
+    "county": "dubuque"
+  },
+  "19063": {
+    "state": "iowa",
+    "county": "emmet"
+  },
+  "19065": {
+    "state": "iowa",
+    "county": "fayette"
+  },
+  "19067": {
+    "state": "iowa",
+    "county": "floyd"
+  },
+  "19069": {
+    "state": "iowa",
+    "county": "franklin"
+  },
+  "19071": {
+    "state": "iowa",
+    "county": "fremont"
+  },
+  "19073": {
+    "state": "iowa",
+    "county": "greene"
+  },
+  "19075": {
+    "state": "iowa",
+    "county": "grundy"
+  },
+  "19077": {
+    "state": "iowa",
+    "county": "guthrie"
+  },
+  "19079": {
+    "state": "iowa",
+    "county": "hamilton"
+  },
+  "19081": {
+    "state": "iowa",
+    "county": "hancock"
+  },
+  "19083": {
+    "state": "iowa",
+    "county": "hardin"
+  },
+  "19085": {
+    "state": "iowa",
+    "county": "harrison"
+  },
+  "19087": {
+    "state": "iowa",
+    "county": "henry"
+  },
+  "19089": {
+    "state": "iowa",
+    "county": "howard"
+  },
+  "19091": {
+    "state": "iowa",
+    "county": "humboldt"
+  },
+  "19093": {
+    "state": "iowa",
+    "county": "ida"
+  },
+  "19095": {
+    "state": "iowa",
+    "county": "iowa"
+  },
+  "19097": {
+    "state": "iowa",
+    "county": "jackson"
+  },
+  "19099": {
+    "state": "iowa",
+    "county": "jasper"
+  },
+  "19101": {
+    "state": "iowa",
+    "county": "jefferson"
+  },
+  "19103": {
+    "state": "iowa",
+    "county": "johnson"
+  },
+  "19105": {
+    "state": "iowa",
+    "county": "jones"
+  },
+  "19107": {
+    "state": "iowa",
+    "county": "keokuk"
+  },
+  "19109": {
+    "state": "iowa",
+    "county": "kossuth"
+  },
+  "19111": {
+    "state": "iowa",
+    "county": "lee"
+  },
+  "19113": {
+    "state": "iowa",
+    "county": "linn"
+  },
+  "19115": {
+    "state": "iowa",
+    "county": "louisa"
+  },
+  "19117": {
+    "state": "iowa",
+    "county": "lucas"
+  },
+  "19119": {
+    "state": "iowa",
+    "county": "lyon"
+  },
+  "19121": {
+    "state": "iowa",
+    "county": "madison"
+  },
+  "19123": {
+    "state": "iowa",
+    "county": "mahaska"
+  },
+  "19125": {
+    "state": "iowa",
+    "county": "marion"
+  },
+  "19127": {
+    "state": "iowa",
+    "county": "marshall"
+  },
+  "19129": {
+    "state": "iowa",
+    "county": "mills"
+  },
+  "19131": {
+    "state": "iowa",
+    "county": "mitchell"
+  },
+  "19133": {
+    "state": "iowa",
+    "county": "monona"
+  },
+  "19135": {
+    "state": "iowa",
+    "county": "monroe"
+  },
+  "19137": {
+    "state": "iowa",
+    "county": "montgomery"
+  },
+  "19139": {
+    "state": "iowa",
+    "county": "muscatine"
+  },
+  "19141": {
+    "state": "iowa",
+    "county": "o'brien"
+  },
+  "19143": {
+    "state": "iowa",
+    "county": "osceola"
+  },
+  "19145": {
+    "state": "iowa",
+    "county": "page"
+  },
+  "19147": {
+    "state": "iowa",
+    "county": "palo alto"
+  },
+  "19149": {
+    "state": "iowa",
+    "county": "plymouth"
+  },
+  "19151": {
+    "state": "iowa",
+    "county": "pocahontas"
+  },
+  "19153": {
+    "state": "iowa",
+    "county": "polk"
+  },
+  "19155": {
+    "state": "iowa",
+    "county": "pottawattamie"
+  },
+  "19157": {
+    "state": "iowa",
+    "county": "poweshiek"
+  },
+  "19159": {
+    "state": "iowa",
+    "county": "ringgold"
+  },
+  "19161": {
+    "state": "iowa",
+    "county": "sac"
+  },
+  "19163": {
+    "state": "iowa",
+    "county": "scott"
+  },
+  "19165": {
+    "state": "iowa",
+    "county": "shelby"
+  },
+  "19167": {
+    "state": "iowa",
+    "county": "sioux"
+  },
+  "19169": {
+    "state": "iowa",
+    "county": "story"
+  },
+  "19171": {
+    "state": "iowa",
+    "county": "tama"
+  },
+  "19173": {
+    "state": "iowa",
+    "county": "taylor"
+  },
+  "19175": {
+    "state": "iowa",
+    "county": "union"
+  },
+  "19177": {
+    "state": "iowa",
+    "county": "van buren"
+  },
+  "19179": {
+    "state": "iowa",
+    "county": "wapello"
+  },
+  "19181": {
+    "state": "iowa",
+    "county": "warren"
+  },
+  "19183": {
+    "state": "iowa",
+    "county": "washington"
+  },
+  "19185": {
+    "state": "iowa",
+    "county": "wayne"
+  },
+  "19187": {
+    "state": "iowa",
+    "county": "webster"
+  },
+  "19189": {
+    "state": "iowa",
+    "county": "winnebago"
+  },
+  "19191": {
+    "state": "iowa",
+    "county": "winneshiek"
+  },
+  "19193": {
+    "state": "iowa",
+    "county": "woodbury"
+  },
+  "19195": {
+    "state": "iowa",
+    "county": "worth"
+  },
+  "19197": {
+    "state": "iowa",
+    "county": "wright"
+  },
+  "27001": {
+    "state": "minnesota",
+    "county": "aitkin"
+  },
+  "27003": {
+    "state": "minnesota",
+    "county": "anoka"
+  },
+  "27005": {
+    "state": "minnesota",
+    "county": "becker"
+  },
+  "27007": {
+    "state": "minnesota",
+    "county": "beltrami"
+  },
+  "27009": {
+    "state": "minnesota",
+    "county": "benton"
+  },
+  "27011": {
+    "state": "minnesota",
+    "county": "big stone"
+  },
+  "27013": {
+    "state": "minnesota",
+    "county": "blue earth"
+  },
+  "27015": {
+    "state": "minnesota",
+    "county": "brown"
+  },
+  "27017": {
+    "state": "minnesota",
+    "county": "carlton"
+  },
+  "27019": {
+    "state": "minnesota",
+    "county": "carver"
+  },
+  "27021": {
+    "state": "minnesota",
+    "county": "cass"
+  },
+  "27023": {
+    "state": "minnesota",
+    "county": "chippewa"
+  },
+  "27025": {
+    "state": "minnesota",
+    "county": "chisago"
+  },
+  "27027": {
+    "state": "minnesota",
+    "county": "clay"
+  },
+  "27029": {
+    "state": "minnesota",
+    "county": "clearwater"
+  },
+  "27031": {
+    "state": "minnesota",
+    "county": "cook"
+  },
+  "27033": {
+    "state": "minnesota",
+    "county": "cottonwood"
+  },
+  "27035": {
+    "state": "minnesota",
+    "county": "crow wing"
+  },
+  "27037": {
+    "state": "minnesota",
+    "county": "dakota"
+  },
+  "27039": {
+    "state": "minnesota",
+    "county": "dodge"
+  },
+  "27041": {
+    "state": "minnesota",
+    "county": "douglas"
+  },
+  "27043": {
+    "state": "minnesota",
+    "county": "faribault"
+  },
+  "27045": {
+    "state": "minnesota",
+    "county": "fillmore"
+  },
+  "27047": {
+    "state": "minnesota",
+    "county": "freeborn"
+  },
+  "27049": {
+    "state": "minnesota",
+    "county": "goodhue"
+  },
+  "27051": {
+    "state": "minnesota",
+    "county": "grant"
+  },
+  "27053": {
+    "state": "minnesota",
+    "county": "hennepin"
+  },
+  "27055": {
+    "state": "minnesota",
+    "county": "houston"
+  },
+  "27057": {
+    "state": "minnesota",
+    "county": "hubbard"
+  },
+  "27059": {
+    "state": "minnesota",
+    "county": "isanti"
+  },
+  "27061": {
+    "state": "minnesota",
+    "county": "itasca"
+  },
+  "27063": {
+    "state": "minnesota",
+    "county": "jackson"
+  },
+  "27065": {
+    "state": "minnesota",
+    "county": "kanabec"
+  },
+  "27067": {
+    "state": "minnesota",
+    "county": "kandiyohi"
+  },
+  "27069": {
+    "state": "minnesota",
+    "county": "kittson"
+  },
+  "27071": {
+    "state": "minnesota",
+    "county": "koochiching"
+  },
+  "27073": {
+    "state": "minnesota",
+    "county": "lac qui parle"
+  },
+  "27075": {
+    "state": "minnesota",
+    "county": "lake"
+  },
+  "27077": {
+    "state": "minnesota",
+    "county": "lake of the woods"
+  },
+  "27079": {
+    "state": "minnesota",
+    "county": "le sueur"
+  },
+  "27081": {
+    "state": "minnesota",
+    "county": "lincoln"
+  },
+  "27083": {
+    "state": "minnesota",
+    "county": "lyon"
+  },
+  "27085": {
+    "state": "minnesota",
+    "county": "mcleod"
+  },
+  "27087": {
+    "state": "minnesota",
+    "county": "mahnomen"
+  },
+  "27089": {
+    "state": "minnesota",
+    "county": "marshall"
+  },
+  "27091": {
+    "state": "minnesota",
+    "county": "martin"
+  },
+  "27093": {
+    "state": "minnesota",
+    "county": "meeker"
+  },
+  "27095": {
+    "state": "minnesota",
+    "county": "mille lacs"
+  },
+  "27097": {
+    "state": "minnesota",
+    "county": "morrison"
+  },
+  "27099": {
+    "state": "minnesota",
+    "county": "mower"
+  },
+  "27101": {
+    "state": "minnesota",
+    "county": "murray"
+  },
+  "27103": {
+    "state": "minnesota",
+    "county": "nicollet"
+  },
+  "27105": {
+    "state": "minnesota",
+    "county": "nobles"
+  },
+  "27107": {
+    "state": "minnesota",
+    "county": "norman"
+  },
+  "27109": {
+    "state": "minnesota",
+    "county": "olmsted"
+  },
+  "27111": {
+    "state": "minnesota",
+    "county": "otter tail"
+  },
+  "27113": {
+    "state": "minnesota",
+    "county": "pennington"
+  },
+  "27115": {
+    "state": "minnesota",
+    "county": "pine"
+  },
+  "27117": {
+    "state": "minnesota",
+    "county": "pipestone"
+  },
+  "27119": {
+    "state": "minnesota",
+    "county": "polk"
+  },
+  "27121": {
+    "state": "minnesota",
+    "county": "pope"
+  },
+  "27123": {
+    "state": "minnesota",
+    "county": "ramsey"
+  },
+  "27125": {
+    "state": "minnesota",
+    "county": "red lake"
+  },
+  "27127": {
+    "state": "minnesota",
+    "county": "redwood"
+  },
+  "27129": {
+    "state": "minnesota",
+    "county": "renville"
+  },
+  "27131": {
+    "state": "minnesota",
+    "county": "rice"
+  },
+  "27133": {
+    "state": "minnesota",
+    "county": "rock"
+  },
+  "27135": {
+    "state": "minnesota",
+    "county": "roseau"
+  },
+  "27137": {
+    "state": "minnesota",
+    "county": "st. louis"
+  },
+  "27139": {
+    "state": "minnesota",
+    "county": "scott"
+  },
+  "27141": {
+    "state": "minnesota",
+    "county": "sherburne"
+  },
+  "27143": {
+    "state": "minnesota",
+    "county": "sibley"
+  },
+  "27145": {
+    "state": "minnesota",
+    "county": "stearns"
+  },
+  "27147": {
+    "state": "minnesota",
+    "county": "steele"
+  },
+  "27149": {
+    "state": "minnesota",
+    "county": "stevens"
+  },
+  "27151": {
+    "state": "minnesota",
+    "county": "swift"
+  },
+  "27153": {
+    "state": "minnesota",
+    "county": "todd"
+  },
+  "27155": {
+    "state": "minnesota",
+    "county": "traverse"
+  },
+  "27157": {
+    "state": "minnesota",
+    "county": "wabasha"
+  },
+  "27159": {
+    "state": "minnesota",
+    "county": "wadena"
+  },
+  "27161": {
+    "state": "minnesota",
+    "county": "waseca"
+  },
+  "27163": {
+    "state": "minnesota",
+    "county": "washington"
+  },
+  "27165": {
+    "state": "minnesota",
+    "county": "watonwan"
+  },
+  "27167": {
+    "state": "minnesota",
+    "county": "wilkin"
+  },
+  "27169": {
+    "state": "minnesota",
+    "county": "winona"
+  },
+  "27171": {
+    "state": "minnesota",
+    "county": "wright"
+  },
+  "27173": {
+    "state": "minnesota",
+    "county": "yellow medicine"
+  },
+  "55001": {
+    "state": "wisconsin",
+    "county": "adams"
+  },
+  "55003": {
+    "state": "wisconsin",
+    "county": "ashland"
+  },
+  "55005": {
+    "state": "wisconsin",
+    "county": "barron"
+  },
+  "55007": {
+    "state": "wisconsin",
+    "county": "bayfield"
+  },
+  "55009": {
+    "state": "wisconsin",
+    "county": "brown"
+  },
+  "55011": {
+    "state": "wisconsin",
+    "county": "buffalo"
+  },
+  "55013": {
+    "state": "wisconsin",
+    "county": "burnett"
+  },
+  "55015": {
+    "state": "wisconsin",
+    "county": "calumet"
+  },
+  "55017": {
+    "state": "wisconsin",
+    "county": "chippewa"
+  },
+  "55019": {
+    "state": "wisconsin",
+    "county": "clark"
+  },
+  "55021": {
+    "state": "wisconsin",
+    "county": "columbia"
+  },
+  "55023": {
+    "state": "wisconsin",
+    "county": "crawford"
+  },
+  "55025": {
+    "state": "wisconsin",
+    "county": "dane"
+  },
+  "55027": {
+    "state": "wisconsin",
+    "county": "dodge"
+  },
+  "55029": {
+    "state": "wisconsin",
+    "county": "door"
+  },
+  "55031": {
+    "state": "wisconsin",
+    "county": "douglas"
+  },
+  "55033": {
+    "state": "wisconsin",
+    "county": "dunn"
+  },
+  "55035": {
+    "state": "wisconsin",
+    "county": "eau claire"
+  },
+  "55037": {
+    "state": "wisconsin",
+    "county": "florence"
+  },
+  "55039": {
+    "state": "wisconsin",
+    "county": "fond du lac"
+  },
+  "55041": {
+    "state": "wisconsin",
+    "county": "forest"
+  },
+  "55043": {
+    "state": "wisconsin",
+    "county": "grant"
+  },
+  "55045": {
+    "state": "wisconsin",
+    "county": "green"
+  },
+  "55047": {
+    "state": "wisconsin",
+    "county": "green lake"
+  },
+  "55049": {
+    "state": "wisconsin",
+    "county": "iowa"
+  },
+  "55051": {
+    "state": "wisconsin",
+    "county": "iron"
+  },
+  "55053": {
+    "state": "wisconsin",
+    "county": "jackson"
+  },
+  "55055": {
+    "state": "wisconsin",
+    "county": "jefferson"
+  },
+  "55057": {
+    "state": "wisconsin",
+    "county": "juneau"
+  },
+  "55059": {
+    "state": "wisconsin",
+    "county": "kenosha"
+  },
+  "55061": {
+    "state": "wisconsin",
+    "county": "kewaunee"
+  },
+  "55063": {
+    "state": "wisconsin",
+    "county": "la crosse"
+  },
+  "55065": {
+    "state": "wisconsin",
+    "county": "lafayette"
+  },
+  "55067": {
+    "state": "wisconsin",
+    "county": "langlade"
+  },
+  "55069": {
+    "state": "wisconsin",
+    "county": "lincoln"
+  },
+  "55071": {
+    "state": "wisconsin",
+    "county": "manitowoc"
+  },
+  "55073": {
+    "state": "wisconsin",
+    "county": "marathon"
+  },
+  "55075": {
+    "state": "wisconsin",
+    "county": "marinette"
+  },
+  "55077": {
+    "state": "wisconsin",
+    "county": "marquette"
+  },
+  "55078": {
+    "state": "wisconsin",
+    "county": "menominee"
+  },
+  "55079": {
+    "state": "wisconsin",
+    "county": "milwaukee"
+  },
+  "55081": {
+    "state": "wisconsin",
+    "county": "monroe"
+  },
+  "55083": {
+    "state": "wisconsin",
+    "county": "oconto"
+  },
+  "55085": {
+    "state": "wisconsin",
+    "county": "oneida"
+  },
+  "55087": {
+    "state": "wisconsin",
+    "county": "outagamie"
+  },
+  "55089": {
+    "state": "wisconsin",
+    "county": "ozaukee"
+  },
+  "55091": {
+    "state": "wisconsin",
+    "county": "pepin"
+  },
+  "55093": {
+    "state": "wisconsin",
+    "county": "pierce"
+  },
+  "55095": {
+    "state": "wisconsin",
+    "county": "polk"
+  },
+  "55097": {
+    "state": "wisconsin",
+    "county": "portage"
+  },
+  "55099": {
+    "state": "wisconsin",
+    "county": "price"
+  },
+  "55101": {
+    "state": "wisconsin",
+    "county": "racine"
+  },
+  "55103": {
+    "state": "wisconsin",
+    "county": "richland"
+  },
+  "55105": {
+    "state": "wisconsin",
+    "county": "rock"
+  },
+  "55107": {
+    "state": "wisconsin",
+    "county": "rusk"
+  },
+  "55109": {
+    "state": "wisconsin",
+    "county": "st. croix"
+  },
+  "55111": {
+    "state": "wisconsin",
+    "county": "sauk"
+  },
+  "55113": {
+    "state": "wisconsin",
+    "county": "sawyer"
+  },
+  "55115": {
+    "state": "wisconsin",
+    "county": "shawano"
+  },
+  "55117": {
+    "state": "wisconsin",
+    "county": "sheboygan"
+  },
+  "55119": {
+    "state": "wisconsin",
+    "county": "taylor"
+  },
+  "55121": {
+    "state": "wisconsin",
+    "county": "trempealeau"
+  },
+  "55123": {
+    "state": "wisconsin",
+    "county": "vernon"
+  },
+  "55125": {
+    "state": "wisconsin",
+    "county": "vilas"
+  },
+  "55127": {
+    "state": "wisconsin",
+    "county": "walworth"
+  },
+  "55129": {
+    "state": "wisconsin",
+    "county": "washburn"
+  },
+  "55131": {
+    "state": "wisconsin",
+    "county": "washington"
+  },
+  "55133": {
+    "state": "wisconsin",
+    "county": "waukesha"
+  },
+  "55135": {
+    "state": "wisconsin",
+    "county": "waupaca"
+  },
+  "55137": {
+    "state": "wisconsin",
+    "county": "waushara"
+  },
+  "55139": {
+    "state": "wisconsin",
+    "county": "winnebago"
+  },
+  "55141": {
+    "state": "wisconsin",
+    "county": "wood"
+  }
+}
