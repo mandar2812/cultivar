@@ -256,7 +256,7 @@ const histoChartEl = document.getElementById('histoChart');
 function getStateNameFromFips(fips) {
   const code = fips.slice(0, 2);
   const lookup = {
-    '17': 'illinois', '19': 'iowa', '27': 'minnesota', '55': 'wisconsin'
+    '17': 'illinois', '18': 'indiana', '19': 'iowa', '27': 'minnesota', '55': 'wisconsin'
   };
   return lookup[code] || null;
 }
@@ -293,7 +293,7 @@ function populateYearSelect(state) {
 function getPredictedYields(state) {
   const vals = [];
   const stateFipsPrefix = {
-    'illinois': '17', 'iowa': '19', 'minnesota': '27', 'wisconsin': '55'
+    'illinois': '17', 'indiana': '18', 'iowa': '19', 'minnesota': '27', 'wisconsin': '55'
   }[state];
   if (!stateFipsPrefix) return vals;
   for (const [fips, yld] of Object.entries(yieldData)) {
