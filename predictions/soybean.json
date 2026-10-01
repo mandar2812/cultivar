@@ -1,6 +1,6 @@
 {
   "crop": "soybean",
-  "data_through_julian": 203,
+  "data_through_julian": 274,
   "metadata": {
     "model_commit": "current",
     "n_planting_scenarios": 5,
@@ -30,1203 +30,1535 @@
       "minnesota",
       "indiana",
       "missouri"
-    ]
+    ],
+    "yield_estimator": "ridge_all"
   },
-  "run_date": "2026-07-22",
+  "run_date": "2026-10-01",
   "scenarios": {
     "dry": {
       "illinois": {
         "17003": {
           "acres": 0,
-          "yield_bu_ac": 48.5
+          "yield_bu_ac": 25.2,
+          "yield_ml_bu_ac": 51.2
         },
         "17005": {
           "acres": 0,
-          "yield_bu_ac": 56.6
+          "yield_bu_ac": 19.9,
+          "yield_ml_bu_ac": 57.5
         },
         "17007": {
           "acres": 0,
-          "yield_bu_ac": 53.5
+          "yield_bu_ac": 19.4,
+          "yield_ml_bu_ac": 52.2
         },
         "17011": {
           "acres": 0,
-          "yield_bu_ac": 56.1
+          "yield_bu_ac": 19.9,
+          "yield_ml_bu_ac": 56.4
         },
         "17013": {
           "acres": 0,
-          "yield_bu_ac": 55.8
+          "yield_bu_ac": 21.9,
+          "yield_ml_bu_ac": 51.3
         },
         "17015": {
           "acres": 0,
-          "yield_bu_ac": 54.3
+          "yield_bu_ac": 19.7,
+          "yield_ml_bu_ac": 59.2
         },
         "17023": {
           "acres": 0,
-          "yield_bu_ac": 53.9
+          "yield_bu_ac": 21.1,
+          "yield_ml_bu_ac": 54.3
         },
         "17025": {
           "acres": 0,
-          "yield_bu_ac": 56.5
+          "yield_bu_ac": 20.1,
+          "yield_ml_bu_ac": 55.9
         },
         "17033": {
           "acres": 0,
-          "yield_bu_ac": 50.6
+          "yield_bu_ac": 20.1,
+          "yield_ml_bu_ac": 57.1
         },
         "17037": {
           "acres": 0,
-          "yield_bu_ac": 54.1
+          "yield_bu_ac": 20.1,
+          "yield_ml_bu_ac": 57.6
         },
         "17041": {
           "acres": 0,
-          "yield_bu_ac": 60.3
+          "yield_bu_ac": 19.6,
+          "yield_ml_bu_ac": 54.0
         },
         "17049": {
           "acres": 0,
-          "yield_bu_ac": 56.1
+          "yield_bu_ac": 20.5,
+          "yield_ml_bu_ac": 56.9
         },
         "17055": {
           "acres": 0,
-          "yield_bu_ac": 54.8
+          "yield_bu_ac": 21.8,
+          "yield_ml_bu_ac": 47.3
         },
         "17057": {
           "acres": 0,
-          "yield_bu_ac": 57.1
+          "yield_bu_ac": 21.3,
+          "yield_ml_bu_ac": 49.9
         },
         "17061": {
           "acres": 0,
-          "yield_bu_ac": 56.9
+          "yield_bu_ac": 23.0,
+          "yield_ml_bu_ac": 58.9
         },
         "17071": {
           "acres": 0,
-          "yield_bu_ac": 57.7
+          "yield_bu_ac": 20.6,
+          "yield_ml_bu_ac": 58.1
         },
         "17075": {
           "acres": 0,
-          "yield_bu_ac": 58.6
+          "yield_bu_ac": 20.2,
+          "yield_ml_bu_ac": 60.8
         },
         "17077": {
           "acres": 0,
-          "yield_bu_ac": 53.9
+          "yield_bu_ac": 22.1,
+          "yield_ml_bu_ac": 50.5
         },
         "17079": {
           "acres": 0,
-          "yield_bu_ac": 50.2
+          "yield_bu_ac": 20.0,
+          "yield_ml_bu_ac": 55.7
         },
         "17081": {
           "acres": 0,
-          "yield_bu_ac": 54.5
+          "yield_bu_ac": 20.4,
+          "yield_ml_bu_ac": 44.0
         },
         "17085": {
           "acres": 0,
-          "yield_bu_ac": 49.7
+          "yield_bu_ac": 19.5,
+          "yield_ml_bu_ac": 54.4
         },
         "17087": {
           "acres": 0,
-          "yield_bu_ac": 54.0
+          "yield_bu_ac": 24.5,
+          "yield_ml_bu_ac": 44.7
         },
         "17089": {
           "acres": 0,
-          "yield_bu_ac": 52.2
+          "yield_bu_ac": 19.5,
+          "yield_ml_bu_ac": 55.5
         },
         "17095": {
           "acres": 0,
-          "yield_bu_ac": 57.9
+          "yield_bu_ac": 19.8,
+          "yield_ml_bu_ac": 54.7
         },
         "17097": {
           "acres": 0,
-          "yield_bu_ac": 54.5
+          "yield_bu_ac": 18.5,
+          "yield_ml_bu_ac": 49.8
         },
         "17099": {
           "acres": 0,
-          "yield_bu_ac": 55.5
+          "yield_bu_ac": 21.4,
+          "yield_ml_bu_ac": 60.7
         },
         "17101": {
           "acres": 0,
-          "yield_bu_ac": 49.3
+          "yield_bu_ac": 21.1,
+          "yield_ml_bu_ac": 56.9
         },
         "17105": {
           "acres": 0,
-          "yield_bu_ac": 56.8
+          "yield_bu_ac": 20.2,
+          "yield_ml_bu_ac": 56.3
         },
         "17111": {
           "acres": 0,
-          "yield_bu_ac": 54.4
+          "yield_bu_ac": 19.2,
+          "yield_ml_bu_ac": 50.9
         },
         "17113": {
           "acres": 0,
-          "yield_bu_ac": 58.8
+          "yield_bu_ac": 20.7,
+          "yield_ml_bu_ac": 60.8
         },
         "17115": {
           "acres": 0,
-          "yield_bu_ac": 57.9
+          "yield_bu_ac": 20.3,
+          "yield_ml_bu_ac": 61.5
         },
         "17117": {
           "acres": 0,
-          "yield_bu_ac": 57.5
+          "yield_bu_ac": 20.8,
+          "yield_ml_bu_ac": 57.0
         },
         "17119": {
           "acres": 0,
-          "yield_bu_ac": 52.8
+          "yield_bu_ac": 20.2,
+          "yield_ml_bu_ac": 58.1
         },
         "17121": {
           "acres": 0,
-          "yield_bu_ac": 56.7
+          "yield_bu_ac": 20.2,
+          "yield_ml_bu_ac": 49.3
         },
         "17123": {
           "acres": 0,
-          "yield_bu_ac": 55.5
+          "yield_bu_ac": 20.8,
+          "yield_ml_bu_ac": 61.8
         },
         "17125": {
           "acres": 0,
-          "yield_bu_ac": 57.8
+          "yield_bu_ac": 21.5,
+          "yield_ml_bu_ac": 54.8
         },
         "17127": {
           "acres": 0,
-          "yield_bu_ac": 53.4
+          "yield_bu_ac": 24.8,
+          "yield_ml_bu_ac": 53.4
         },
         "17133": {
           "acres": 0,
-          "yield_bu_ac": 54.9
+          "yield_bu_ac": 20.8,
+          "yield_ml_bu_ac": 50.1
         },
         "17139": {
           "acres": 0,
-          "yield_bu_ac": 57.3
+          "yield_bu_ac": 19.9,
+          "yield_ml_bu_ac": 56.5
         },
         "17143": {
           "acres": 0,
-          "yield_bu_ac": 58.8
+          "yield_bu_ac": 20.0,
+          "yield_ml_bu_ac": 55.1
         },
         "17145": {
           "acres": 0,
-          "yield_bu_ac": 55.1
+          "yield_bu_ac": 20.9,
+          "yield_ml_bu_ac": 49.9
         },
         "17147": {
           "acres": 0,
-          "yield_bu_ac": 58.0
+          "yield_bu_ac": 21.5,
+          "yield_ml_bu_ac": 57.8
         },
         "17151": {
           "acres": 0,
-          "yield_bu_ac": 54.6
+          "yield_bu_ac": 24.6,
+          "yield_ml_bu_ac": 50.8
         },
         "17153": {
           "acres": 0,
-          "yield_bu_ac": 48.5
+          "yield_bu_ac": 25.6,
+          "yield_ml_bu_ac": 49.5
         },
         "17155": {
           "acres": 0,
-          "yield_bu_ac": 55.8
+          "yield_bu_ac": 20.3,
+          "yield_ml_bu_ac": 56.8
         },
         "17157": {
           "acres": 0,
-          "yield_bu_ac": 52.4
+          "yield_bu_ac": 21.0,
+          "yield_ml_bu_ac": 47.7
         },
         "17159": {
           "acres": 0,
-          "yield_bu_ac": 55.3
+          "yield_bu_ac": 21.2,
+          "yield_ml_bu_ac": 55.3
         },
         "17161": {
           "acres": 0,
-          "yield_bu_ac": 54.9
+          "yield_bu_ac": 19.6,
+          "yield_ml_bu_ac": 59.1
         },
         "17163": {
           "acres": 0,
-          "yield_bu_ac": 53.5
+          "yield_bu_ac": 21.7,
+          "yield_ml_bu_ac": 54.2
         },
         "17167": {
           "acres": 0,
-          "yield_bu_ac": 57.2
+          "yield_bu_ac": 20.7,
+          "yield_ml_bu_ac": 60.5
         },
         "17173": {
           "acres": 0,
-          "yield_bu_ac": 57.6
+          "yield_bu_ac": 20.2,
+          "yield_ml_bu_ac": 56.4
         },
         "17175": {
           "acres": 0,
-          "yield_bu_ac": 57.4
+          "yield_bu_ac": 20.1,
+          "yield_ml_bu_ac": 59.6
         },
         "17177": {
           "acres": 0,
-          "yield_bu_ac": 53.1
+          "yield_bu_ac": 19.4,
+          "yield_ml_bu_ac": 55.4
         },
         "17179": {
           "acres": 0,
-          "yield_bu_ac": 57.7
+          "yield_bu_ac": 21.0,
+          "yield_ml_bu_ac": 60.7
         },
         "17183": {
           "acres": 0,
-          "yield_bu_ac": 59.4
+          "yield_bu_ac": 20.3,
+          "yield_ml_bu_ac": 60.8
         },
         "17185": {
           "acres": 0,
-          "yield_bu_ac": 55.4
+          "yield_bu_ac": 20.7,
+          "yield_ml_bu_ac": 53.6
         },
         "17189": {
           "acres": 0,
-          "yield_bu_ac": 54.2
+          "yield_bu_ac": 20.6,
+          "yield_ml_bu_ac": 47.8
         },
         "17191": {
           "acres": 0,
-          "yield_bu_ac": 55.9
+          "yield_bu_ac": 20.3,
+          "yield_ml_bu_ac": 48.9
         },
         "17195": {
           "acres": 0,
-          "yield_bu_ac": 56.4
+          "yield_bu_ac": 19.7,
+          "yield_ml_bu_ac": 63.2
         },
         "17199": {
           "acres": 0,
-          "yield_bu_ac": 55.0
+          "yield_bu_ac": 23.6,
+          "yield_ml_bu_ac": 48.3
         },
         "17201": {
           "acres": 0,
-          "yield_bu_ac": 54.5
+          "yield_bu_ac": 19.2,
+          "yield_ml_bu_ac": 53.3
         },
         "17203": {
           "acres": 0,
-          "yield_bu_ac": 57.2
+          "yield_bu_ac": 20.7,
+          "yield_ml_bu_ac": 59.9
         }
       },
       "indiana": {
         "18001": {
           "acres": 0,
-          "yield_bu_ac": 60.0
+          "yield_bu_ac": 26.5,
+          "yield_ml_bu_ac": 55.6
         },
         "18003": {
           "acres": 0,
-          "yield_bu_ac": 59.9
+          "yield_bu_ac": 26.1,
+          "yield_ml_bu_ac": 58.4
         },
         "18005": {
           "acres": 0,
-          "yield_bu_ac": 49.8
+          "yield_bu_ac": 29.0,
+          "yield_ml_bu_ac": 56.4
         },
         "18007": {
           "acres": 0,
-          "yield_bu_ac": 60.5
+          "yield_bu_ac": 28.0,
+          "yield_ml_bu_ac": 60.8
         },
         "18009": {
           "acres": 0,
-          "yield_bu_ac": 59.2
+          "yield_bu_ac": 26.7,
+          "yield_ml_bu_ac": 57.0
         },
         "18011": {
           "acres": 0,
-          "yield_bu_ac": 60.4
+          "yield_bu_ac": 29.0,
+          "yield_ml_bu_ac": 58.6
         },
         "18013": {
           "acres": 0,
-          "yield_bu_ac": 47.8
+          "yield_bu_ac": 30.1,
+          "yield_ml_bu_ac": 54.7
         },
         "18015": {
           "acres": 0,
-          "yield_bu_ac": 60.3
+          "yield_bu_ac": 29.0,
+          "yield_ml_bu_ac": 61.9
         },
         "18017": {
           "acres": 0,
-          "yield_bu_ac": 60.3
+          "yield_bu_ac": 29.2,
+          "yield_ml_bu_ac": 57.8
         },
         "18019": {
           "acres": 0,
-          "yield_bu_ac": 49.4
+          "yield_bu_ac": 28.3,
+          "yield_ml_bu_ac": 45.7
         },
         "18021": {
           "acres": 0,
-          "yield_bu_ac": 50.8
+          "yield_bu_ac": 29.8,
+          "yield_ml_bu_ac": 53.4
         },
         "18023": {
           "acres": 0,
-          "yield_bu_ac": 59.3
+          "yield_bu_ac": 29.4,
+          "yield_ml_bu_ac": 61.7
         },
         "18027": {
           "acres": 0,
-          "yield_bu_ac": 42.5
+          "yield_bu_ac": 29.9,
+          "yield_ml_bu_ac": 50.4
         },
         "18029": {
           "acres": 0,
-          "yield_bu_ac": 49.4
+          "yield_bu_ac": 30.8,
+          "yield_ml_bu_ac": 54.5
         },
         "18031": {
           "acres": 0,
-          "yield_bu_ac": 50.0
+          "yield_bu_ac": 29.9,
+          "yield_ml_bu_ac": 59.1
         },
         "18033": {
           "acres": 0,
-          "yield_bu_ac": 55.6
+          "yield_bu_ac": 29.2,
+          "yield_ml_bu_ac": 55.4
         },
         "18037": {
           "acres": 0,
-          "yield_bu_ac": 43.7
+          "yield_bu_ac": 27.9,
+          "yield_ml_bu_ac": 48.1
         },
         "18041": {
           "acres": 0,
-          "yield_bu_ac": 53.3
+          "yield_bu_ac": 28.4,
+          "yield_ml_bu_ac": 54.7
         },
         "18047": {
           "acres": 0,
-          "yield_bu_ac": 55.6
+          "yield_bu_ac": 29.3,
+          "yield_ml_bu_ac": 56.5
         },
         "18049": {
           "acres": 0,
-          "yield_bu_ac": 49.5
+          "yield_bu_ac": 28.3,
+          "yield_ml_bu_ac": 53.3
         },
         "18051": {
           "acres": 0,
-          "yield_bu_ac": 47.1
+          "yield_bu_ac": 31.0,
+          "yield_ml_bu_ac": 54.6
         },
         "18055": {
           "acres": 0,
-          "yield_bu_ac": 49.4
+          "yield_bu_ac": 28.8,
+          "yield_ml_bu_ac": 56.4
         },
         "18057": {
           "acres": 0,
-          "yield_bu_ac": 57.4
+          "yield_bu_ac": 27.4,
+          "yield_ml_bu_ac": 60.1
         },
         "18059": {
           "acres": 0,
-          "yield_bu_ac": 54.4
+          "yield_bu_ac": 27.4,
+          "yield_ml_bu_ac": 61.3
         },
         "18061": {
           "acres": 0,
-          "yield_bu_ac": 42.1
+          "yield_bu_ac": 26.3,
+          "yield_ml_bu_ac": 46.0
         },
         "18063": {
           "acres": 0,
-          "yield_bu_ac": 53.2
+          "yield_bu_ac": 29.0,
+          "yield_ml_bu_ac": 58.9
         },
         "18065": {
           "acres": 0,
-          "yield_bu_ac": 54.2
+          "yield_bu_ac": 26.9,
+          "yield_ml_bu_ac": 55.7
         },
         "18067": {
           "acres": 0,
-          "yield_bu_ac": 60.5
+          "yield_bu_ac": 28.1,
+          "yield_ml_bu_ac": 61.6
         },
         "18069": {
           "acres": 0,
-          "yield_bu_ac": 60.0
+          "yield_bu_ac": 26.1,
+          "yield_ml_bu_ac": 59.4
         },
         "18073": {
           "acres": 0,
-          "yield_bu_ac": 54.2
+          "yield_bu_ac": 28.6,
+          "yield_ml_bu_ac": 57.8
         },
         "18075": {
           "acres": 0,
-          "yield_bu_ac": 58.0
+          "yield_bu_ac": 27.7,
+          "yield_ml_bu_ac": 56.1
         },
         "18081": {
           "acres": 0,
-          "yield_bu_ac": 50.4
+          "yield_bu_ac": 29.3,
+          "yield_ml_bu_ac": 57.7
         },
         "18085": {
           "acres": 0,
-          "yield_bu_ac": 50.7
+          "yield_bu_ac": 28.9,
+          "yield_ml_bu_ac": 55.7
         },
         "18087": {
           "acres": 0,
-          "yield_bu_ac": 53.4
+          "yield_bu_ac": 27.0,
+          "yield_ml_bu_ac": 53.5
         },
         "18089": {
           "acres": 0,
-          "yield_bu_ac": 49.6
+          "yield_bu_ac": 28.7,
+          "yield_ml_bu_ac": 55.5
         },
         "18091": {
           "acres": 0,
-          "yield_bu_ac": 53.1
+          "yield_bu_ac": 26.7,
+          "yield_ml_bu_ac": 53.9
         },
         "18093": {
           "acres": 0,
-          "yield_bu_ac": 45.6
+          "yield_bu_ac": 28.0,
+          "yield_ml_bu_ac": 44.2
         },
         "18095": {
           "acres": 0,
-          "yield_bu_ac": 58.1
+          "yield_bu_ac": 27.1,
+          "yield_ml_bu_ac": 57.2
         },
         "18099": {
           "acres": 0,
-          "yield_bu_ac": 54.3
+          "yield_bu_ac": 26.6,
+          "yield_ml_bu_ac": 55.3
         },
         "18103": {
           "acres": 0,
-          "yield_bu_ac": 58.7
+          "yield_bu_ac": 27.2,
+          "yield_ml_bu_ac": 57.1
         },
         "18107": {
           "acres": 0,
-          "yield_bu_ac": 60.0
+          "yield_bu_ac": 30.6,
+          "yield_ml_bu_ac": 57.2
         },
         "18109": {
           "acres": 0,
-          "yield_bu_ac": 52.7
+          "yield_bu_ac": 30.4,
+          "yield_ml_bu_ac": 56.6
         },
         "18111": {
           "acres": 0,
-          "yield_bu_ac": 55.3
+          "yield_bu_ac": 28.4,
+          "yield_ml_bu_ac": 61.8
         },
         "18113": {
           "acres": 0,
-          "yield_bu_ac": 54.1
+          "yield_bu_ac": 27.7,
+          "yield_ml_bu_ac": 55.5
         },
         "18123": {
           "acres": 0,
-          "yield_bu_ac": 45.9
+          "yield_bu_ac": 31.0,
+          "yield_ml_bu_ac": 52.1
         },
         "18125": {
           "acres": 0,
-          "yield_bu_ac": 41.4
+          "yield_bu_ac": 28.1,
+          "yield_ml_bu_ac": 53.5
         },
         "18129": {
           "acres": 0,
-          "yield_bu_ac": 53.3
+          "yield_bu_ac": 32.4,
+          "yield_ml_bu_ac": 54.7
         },
         "18145": {
           "acres": 0,
-          "yield_bu_ac": 51.8
+          "yield_bu_ac": 29.1,
+          "yield_ml_bu_ac": 54.8
         },
         "18147": {
           "acres": 0,
-          "yield_bu_ac": 45.7
+          "yield_bu_ac": 31.3,
+          "yield_ml_bu_ac": 53.9
         },
         "18151": {
           "acres": 0,
-          "yield_bu_ac": 54.4
+          "yield_bu_ac": 28.9,
+          "yield_ml_bu_ac": 53.5
         },
         "18153": {
           "acres": 0,
-          "yield_bu_ac": 48.4
+          "yield_bu_ac": 28.7,
+          "yield_ml_bu_ac": 57.3
         },
         "18157": {
           "acres": 0,
-          "yield_bu_ac": 59.3
+          "yield_bu_ac": 30.3,
+          "yield_ml_bu_ac": 58.9
         },
         "18159": {
           "acres": 0,
-          "yield_bu_ac": 59.7
+          "yield_bu_ac": 28.8,
+          "yield_ml_bu_ac": 60.3
         },
         "18161": {
           "acres": 0,
-          "yield_bu_ac": 56.8
+          "yield_bu_ac": 29.5,
+          "yield_ml_bu_ac": 59.3
         },
         "18171": {
           "acres": 0,
-          "yield_bu_ac": 59.1
+          "yield_bu_ac": 29.5,
+          "yield_ml_bu_ac": 60.2
         },
         "18175": {
           "acres": 0,
-          "yield_bu_ac": 40.3
+          "yield_bu_ac": 28.6,
+          "yield_ml_bu_ac": 44.3
         },
         "18179": {
           "acres": 0,
-          "yield_bu_ac": 57.6
+          "yield_bu_ac": 27.6,
+          "yield_ml_bu_ac": 55.6
         },
         "18183": {
           "acres": 0,
-          "yield_bu_ac": 54.2
+          "yield_bu_ac": 28.8,
+          "yield_ml_bu_ac": 58.4
         }
       },
       "minnesota": {
         "27003": {
           "acres": 0,
-          "yield_bu_ac": 38.1
+          "yield_bu_ac": 28.8,
+          "yield_ml_bu_ac": 58.7
         },
         "27005": {
           "acres": 0,
-          "yield_bu_ac": 36.3
+          "yield_bu_ac": 29.7,
+          "yield_ml_bu_ac": 57.6
         },
         "27007": {
           "acres": 0,
-          "yield_bu_ac": 39.4
+          "yield_bu_ac": 27.3,
+          "yield_ml_bu_ac": 55.8
         },
         "27011": {
           "acres": 0,
-          "yield_bu_ac": 51.6
+          "yield_bu_ac": 34.5,
+          "yield_ml_bu_ac": 57.9
         },
         "27013": {
           "acres": 0,
-          "yield_bu_ac": 52.7
+          "yield_bu_ac": 36.4,
+          "yield_ml_bu_ac": 58.9
         },
         "27015": {
           "acres": 0,
-          "yield_bu_ac": 44.9
+          "yield_bu_ac": 34.3,
+          "yield_ml_bu_ac": 58.1
         },
         "27017": {
           "acres": 0,
-          "yield_bu_ac": 44.6
+          "yield_bu_ac": 28.4,
+          "yield_ml_bu_ac": 60.5
         },
         "27019": {
           "acres": 0,
-          "yield_bu_ac": 52.3
+          "yield_bu_ac": 34.5,
+          "yield_ml_bu_ac": 57.2
+        },
+        "27021": {
+          "acres": 0,
+          "yield_bu_ac": 18.0,
+          "yield_ml_bu_ac": 37.6
+        },
+        "27023": {
+          "acres": 0,
+          "yield_bu_ac": 20.0,
+          "yield_ml_bu_ac": 57.5
+        },
+        "27027": {
+          "acres": 0,
+          "yield_bu_ac": 18.6,
+          "yield_ml_bu_ac": 41.4
+        },
+        "27029": {
+          "acres": 0,
+          "yield_bu_ac": 18.0,
+          "yield_ml_bu_ac": 37.2
+        },
+        "27033": {
+          "acres": 0,
+          "yield_bu_ac": 20.2,
+          "yield_ml_bu_ac": 55.9
+        },
+        "27037": {
+          "acres": 0,
+          "yield_bu_ac": 20.1,
+          "yield_ml_bu_ac": 55.7
+        },
+        "27039": {
+          "acres": 0,
+          "yield_bu_ac": 20.2,
+          "yield_ml_bu_ac": 53.9
         },
         "27041": {
           "acres": 0,
-          "yield_bu_ac": 47.7
+          "yield_bu_ac": 30.5,
+          "yield_ml_bu_ac": 62.5
         },
         "27043": {
           "acres": 0,
-          "yield_bu_ac": 51.0
+          "yield_bu_ac": 36.7,
+          "yield_ml_bu_ac": 57.2
         },
         "27045": {
           "acres": 0,
-          "yield_bu_ac": 50.7
+          "yield_bu_ac": 33.9,
+          "yield_ml_bu_ac": 59.0
         },
         "27047": {
           "acres": 0,
-          "yield_bu_ac": 44.8
+          "yield_bu_ac": 35.2,
+          "yield_ml_bu_ac": 55.9
         },
         "27049": {
           "acres": 0,
-          "yield_bu_ac": 58.4
+          "yield_bu_ac": 35.9,
+          "yield_ml_bu_ac": 62.0
         },
         "27051": {
           "acres": 0,
-          "yield_bu_ac": 46.4
+          "yield_bu_ac": 31.8,
+          "yield_ml_bu_ac": 59.8
         },
         "27055": {
           "acres": 0,
-          "yield_bu_ac": 55.2
+          "yield_bu_ac": 30.1,
+          "yield_ml_bu_ac": 58.4
         },
         "27057": {
           "acres": 0,
-          "yield_bu_ac": 25.8
+          "yield_bu_ac": 28.0,
+          "yield_ml_bu_ac": 57.6
         },
         "27059": {
           "acres": 0,
-          "yield_bu_ac": 45.2
+          "yield_bu_ac": 29.5,
+          "yield_ml_bu_ac": 61.3
         },
         "27061": {
           "acres": 0,
-          "yield_bu_ac": 23.0
+          "yield_bu_ac": 26.6,
+          "yield_ml_bu_ac": 55.6
         },
         "27063": {
           "acres": 0,
-          "yield_bu_ac": 51.5
+          "yield_bu_ac": 37.3,
+          "yield_ml_bu_ac": 55.0
         },
         "27065": {
           "acres": 0,
-          "yield_bu_ac": 53.2
+          "yield_bu_ac": 30.9,
+          "yield_ml_bu_ac": 59.8
         },
         "27067": {
           "acres": 0,
-          "yield_bu_ac": 52.5
+          "yield_bu_ac": 34.9,
+          "yield_ml_bu_ac": 55.8
         },
         "27069": {
           "acres": 0,
-          "yield_bu_ac": 43.5
+          "yield_bu_ac": 24.1,
+          "yield_ml_bu_ac": 54.2
         },
         "27071": {
           "acres": 0,
-          "yield_bu_ac": 33.3
+          "yield_bu_ac": 26.8,
+          "yield_ml_bu_ac": 58.7
         },
         "27073": {
           "acres": 0,
-          "yield_bu_ac": 49.5
+          "yield_bu_ac": 33.8,
+          "yield_ml_bu_ac": 59.5
         },
         "27077": {
           "acres": 0,
-          "yield_bu_ac": 42.2
+          "yield_bu_ac": 24.7,
+          "yield_ml_bu_ac": 57.1
         },
         "27079": {
           "acres": 0,
-          "yield_bu_ac": 55.5
+          "yield_bu_ac": 35.0,
+          "yield_ml_bu_ac": 57.4
         },
         "27081": {
           "acres": 0,
-          "yield_bu_ac": 51.1
+          "yield_bu_ac": 33.6,
+          "yield_ml_bu_ac": 56.5
         },
         "27085": {
           "acres": 0,
-          "yield_bu_ac": 52.2
+          "yield_bu_ac": 35.3,
+          "yield_ml_bu_ac": 56.5
         },
         "27087": {
           "acres": 0,
-          "yield_bu_ac": 43.4
+          "yield_bu_ac": 28.7,
+          "yield_ml_bu_ac": 59.0
         },
         "27089": {
           "acres": 0,
-          "yield_bu_ac": 41.4
+          "yield_bu_ac": 26.0,
+          "yield_ml_bu_ac": 55.4
         },
         "27093": {
           "acres": 0,
-          "yield_bu_ac": 52.0
+          "yield_bu_ac": 34.7,
+          "yield_ml_bu_ac": 55.0
         },
         "27095": {
           "acres": 0,
-          "yield_bu_ac": 48.0
+          "yield_bu_ac": 29.9,
+          "yield_ml_bu_ac": 61.6
         },
         "27099": {
           "acres": 0,
-          "yield_bu_ac": 49.9
+          "yield_bu_ac": 34.7,
+          "yield_ml_bu_ac": 56.2
         },
         "27103": {
           "acres": 0,
-          "yield_bu_ac": 53.0
+          "yield_bu_ac": 35.6,
+          "yield_ml_bu_ac": 57.9
         },
         "27109": {
           "acres": 0,
-          "yield_bu_ac": 55.9
+          "yield_bu_ac": 34.2,
+          "yield_ml_bu_ac": 60.2
         },
         "27111": {
           "acres": 0,
-          "yield_bu_ac": 46.3
+          "yield_bu_ac": 30.0,
+          "yield_ml_bu_ac": 57.8
         },
         "27113": {
           "acres": 0,
-          "yield_bu_ac": 31.9
+          "yield_bu_ac": 26.7,
+          "yield_ml_bu_ac": 54.1
         },
         "27115": {
           "acres": 0,
-          "yield_bu_ac": 52.6
+          "yield_bu_ac": 31.2,
+          "yield_ml_bu_ac": 57.3
         },
         "27119": {
           "acres": 0,
-          "yield_bu_ac": 38.8
+          "yield_bu_ac": 28.3,
+          "yield_ml_bu_ac": 61.0
         },
         "27121": {
           "acres": 0,
-          "yield_bu_ac": 49.5
+          "yield_bu_ac": 32.1,
+          "yield_ml_bu_ac": 57.5
         },
         "27125": {
           "acres": 0,
-          "yield_bu_ac": 32.7
+          "yield_bu_ac": 27.0,
+          "yield_ml_bu_ac": 55.7
         },
         "27129": {
           "acres": 0,
-          "yield_bu_ac": 53.4
+          "yield_bu_ac": 36.9,
+          "yield_ml_bu_ac": 56.3
         },
         "27131": {
           "acres": 0,
-          "yield_bu_ac": 55.2
+          "yield_bu_ac": 35.6,
+          "yield_ml_bu_ac": 58.6
         },
         "27135": {
           "acres": 0,
-          "yield_bu_ac": 44.6
+          "yield_bu_ac": 24.7,
+          "yield_ml_bu_ac": 52.7
         },
         "27139": {
           "acres": 0,
-          "yield_bu_ac": 57.0
+          "yield_bu_ac": 35.6,
+          "yield_ml_bu_ac": 58.1
         },
         "27141": {
           "acres": 0,
-          "yield_bu_ac": 41.4
+          "yield_bu_ac": 27.6,
+          "yield_ml_bu_ac": 58.0
         },
         "27143": {
           "acres": 0,
-          "yield_bu_ac": 53.9
+          "yield_bu_ac": 35.6,
+          "yield_ml_bu_ac": 56.7
         },
         "27145": {
           "acres": 0,
-          "yield_bu_ac": 48.8
+          "yield_bu_ac": 31.3,
+          "yield_ml_bu_ac": 57.0
         },
         "27147": {
           "acres": 0,
-          "yield_bu_ac": 56.0
+          "yield_bu_ac": 35.1,
+          "yield_ml_bu_ac": 58.6
         },
         "27149": {
           "acres": 0,
-          "yield_bu_ac": 51.4
+          "yield_bu_ac": 34.2,
+          "yield_ml_bu_ac": 59.7
         },
         "27151": {
           "acres": 0,
-          "yield_bu_ac": 52.6
+          "yield_bu_ac": 34.0,
+          "yield_ml_bu_ac": 52.0
         },
         "27155": {
           "acres": 0,
-          "yield_bu_ac": 46.0
+          "yield_bu_ac": 33.9,
+          "yield_ml_bu_ac": 55.8
         },
         "27157": {
           "acres": 0,
-          "yield_bu_ac": 55.2
+          "yield_bu_ac": 34.9,
+          "yield_ml_bu_ac": 61.9
         },
         "27159": {
           "acres": 0,
-          "yield_bu_ac": 24.7
+          "yield_bu_ac": 27.0,
+          "yield_ml_bu_ac": 59.0
         },
         "27161": {
           "acres": 0,
-          "yield_bu_ac": 55.8
+          "yield_bu_ac": 36.7,
+          "yield_ml_bu_ac": 57.1
         },
         "27163": {
           "acres": 0,
-          "yield_bu_ac": 47.5
+          "yield_bu_ac": 31.3,
+          "yield_ml_bu_ac": 59.5
         },
         "27165": {
           "acres": 0,
-          "yield_bu_ac": 55.9
+          "yield_bu_ac": 36.5,
+          "yield_ml_bu_ac": 57.7
         },
         "27167": {
           "acres": 0,
-          "yield_bu_ac": 45.2
+          "yield_bu_ac": 31.3,
+          "yield_ml_bu_ac": 55.3
         },
         "27169": {
           "acres": 0,
-          "yield_bu_ac": 48.1
+          "yield_bu_ac": 31.8,
+          "yield_ml_bu_ac": 60.6
         },
         "27171": {
           "acres": 0,
-          "yield_bu_ac": 52.7
+          "yield_bu_ac": 33.4,
+          "yield_ml_bu_ac": 58.4
         }
       },
       "missouri": {
         "29001": {
           "acres": 0,
-          "yield_bu_ac": 57.9
+          "yield_bu_ac": 32.0,
+          "yield_ml_bu_ac": 43.6
         },
         "29005": {
           "acres": 0,
-          "yield_bu_ac": 53.1
+          "yield_bu_ac": 29.9,
+          "yield_ml_bu_ac": 51.2
         },
         "29007": {
           "acres": 0,
-          "yield_bu_ac": 58.0
+          "yield_bu_ac": 31.6,
+          "yield_ml_bu_ac": 45.9
         },
         "29011": {
           "acres": 0,
-          "yield_bu_ac": 44.1
+          "yield_bu_ac": 28.3,
+          "yield_ml_bu_ac": 39.7
         },
         "29013": {
           "acres": 0,
-          "yield_bu_ac": 56.7
+          "yield_bu_ac": 29.0,
+          "yield_ml_bu_ac": 52.1
         },
         "29019": {
           "acres": 0,
-          "yield_bu_ac": 52.2
+          "yield_bu_ac": 30.1,
+          "yield_ml_bu_ac": 46.2
         },
         "29023": {
           "acres": 0,
-          "yield_bu_ac": 47.1
+          "yield_bu_ac": 36.1,
+          "yield_ml_bu_ac": 46.0
         },
         "29025": {
           "acres": 0,
-          "yield_bu_ac": 56.3
+          "yield_bu_ac": 32.0,
+          "yield_ml_bu_ac": 50.2
         },
         "29027": {
           "acres": 0,
-          "yield_bu_ac": 54.0
+          "yield_bu_ac": 30.3,
+          "yield_ml_bu_ac": 44.4
         },
         "29033": {
           "acres": 0,
-          "yield_bu_ac": 55.4
+          "yield_bu_ac": 31.8,
+          "yield_ml_bu_ac": 50.4
         },
         "29037": {
           "acres": 0,
-          "yield_bu_ac": 60.4
+          "yield_bu_ac": 31.2,
+          "yield_ml_bu_ac": 51.7
         },
         "29041": {
           "acres": 0,
-          "yield_bu_ac": 59.0
+          "yield_bu_ac": 31.0,
+          "yield_ml_bu_ac": 53.6
         },
         "29045": {
           "acres": 0,
-          "yield_bu_ac": 52.4
+          "yield_bu_ac": 31.0,
+          "yield_ml_bu_ac": 47.9
         },
         "29047": {
           "acres": 0,
-          "yield_bu_ac": 57.9
+          "yield_bu_ac": 30.7,
+          "yield_ml_bu_ac": 49.5
         },
         "29049": {
           "acres": 0,
-          "yield_bu_ac": 59.0
+          "yield_bu_ac": 31.0,
+          "yield_ml_bu_ac": 52.9
         },
         "29057": {
           "acres": 0,
-          "yield_bu_ac": 38.4
+          "yield_bu_ac": 30.0,
+          "yield_ml_bu_ac": 36.9
         },
         "29061": {
           "acres": 0,
-          "yield_bu_ac": 56.7
+          "yield_bu_ac": 32.1,
+          "yield_ml_bu_ac": 47.1
         },
         "29069": {
           "acres": 0,
-          "yield_bu_ac": 47.2
+          "yield_bu_ac": 35.3,
+          "yield_ml_bu_ac": 47.0
         },
         "29071": {
           "acres": 0,
-          "yield_bu_ac": 52.7
+          "yield_bu_ac": 30.6,
+          "yield_ml_bu_ac": 48.2
         },
         "29073": {
           "acres": 0,
-          "yield_bu_ac": 53.6
+          "yield_bu_ac": 30.3,
+          "yield_ml_bu_ac": 46.6
         },
         "29077": {
           "acres": 0,
-          "yield_bu_ac": 42.5
+          "yield_bu_ac": 32.1,
+          "yield_ml_bu_ac": 34.3
         },
         "29079": {
           "acres": 0,
-          "yield_bu_ac": 57.3
+          "yield_bu_ac": 31.2,
+          "yield_ml_bu_ac": 48.2
         },
         "29081": {
           "acres": 0,
-          "yield_bu_ac": 54.7
+          "yield_bu_ac": 31.0,
+          "yield_ml_bu_ac": 46.1
         },
         "29083": {
           "acres": 0,
-          "yield_bu_ac": 57.3
+          "yield_bu_ac": 30.7,
+          "yield_ml_bu_ac": 47.9
         },
         "29089": {
           "acres": 0,
-          "yield_bu_ac": 54.8
+          "yield_bu_ac": 31.7,
+          "yield_ml_bu_ac": 51.8
         },
         "29095": {
           "acres": 0,
-          "yield_bu_ac": 57.5
+          "yield_bu_ac": 31.8,
+          "yield_ml_bu_ac": 53.5
         },
         "29097": {
           "acres": 0,
-          "yield_bu_ac": 38.0
+          "yield_bu_ac": 28.3,
+          "yield_ml_bu_ac": 37.2
         },
         "29107": {
           "acres": 0,
-          "yield_bu_ac": 58.9
+          "yield_bu_ac": 33.1,
+          "yield_ml_bu_ac": 50.3
         },
         "29111": {
           "acres": 0,
-          "yield_bu_ac": 59.4
+          "yield_bu_ac": 31.0,
+          "yield_ml_bu_ac": 50.9
         },
         "29117": {
           "acres": 0,
-          "yield_bu_ac": 56.0
+          "yield_bu_ac": 32.3,
+          "yield_ml_bu_ac": 49.9
         },
         "29127": {
           "acres": 0,
-          "yield_bu_ac": 59.3
+          "yield_bu_ac": 32.7,
+          "yield_ml_bu_ac": 49.6
         },
         "29131": {
           "acres": 0,
-          "yield_bu_ac": 49.3
+          "yield_bu_ac": 30.9,
+          "yield_ml_bu_ac": 42.5
         },
         "29133": {
           "acres": 0,
-          "yield_bu_ac": 50.2
+          "yield_bu_ac": 33.8,
+          "yield_ml_bu_ac": 50.0
         },
         "29135": {
           "acres": 0,
-          "yield_bu_ac": 52.6
+          "yield_bu_ac": 32.4,
+          "yield_ml_bu_ac": 44.8
         },
         "29139": {
           "acres": 0,
-          "yield_bu_ac": 53.4
+          "yield_bu_ac": 32.1,
+          "yield_ml_bu_ac": 48.3
         },
         "29143": {
           "acres": 0,
-          "yield_bu_ac": 49.5
+          "yield_bu_ac": 36.0,
+          "yield_ml_bu_ac": 47.3
         },
         "29145": {
           "acres": 0,
-          "yield_bu_ac": 28.4
+          "yield_bu_ac": 29.3,
+          "yield_ml_bu_ac": 30.8
         },
         "29151": {
           "acres": 0,
-          "yield_bu_ac": 51.7
+          "yield_bu_ac": 31.1,
+          "yield_ml_bu_ac": 46.7
         },
         "29155": {
           "acres": 0,
-          "yield_bu_ac": 47.2
+          "yield_bu_ac": 36.0,
+          "yield_ml_bu_ac": 48.3
         },
         "29157": {
           "acres": 0,
-          "yield_bu_ac": 46.8
+          "yield_bu_ac": 28.5,
+          "yield_ml_bu_ac": 42.0
         },
         "29159": {
           "acres": 0,
-          "yield_bu_ac": 59.6
+          "yield_bu_ac": 32.1,
+          "yield_ml_bu_ac": 52.4
         },
         "29163": {
           "acres": 0,
-          "yield_bu_ac": 57.8
+          "yield_bu_ac": 35.1,
+          "yield_ml_bu_ac": 47.2
         },
         "29165": {
           "acres": 0,
-          "yield_bu_ac": 60.4
+          "yield_bu_ac": 31.0,
+          "yield_ml_bu_ac": 53.3
         },
         "29173": {
           "acres": 0,
-          "yield_bu_ac": 60.6
+          "yield_bu_ac": 32.9,
+          "yield_ml_bu_ac": 51.3
         },
         "29175": {
           "acres": 0,
-          "yield_bu_ac": 61.7
+          "yield_bu_ac": 30.8,
+          "yield_ml_bu_ac": 45.6
         },
         "29177": {
           "acres": 0,
-          "yield_bu_ac": 58.2
+          "yield_bu_ac": 30.1,
+          "yield_ml_bu_ac": 53.2
         },
         "29185": {
           "acres": 0,
-          "yield_bu_ac": 47.5
+          "yield_bu_ac": 30.0,
+          "yield_ml_bu_ac": 41.6
         },
         "29186": {
           "acres": 0,
-          "yield_bu_ac": 49.9
+          "yield_bu_ac": 30.1,
+          "yield_ml_bu_ac": 41.3
         },
         "29195": {
           "acres": 0,
-          "yield_bu_ac": 58.8
+          "yield_bu_ac": 32.3,
+          "yield_ml_bu_ac": 49.8
         },
         "29205": {
           "acres": 0,
-          "yield_bu_ac": 60.8
+          "yield_bu_ac": 30.6,
+          "yield_ml_bu_ac": 48.4
         },
         "29207": {
           "acres": 0,
-          "yield_bu_ac": 47.2
+          "yield_bu_ac": 34.2,
+          "yield_ml_bu_ac": 46.6
         },
         "29211": {
           "acres": 0,
-          "yield_bu_ac": 55.6
+          "yield_bu_ac": 31.4,
+          "yield_ml_bu_ac": 45.0
         },
         "29219": {
           "acres": 0,
-          "yield_bu_ac": 54.3
+          "yield_bu_ac": 31.6,
+          "yield_ml_bu_ac": 44.9
         },
         "29227": {
           "acres": 0,
-          "yield_bu_ac": 52.4
+          "yield_bu_ac": 32.4,
+          "yield_ml_bu_ac": 48.4
         }
       },
       "wisconsin": {
         "55001": {
           "acres": 0,
-          "yield_bu_ac": 60.7
+          "yield_bu_ac": 29.3,
+          "yield_ml_bu_ac": 53.5
         },
         "55005": {
           "acres": 0,
-          "yield_bu_ac": 44.6
+          "yield_bu_ac": 29.5,
+          "yield_ml_bu_ac": 57.7
         },
         "55009": {
           "acres": 0,
-          "yield_bu_ac": 52.6
+          "yield_bu_ac": 25.1,
+          "yield_ml_bu_ac": 62.5
         },
         "55011": {
           "acres": 0,
-          "yield_bu_ac": 54.3
+          "yield_bu_ac": 30.4,
+          "yield_ml_bu_ac": 57.5
         },
         "55013": {
           "acres": 0,
-          "yield_bu_ac": 47.0
+          "yield_bu_ac": 28.2,
+          "yield_ml_bu_ac": 57.0
         },
         "55015": {
           "acres": 0,
-          "yield_bu_ac": 56.6
+          "yield_bu_ac": 26.5,
+          "yield_ml_bu_ac": 59.9
         },
         "55017": {
           "acres": 0,
-          "yield_bu_ac": 54.1
+          "yield_bu_ac": 28.4,
+          "yield_ml_bu_ac": 59.2
         },
         "55019": {
           "acres": 0,
-          "yield_bu_ac": 55.4
+          "yield_bu_ac": 28.1,
+          "yield_ml_bu_ac": 56.7
         },
         "55021": {
           "acres": 0,
-          "yield_bu_ac": 63.1
+          "yield_bu_ac": 28.5,
+          "yield_ml_bu_ac": 59.9
         },
         "55023": {
           "acres": 0,
-          "yield_bu_ac": 60.8
+          "yield_bu_ac": 30.0,
+          "yield_ml_bu_ac": 59.0
         },
         "55025": {
           "acres": 0,
-          "yield_bu_ac": 63.2
+          "yield_bu_ac": 28.0,
+          "yield_ml_bu_ac": 59.0
         },
         "55027": {
           "acres": 0,
-          "yield_bu_ac": 59.7
+          "yield_bu_ac": 28.3,
+          "yield_ml_bu_ac": 61.7
         },
         "55029": {
           "acres": 0,
-          "yield_bu_ac": 42.7
+          "yield_bu_ac": 22.9,
+          "yield_ml_bu_ac": 62.7
         },
         "55033": {
           "acres": 0,
-          "yield_bu_ac": 54.8
+          "yield_bu_ac": 30.1,
+          "yield_ml_bu_ac": 55.3
         },
         "55035": {
           "acres": 0,
-          "yield_bu_ac": 56.9
+          "yield_bu_ac": 30.2,
+          "yield_ml_bu_ac": 57.8
         },
         "55039": {
           "acres": 0,
-          "yield_bu_ac": 55.0
+          "yield_bu_ac": 27.0,
+          "yield_ml_bu_ac": 57.3
         },
         "55041": {
           "acres": 0,
-          "yield_bu_ac": 32.7
+          "yield_bu_ac": 28.2,
+          "yield_ml_bu_ac": 60.4
         },
         "55043": {
           "acres": 0,
-          "yield_bu_ac": 61.1
+          "yield_bu_ac": 30.7,
+          "yield_ml_bu_ac": 60.6
         },
         "55045": {
           "acres": 0,
-          "yield_bu_ac": 62.2
+          "yield_bu_ac": 28.8,
+          "yield_ml_bu_ac": 59.5
         },
         "55047": {
           "acres": 0,
-          "yield_bu_ac": 59.9
+          "yield_bu_ac": 27.5,
+          "yield_ml_bu_ac": 57.4
         },
         "55049": {
           "acres": 0,
-          "yield_bu_ac": 61.1
+          "yield_bu_ac": 29.6,
+          "yield_ml_bu_ac": 58.5
         },
         "55053": {
           "acres": 0,
-          "yield_bu_ac": 53.3
+          "yield_bu_ac": 29.5,
+          "yield_ml_bu_ac": 55.8
         },
         "55055": {
           "acres": 0,
-          "yield_bu_ac": 62.1
+          "yield_bu_ac": 27.1,
+          "yield_ml_bu_ac": 59.2
         },
         "55057": {
           "acres": 0,
-          "yield_bu_ac": 59.2
+          "yield_bu_ac": 28.4,
+          "yield_ml_bu_ac": 53.8
         },
         "55059": {
           "acres": 0,
-          "yield_bu_ac": 55.3
+          "yield_bu_ac": 26.6,
+          "yield_ml_bu_ac": 61.3
         },
         "55063": {
           "acres": 0,
-          "yield_bu_ac": 60.5
+          "yield_bu_ac": 28.7,
+          "yield_ml_bu_ac": 57.5
         },
         "55065": {
           "acres": 0,
-          "yield_bu_ac": 62.8
+          "yield_bu_ac": 30.1,
+          "yield_ml_bu_ac": 60.1
         },
         "55067": {
           "acres": 0,
-          "yield_bu_ac": 34.2
+          "yield_bu_ac": 27.9,
+          "yield_ml_bu_ac": 63.9
         },
         "55069": {
           "acres": 0,
-          "yield_bu_ac": 35.7
+          "yield_bu_ac": 28.1,
+          "yield_ml_bu_ac": 58.8
         },
         "55071": {
           "acres": 0,
-          "yield_bu_ac": 52.7
+          "yield_bu_ac": 24.9,
+          "yield_ml_bu_ac": 57.4
         },
         "55073": {
           "acres": 0,
-          "yield_bu_ac": 40.8
+          "yield_bu_ac": 28.6,
+          "yield_ml_bu_ac": 58.0
         },
         "55075": {
           "acres": 0,
-          "yield_bu_ac": 44.0
+          "yield_bu_ac": 24.9,
+          "yield_ml_bu_ac": 62.4
         },
         "55077": {
           "acres": 0,
-          "yield_bu_ac": 63.2
+          "yield_bu_ac": 28.9,
+          "yield_ml_bu_ac": 58.9
         },
         "55081": {
           "acres": 0,
-          "yield_bu_ac": 58.1
+          "yield_bu_ac": 28.4,
+          "yield_ml_bu_ac": 52.2
         },
         "55083": {
           "acres": 0,
-          "yield_bu_ac": 52.5
+          "yield_bu_ac": 26.9,
+          "yield_ml_bu_ac": 62.1
         },
         "55087": {
           "acres": 0,
-          "yield_bu_ac": 56.5
+          "yield_bu_ac": 27.5,
+          "yield_ml_bu_ac": 63.3
         },
         "55089": {
           "acres": 0,
-          "yield_bu_ac": 55.7
+          "yield_bu_ac": 26.0,
+          "yield_ml_bu_ac": 55.7
         },
         "55091": {
           "acres": 0,
-          "yield_bu_ac": 52.0
+          "yield_bu_ac": 29.8,
+          "yield_ml_bu_ac": 59.6
         },
         "55093": {
           "acres": 0,
-          "yield_bu_ac": 55.9
+          "yield_bu_ac": 31.2,
+          "yield_ml_bu_ac": 58.6
         },
         "55095": {
           "acres": 0,
-          "yield_bu_ac": 52.3
+          "yield_bu_ac": 29.7,
+          "yield_ml_bu_ac": 60.5
         },
         "55097": {
           "acres": 0,
-          "yield_bu_ac": 48.9
+          "yield_bu_ac": 29.6,
+          "yield_ml_bu_ac": 59.5
         },
         "55099": {
           "acres": 0,
-          "yield_bu_ac": 32.3
+          "yield_bu_ac": 26.9,
+          "yield_ml_bu_ac": 63.5
         },
         "55101": {
           "acres": 0,
-          "yield_bu_ac": 55.1
+          "yield_bu_ac": 25.7,
+          "yield_ml_bu_ac": 61.8
         },
         "55103": {
           "acres": 0,
-          "yield_bu_ac": 61.0
+          "yield_bu_ac": 30.1,
+          "yield_ml_bu_ac": 59.2
         },
         "55105": {
           "acres": 0,
-          "yield_bu_ac": 60.1
+          "yield_bu_ac": 27.1,
+          "yield_ml_bu_ac": 58.7
         },
         "55107": {
           "acres": 0,
-          "yield_bu_ac": 41.2
+          "yield_bu_ac": 26.9,
+          "yield_ml_bu_ac": 61.3
         },
         "55109": {
           "acres": 0,
-          "yield_bu_ac": 54.1
+          "yield_bu_ac": 30.7,
+          "yield_ml_bu_ac": 59.5
         },
         "55111": {
           "acres": 0,
-          "yield_bu_ac": 62.6
+          "yield_bu_ac": 29.7,
+          "yield_ml_bu_ac": 57.4
         },
         "55113": {
           "acres": 0,
-          "yield_bu_ac": 39.6
+          "yield_bu_ac": 27.3,
+          "yield_ml_bu_ac": 59.0
         },
         "55115": {
           "acres": 0,
-          "yield_bu_ac": 55.4
+          "yield_bu_ac": 27.8,
+          "yield_ml_bu_ac": 65.9
         },
         "55117": {
           "acres": 0,
-          "yield_bu_ac": 54.7
+          "yield_bu_ac": 26.3,
+          "yield_ml_bu_ac": 57.2
         },
         "55119": {
           "acres": 0,
-          "yield_bu_ac": 39.4
+          "yield_bu_ac": 26.3,
+          "yield_ml_bu_ac": 59.4
         },
         "55121": {
           "acres": 0,
-          "yield_bu_ac": 62.3
+          "yield_bu_ac": 29.4,
+          "yield_ml_bu_ac": 59.4
         },
         "55123": {
           "acres": 0,
-          "yield_bu_ac": 59.6
+          "yield_bu_ac": 28.8,
+          "yield_ml_bu_ac": 55.8
         },
         "55127": {
           "acres": 0,
-          "yield_bu_ac": 57.6
+          "yield_bu_ac": 26.9,
+          "yield_ml_bu_ac": 59.8
         },
         "55129": {
           "acres": 0,
-          "yield_bu_ac": 40.0
+          "yield_bu_ac": 28.4,
+          "yield_ml_bu_ac": 59.5
         },
         "55131": {
           "acres": 0,
-          "yield_bu_ac": 58.0
+          "yield_bu_ac": 27.8,
+          "yield_ml_bu_ac": 57.0
         },
         "55133": {
           "acres": 0,
-          "yield_bu_ac": 57.9
+          "yield_bu_ac": 26.7,
+          "yield_ml_bu_ac": 56.9
         },
         "55135": {
           "acres": 0,
-          "yield_bu_ac": 56.5
+          "yield_bu_ac": 28.6,
+          "yield_ml_bu_ac": 61.6
         },
         "55137": {
           "acres": 0,
-          "yield_bu_ac": 54.3
+          "yield_bu_ac": 27.3,
+          "yield_ml_bu_ac": 55.9
         },
         "55139": {
           "acres": 0,
-          "yield_bu_ac": 57.7
+          "yield_bu_ac": 27.6,
+          "yield_ml_bu_ac": 56.0
         },
         "55141": {
           "acres": 0,
-          "yield_bu_ac": 51.2
+          "yield_bu_ac": 29.1,
+          "yield_ml_bu_ac": 56.2
         }
       }
     },
@@ -1234,1195 +1566,1526 @@
       "illinois": {
         "17003": {
           "acres": 0,
-          "yield_bu_ac": 47.6
+          "yield_bu_ac": 25.6,
+          "yield_ml_bu_ac": 50.1
         },
         "17005": {
           "acres": 0,
-          "yield_bu_ac": 29.8
+          "yield_bu_ac": 20.8,
+          "yield_ml_bu_ac": 57.5
         },
         "17007": {
           "acres": 0,
-          "yield_bu_ac": 37.7
+          "yield_bu_ac": 19.8,
+          "yield_ml_bu_ac": 55.2
         },
         "17011": {
           "acres": 0,
-          "yield_bu_ac": 49.1
+          "yield_bu_ac": 20.7,
+          "yield_ml_bu_ac": 56.3
         },
         "17013": {
           "acres": 0,
-          "yield_bu_ac": 40.5
+          "yield_bu_ac": 22.3,
+          "yield_ml_bu_ac": 50.3
         },
         "17015": {
           "acres": 0,
-          "yield_bu_ac": 37.7
+          "yield_bu_ac": 19.7,
+          "yield_ml_bu_ac": 59.8
         },
         "17023": {
           "acres": 0,
-          "yield_bu_ac": 52.0
+          "yield_bu_ac": 21.7,
+          "yield_ml_bu_ac": 59.7
         },
         "17025": {
           "acres": 0,
-          "yield_bu_ac": 47.0
+          "yield_bu_ac": 22.1,
+          "yield_ml_bu_ac": 52.7
         },
         "17033": {
           "acres": 0,
-          "yield_bu_ac": 52.1
+          "yield_bu_ac": 21.2,
+          "yield_ml_bu_ac": 56.5
         },
         "17037": {
           "acres": 0,
-          "yield_bu_ac": 44.5
+          "yield_bu_ac": 19.7,
+          "yield_ml_bu_ac": 58.7
         },
         "17041": {
           "acres": 0,
-          "yield_bu_ac": 38.5
+          "yield_bu_ac": 20.3,
+          "yield_ml_bu_ac": 60.7
         },
         "17049": {
           "acres": 0,
-          "yield_bu_ac": 40.3
+          "yield_bu_ac": 22.8,
+          "yield_ml_bu_ac": 57.6
         },
         "17055": {
           "acres": 0,
-          "yield_bu_ac": 50.8
+          "yield_bu_ac": 24.0,
+          "yield_ml_bu_ac": 47.8
         },
         "17057": {
           "acres": 0,
-          "yield_bu_ac": 30.2
+          "yield_bu_ac": 22.7,
+          "yield_ml_bu_ac": 51.4
         },
         "17061": {
           "acres": 0,
-          "yield_bu_ac": 35.8
+          "yield_bu_ac": 21.8,
+          "yield_ml_bu_ac": 58.6
         },
         "17071": {
           "acres": 0,
-          "yield_bu_ac": 36.6
+          "yield_bu_ac": 22.4,
+          "yield_ml_bu_ac": 58.4
         },
         "17075": {
           "acres": 0,
-          "yield_bu_ac": 39.7
+          "yield_bu_ac": 21.3,
+          "yield_ml_bu_ac": 59.8
         },
         "17077": {
           "acres": 0,
-          "yield_bu_ac": 51.9
+          "yield_bu_ac": 23.5,
+          "yield_ml_bu_ac": 52.1
         },
         "17079": {
           "acres": 0,
-          "yield_bu_ac": 55.3
+          "yield_bu_ac": 21.3,
+          "yield_ml_bu_ac": 58.3
         },
         "17081": {
           "acres": 0,
-          "yield_bu_ac": 50.0
+          "yield_bu_ac": 21.2,
+          "yield_ml_bu_ac": 47.0
         },
         "17085": {
           "acres": 0,
-          "yield_bu_ac": 38.6
+          "yield_bu_ac": 19.6,
+          "yield_ml_bu_ac": 57.6
         },
         "17087": {
           "acres": 0,
-          "yield_bu_ac": 51.1
+          "yield_bu_ac": 24.2,
+          "yield_ml_bu_ac": 48.2
         },
         "17089": {
           "acres": 0,
-          "yield_bu_ac": 37.1
+          "yield_bu_ac": 19.8,
+          "yield_ml_bu_ac": 56.2
         },
         "17095": {
           "acres": 0,
-          "yield_bu_ac": 33.5
+          "yield_bu_ac": 20.8,
+          "yield_ml_bu_ac": 56.0
         },
         "17097": {
           "acres": 0,
-          "yield_bu_ac": 38.9
+          "yield_bu_ac": 18.5,
+          "yield_ml_bu_ac": 49.6
         },
         "17099": {
           "acres": 0,
-          "yield_bu_ac": 54.0
+          "yield_bu_ac": 21.1,
+          "yield_ml_bu_ac": 59.7
         },
         "17101": {
           "acres": 0,
-          "yield_bu_ac": 53.9
+          "yield_bu_ac": 22.7,
+          "yield_ml_bu_ac": 56.2
         },
         "17105": {
           "acres": 0,
-          "yield_bu_ac": 40.3
+          "yield_bu_ac": 20.7,
+          "yield_ml_bu_ac": 60.3
         },
         "17111": {
           "acres": 0,
-          "yield_bu_ac": 41.3
+          "yield_bu_ac": 19.7,
+          "yield_ml_bu_ac": 54.0
         },
         "17113": {
           "acres": 0,
-          "yield_bu_ac": 37.2
+          "yield_bu_ac": 22.0,
+          "yield_ml_bu_ac": 62.3
         },
         "17115": {
           "acres": 0,
-          "yield_bu_ac": 37.8
+          "yield_bu_ac": 21.3,
+          "yield_ml_bu_ac": 60.2
         },
         "17117": {
           "acres": 0,
-          "yield_bu_ac": 41.4
+          "yield_bu_ac": 21.7,
+          "yield_ml_bu_ac": 58.8
         },
         "17119": {
           "acres": 0,
-          "yield_bu_ac": 49.9
+          "yield_bu_ac": 22.2,
+          "yield_ml_bu_ac": 53.9
         },
         "17121": {
           "acres": 0,
-          "yield_bu_ac": 46.4
+          "yield_bu_ac": 21.8,
+          "yield_ml_bu_ac": 48.4
         },
         "17123": {
           "acres": 0,
-          "yield_bu_ac": 55.9
+          "yield_bu_ac": 21.0,
+          "yield_ml_bu_ac": 60.1
         },
         "17125": {
           "acres": 0,
-          "yield_bu_ac": 47.9
+          "yield_bu_ac": 22.1,
+          "yield_ml_bu_ac": 55.0
         },
         "17127": {
           "acres": 0,
-          "yield_bu_ac": 50.1
+          "yield_bu_ac": 24.5,
+          "yield_ml_bu_ac": 52.1
         },
         "17133": {
           "acres": 0,
-          "yield_bu_ac": 51.3
+          "yield_bu_ac": 22.4,
+          "yield_ml_bu_ac": 48.4
         },
         "17139": {
           "acres": 0,
-          "yield_bu_ac": 35.7
+          "yield_bu_ac": 20.9,
+          "yield_ml_bu_ac": 61.3
         },
         "17143": {
           "acres": 0,
-          "yield_bu_ac": 30.1
+          "yield_bu_ac": 21.0,
+          "yield_ml_bu_ac": 55.2
         },
         "17145": {
           "acres": 0,
-          "yield_bu_ac": 47.7
+          "yield_bu_ac": 23.2,
+          "yield_ml_bu_ac": 48.2
         },
         "17147": {
           "acres": 0,
-          "yield_bu_ac": 40.3
+          "yield_bu_ac": 22.0,
+          "yield_ml_bu_ac": 61.6
         },
         "17151": {
           "acres": 0,
-          "yield_bu_ac": 50.3
+          "yield_bu_ac": 24.6,
+          "yield_ml_bu_ac": 50.7
         },
         "17153": {
           "acres": 0,
-          "yield_bu_ac": 48.9
+          "yield_bu_ac": 25.1,
+          "yield_ml_bu_ac": 48.6
         },
         "17155": {
           "acres": 0,
-          "yield_bu_ac": 53.6
+          "yield_bu_ac": 20.1,
+          "yield_ml_bu_ac": 58.3
         },
         "17157": {
           "acres": 0,
-          "yield_bu_ac": 52.3
+          "yield_bu_ac": 22.3,
+          "yield_ml_bu_ac": 45.3
         },
         "17159": {
           "acres": 0,
-          "yield_bu_ac": 54.0
+          "yield_bu_ac": 23.4,
+          "yield_ml_bu_ac": 52.9
         },
         "17161": {
           "acres": 0,
-          "yield_bu_ac": 32.2
+          "yield_bu_ac": 20.2,
+          "yield_ml_bu_ac": 60.2
         },
         "17163": {
           "acres": 0,
-          "yield_bu_ac": 46.3
+          "yield_bu_ac": 22.9,
+          "yield_ml_bu_ac": 52.3
         },
         "17167": {
           "acres": 0,
-          "yield_bu_ac": 31.0
+          "yield_bu_ac": 21.9,
+          "yield_ml_bu_ac": 59.6
         },
         "17173": {
           "acres": 0,
-          "yield_bu_ac": 33.6
+          "yield_bu_ac": 20.9,
+          "yield_ml_bu_ac": 58.6
         },
         "17175": {
           "acres": 0,
-          "yield_bu_ac": 44.0
+          "yield_bu_ac": 20.5,
+          "yield_ml_bu_ac": 61.3
         },
         "17177": {
           "acres": 0,
-          "yield_bu_ac": 40.1
+          "yield_bu_ac": 19.4,
+          "yield_ml_bu_ac": 57.0
         },
         "17179": {
           "acres": 0,
-          "yield_bu_ac": 35.5
+          "yield_bu_ac": 21.7,
+          "yield_ml_bu_ac": 58.3
         },
         "17183": {
           "acres": 0,
-          "yield_bu_ac": 39.2
+          "yield_bu_ac": 21.2,
+          "yield_ml_bu_ac": 59.1
         },
         "17185": {
           "acres": 0,
-          "yield_bu_ac": 52.7
+          "yield_bu_ac": 22.2,
+          "yield_ml_bu_ac": 54.9
         },
         "17189": {
           "acres": 0,
-          "yield_bu_ac": 37.1
+          "yield_bu_ac": 21.7,
+          "yield_ml_bu_ac": 49.3
         },
         "17191": {
           "acres": 0,
-          "yield_bu_ac": 47.1
+          "yield_bu_ac": 21.7,
+          "yield_ml_bu_ac": 48.4
         },
         "17195": {
           "acres": 0,
-          "yield_bu_ac": 40.7
+          "yield_bu_ac": 19.8,
+          "yield_ml_bu_ac": 63.4
         },
         "17199": {
           "acres": 0,
-          "yield_bu_ac": 51.1
+          "yield_bu_ac": 24.5,
+          "yield_ml_bu_ac": 47.1
         },
         "17201": {
           "acres": 0,
-          "yield_bu_ac": 37.6
+          "yield_bu_ac": 19.3,
+          "yield_ml_bu_ac": 56.3
         },
         "17203": {
           "acres": 0,
-          "yield_bu_ac": 43.0
+          "yield_bu_ac": 20.6,
+          "yield_ml_bu_ac": 60.0
         }
       },
       "indiana": {
         "18001": {
           "acres": 0,
-          "yield_bu_ac": 47.7
+          "yield_bu_ac": 31.3,
+          "yield_ml_bu_ac": 54.0
         },
         "18003": {
           "acres": 0,
-          "yield_bu_ac": 47.2
+          "yield_bu_ac": 27.9,
+          "yield_ml_bu_ac": 55.4
         },
         "18005": {
           "acres": 0,
-          "yield_bu_ac": 45.2
+          "yield_bu_ac": 31.4,
+          "yield_ml_bu_ac": 58.8
         },
         "18007": {
           "acres": 0,
-          "yield_bu_ac": 53.3
+          "yield_bu_ac": 31.4,
+          "yield_ml_bu_ac": 62.4
         },
         "18009": {
           "acres": 0,
-          "yield_bu_ac": 47.3
+          "yield_bu_ac": 29.6,
+          "yield_ml_bu_ac": 58.3
         },
         "18011": {
           "acres": 0,
-          "yield_bu_ac": 48.5
+          "yield_bu_ac": 30.1,
+          "yield_ml_bu_ac": 62.9
         },
         "18013": {
           "acres": 0,
-          "yield_bu_ac": 42.2
+          "yield_bu_ac": 29.7,
+          "yield_ml_bu_ac": 58.1
         },
         "18015": {
           "acres": 0,
-          "yield_bu_ac": 49.6
+          "yield_bu_ac": 29.9,
+          "yield_ml_bu_ac": 61.6
         },
         "18017": {
           "acres": 0,
-          "yield_bu_ac": 47.6
+          "yield_bu_ac": 31.0,
+          "yield_ml_bu_ac": 57.4
         },
         "18019": {
           "acres": 0,
-          "yield_bu_ac": 32.2
+          "yield_bu_ac": 30.3,
+          "yield_ml_bu_ac": 46.6
         },
         "18021": {
           "acres": 0,
-          "yield_bu_ac": 51.3
+          "yield_bu_ac": 30.3,
+          "yield_ml_bu_ac": 53.4
         },
         "18023": {
           "acres": 0,
-          "yield_bu_ac": 50.7
+          "yield_bu_ac": 30.1,
+          "yield_ml_bu_ac": 61.6
         },
         "18027": {
           "acres": 0,
-          "yield_bu_ac": 41.8
+          "yield_bu_ac": 29.7,
+          "yield_ml_bu_ac": 51.0
         },
         "18029": {
           "acres": 0,
-          "yield_bu_ac": 44.8
+          "yield_bu_ac": 33.0,
+          "yield_ml_bu_ac": 53.6
         },
         "18031": {
           "acres": 0,
-          "yield_bu_ac": 46.0
+          "yield_bu_ac": 33.7,
+          "yield_ml_bu_ac": 58.9
         },
         "18033": {
           "acres": 0,
-          "yield_bu_ac": 48.1
+          "yield_bu_ac": 28.7,
+          "yield_ml_bu_ac": 54.0
         },
         "18037": {
           "acres": 0,
-          "yield_bu_ac": 36.9
+          "yield_bu_ac": 28.7,
+          "yield_ml_bu_ac": 50.9
         },
         "18041": {
           "acres": 0,
-          "yield_bu_ac": 44.4
+          "yield_bu_ac": 33.0,
+          "yield_ml_bu_ac": 55.0
         },
         "18047": {
           "acres": 0,
-          "yield_bu_ac": 46.8
+          "yield_bu_ac": 32.6,
+          "yield_ml_bu_ac": 58.2
         },
         "18049": {
           "acres": 0,
-          "yield_bu_ac": 45.5
+          "yield_bu_ac": 30.6,
+          "yield_ml_bu_ac": 53.0
         },
         "18051": {
           "acres": 0,
-          "yield_bu_ac": 48.0
+          "yield_bu_ac": 32.5,
+          "yield_ml_bu_ac": 54.5
         },
         "18055": {
           "acres": 0,
-          "yield_bu_ac": 54.5
+          "yield_bu_ac": 29.5,
+          "yield_ml_bu_ac": 54.4
         },
         "18057": {
           "acres": 0,
-          "yield_bu_ac": 48.7
+          "yield_bu_ac": 30.0,
+          "yield_ml_bu_ac": 57.4
         },
         "18059": {
           "acres": 0,
-          "yield_bu_ac": 47.4
+          "yield_bu_ac": 31.4,
+          "yield_ml_bu_ac": 56.8
         },
         "18061": {
           "acres": 0,
-          "yield_bu_ac": 30.5
+          "yield_bu_ac": 30.4,
+          "yield_ml_bu_ac": 45.8
         },
         "18063": {
           "acres": 0,
-          "yield_bu_ac": 45.4
+          "yield_bu_ac": 30.1,
+          "yield_ml_bu_ac": 62.0
         },
         "18065": {
           "acres": 0,
-          "yield_bu_ac": 47.3
+          "yield_bu_ac": 31.0,
+          "yield_ml_bu_ac": 56.7
         },
         "18067": {
           "acres": 0,
-          "yield_bu_ac": 49.3
+          "yield_bu_ac": 28.8,
+          "yield_ml_bu_ac": 60.5
         },
         "18069": {
           "acres": 0,
-          "yield_bu_ac": 46.9
+          "yield_bu_ac": 28.4,
+          "yield_ml_bu_ac": 58.3
         },
         "18073": {
           "acres": 0,
-          "yield_bu_ac": 51.0
+          "yield_bu_ac": 29.7,
+          "yield_ml_bu_ac": 57.4
         },
         "18075": {
           "acres": 0,
-          "yield_bu_ac": 46.6
+          "yield_bu_ac": 30.0,
+          "yield_ml_bu_ac": 56.9
         },
         "18081": {
           "acres": 0,
-          "yield_bu_ac": 47.4
+          "yield_bu_ac": 29.5,
+          "yield_ml_bu_ac": 60.3
         },
         "18085": {
           "acres": 0,
-          "yield_bu_ac": 47.5
+          "yield_bu_ac": 29.2,
+          "yield_ml_bu_ac": 56.6
         },
         "18087": {
           "acres": 0,
-          "yield_bu_ac": 48.5
+          "yield_bu_ac": 27.2,
+          "yield_ml_bu_ac": 52.4
         },
         "18089": {
           "acres": 0,
-          "yield_bu_ac": 47.7
+          "yield_bu_ac": 29.4,
+          "yield_ml_bu_ac": 55.5
         },
         "18091": {
           "acres": 0,
-          "yield_bu_ac": 50.3
+          "yield_bu_ac": 26.7,
+          "yield_ml_bu_ac": 55.0
         },
         "18093": {
           "acres": 0,
-          "yield_bu_ac": 35.9
+          "yield_bu_ac": 30.1,
+          "yield_ml_bu_ac": 46.5
         },
         "18095": {
           "acres": 0,
-          "yield_bu_ac": 46.6
+          "yield_bu_ac": 30.6,
+          "yield_ml_bu_ac": 56.3
         },
         "18099": {
           "acres": 0,
-          "yield_bu_ac": 48.1
+          "yield_bu_ac": 28.2,
+          "yield_ml_bu_ac": 57.8
         },
         "18103": {
           "acres": 0,
-          "yield_bu_ac": 47.6
+          "yield_bu_ac": 28.9,
+          "yield_ml_bu_ac": 56.4
         },
         "18107": {
           "acres": 0,
-          "yield_bu_ac": 52.7
+          "yield_bu_ac": 30.9,
+          "yield_ml_bu_ac": 59.3
         },
         "18109": {
           "acres": 0,
-          "yield_bu_ac": 48.0
+          "yield_bu_ac": 30.4,
+          "yield_ml_bu_ac": 58.0
         },
         "18111": {
           "acres": 0,
-          "yield_bu_ac": 48.8
+          "yield_bu_ac": 28.1,
+          "yield_ml_bu_ac": 63.0
         },
         "18113": {
           "acres": 0,
-          "yield_bu_ac": 47.4
+          "yield_bu_ac": 27.4,
+          "yield_ml_bu_ac": 55.4
         },
         "18123": {
           "acres": 0,
-          "yield_bu_ac": 43.4
+          "yield_bu_ac": 33.9,
+          "yield_ml_bu_ac": 52.1
         },
         "18125": {
           "acres": 0,
-          "yield_bu_ac": 43.5
+          "yield_bu_ac": 30.5,
+          "yield_ml_bu_ac": 51.1
         },
         "18129": {
           "acres": 0,
-          "yield_bu_ac": 52.1
+          "yield_bu_ac": 35.9,
+          "yield_ml_bu_ac": 53.1
         },
         "18145": {
           "acres": 0,
-          "yield_bu_ac": 47.8
+          "yield_bu_ac": 32.0,
+          "yield_ml_bu_ac": 56.6
         },
         "18147": {
           "acres": 0,
-          "yield_bu_ac": 50.0
+          "yield_bu_ac": 33.9,
+          "yield_ml_bu_ac": 54.9
         },
         "18151": {
           "acres": 0,
-          "yield_bu_ac": 48.1
+          "yield_bu_ac": 28.9,
+          "yield_ml_bu_ac": 54.0
         },
         "18153": {
           "acres": 0,
-          "yield_bu_ac": 53.8
+          "yield_bu_ac": 30.1,
+          "yield_ml_bu_ac": 55.3
         },
         "18157": {
           "acres": 0,
-          "yield_bu_ac": 51.5
+          "yield_bu_ac": 30.7,
+          "yield_ml_bu_ac": 61.6
         },
         "18159": {
           "acres": 0,
-          "yield_bu_ac": 48.8
+          "yield_bu_ac": 30.9,
+          "yield_ml_bu_ac": 63.9
         },
         "18161": {
           "acres": 0,
-          "yield_bu_ac": 47.1
+          "yield_bu_ac": 33.3,
+          "yield_ml_bu_ac": 56.1
         },
         "18171": {
           "acres": 0,
-          "yield_bu_ac": 53.4
+          "yield_bu_ac": 33.4,
+          "yield_ml_bu_ac": 59.4
         },
         "18175": {
           "acres": 0,
-          "yield_bu_ac": 30.8
+          "yield_bu_ac": 29.0,
+          "yield_ml_bu_ac": 48.0
         },
         "18179": {
           "acres": 0,
-          "yield_bu_ac": 44.8
+          "yield_bu_ac": 30.7,
+          "yield_ml_bu_ac": 55.0
         },
         "18183": {
           "acres": 0,
-          "yield_bu_ac": 46.8
+          "yield_bu_ac": 29.0,
+          "yield_ml_bu_ac": 59.4
         }
       },
       "minnesota": {
         "27003": {
           "acres": 0,
-          "yield_bu_ac": 31.6
+          "yield_bu_ac": 28.0,
+          "yield_ml_bu_ac": 57.8
         },
         "27005": {
           "acres": 0,
-          "yield_bu_ac": 32.0
+          "yield_bu_ac": 29.1,
+          "yield_ml_bu_ac": 56.4
         },
         "27007": {
           "acres": 0,
-          "yield_bu_ac": 34.2
+          "yield_bu_ac": 26.4,
+          "yield_ml_bu_ac": 54.3
         },
         "27011": {
           "acres": 0,
-          "yield_bu_ac": 49.2
+          "yield_bu_ac": 34.6,
+          "yield_ml_bu_ac": 57.1
         },
         "27013": {
           "acres": 0,
-          "yield_bu_ac": 43.9
+          "yield_bu_ac": 35.8,
+          "yield_ml_bu_ac": 59.3
         },
         "27015": {
           "acres": 0,
-          "yield_bu_ac": 37.7
+          "yield_bu_ac": 35.1,
+          "yield_ml_bu_ac": 58.8
         },
         "27017": {
           "acres": 0,
-          "yield_bu_ac": 42.4
+          "yield_bu_ac": 26.8,
+          "yield_ml_bu_ac": 60.5
         },
         "27019": {
           "acres": 0,
-          "yield_bu_ac": 46.7
+          "yield_bu_ac": 35.3,
+          "yield_ml_bu_ac": 58.1
+        },
+        "27021": {
+          "acres": 0,
+          "yield_bu_ac": 18.0,
+          "yield_ml_bu_ac": 38.0
+        },
+        "27023": {
+          "acres": 0,
+          "yield_bu_ac": 20.1,
+          "yield_ml_bu_ac": 57.8
+        },
+        "27027": {
+          "acres": 0,
+          "yield_bu_ac": 18.7,
+          "yield_ml_bu_ac": 40.8
+        },
+        "27029": {
+          "acres": 0,
+          "yield_bu_ac": 18.0,
+          "yield_ml_bu_ac": 37.8
+        },
+        "27033": {
+          "acres": 0,
+          "yield_bu_ac": 20.3,
+          "yield_ml_bu_ac": 56.7
+        },
+        "27037": {
+          "acres": 0,
+          "yield_bu_ac": 19.7,
+          "yield_ml_bu_ac": 56.7
+        },
+        "27039": {
+          "acres": 0,
+          "yield_bu_ac": 21.5,
+          "yield_ml_bu_ac": 56.5
         },
         "27041": {
           "acres": 0,
-          "yield_bu_ac": 47.3
+          "yield_bu_ac": 30.7,
+          "yield_ml_bu_ac": 62.2
         },
         "27043": {
           "acres": 0,
-          "yield_bu_ac": 47.0
+          "yield_bu_ac": 35.7,
+          "yield_ml_bu_ac": 57.0
         },
         "27045": {
           "acres": 0,
-          "yield_bu_ac": 51.0
+          "yield_bu_ac": 34.5,
+          "yield_ml_bu_ac": 60.4
         },
         "27047": {
           "acres": 0,
-          "yield_bu_ac": 43.0
+          "yield_bu_ac": 35.5,
+          "yield_ml_bu_ac": 55.8
         },
         "27049": {
           "acres": 0,
-          "yield_bu_ac": 48.3
+          "yield_bu_ac": 34.4,
+          "yield_ml_bu_ac": 62.3
         },
         "27051": {
           "acres": 0,
-          "yield_bu_ac": 47.0
+          "yield_bu_ac": 32.4,
+          "yield_ml_bu_ac": 59.7
         },
         "27055": {
           "acres": 0,
-          "yield_bu_ac": 49.6
+          "yield_bu_ac": 29.9,
+          "yield_ml_bu_ac": 60.0
         },
         "27057": {
           "acres": 0,
-          "yield_bu_ac": 33.6
+          "yield_bu_ac": 28.4,
+          "yield_ml_bu_ac": 57.8
         },
         "27059": {
           "acres": 0,
-          "yield_bu_ac": 36.9
+          "yield_bu_ac": 28.4,
+          "yield_ml_bu_ac": 61.8
         },
         "27061": {
           "acres": 0,
-          "yield_bu_ac": 22.3
+          "yield_bu_ac": 25.6,
+          "yield_ml_bu_ac": 55.9
         },
         "27063": {
           "acres": 0,
-          "yield_bu_ac": 47.8
+          "yield_bu_ac": 35.5,
+          "yield_ml_bu_ac": 55.7
         },
         "27065": {
           "acres": 0,
-          "yield_bu_ac": 48.8
+          "yield_bu_ac": 29.6,
+          "yield_ml_bu_ac": 61.1
         },
         "27067": {
           "acres": 0,
-          "yield_bu_ac": 50.2
+          "yield_bu_ac": 34.9,
+          "yield_ml_bu_ac": 58.2
         },
         "27069": {
           "acres": 0,
-          "yield_bu_ac": 34.4
+          "yield_bu_ac": 25.2,
+          "yield_ml_bu_ac": 57.5
         },
         "27071": {
           "acres": 0,
-          "yield_bu_ac": 31.0
+          "yield_bu_ac": 25.5,
+          "yield_ml_bu_ac": 58.7
         },
         "27073": {
           "acres": 0,
-          "yield_bu_ac": 49.5
+          "yield_bu_ac": 34.3,
+          "yield_ml_bu_ac": 57.1
         },
         "27077": {
           "acres": 0,
-          "yield_bu_ac": 35.4
+          "yield_bu_ac": 23.7,
+          "yield_ml_bu_ac": 55.8
         },
         "27079": {
           "acres": 0,
-          "yield_bu_ac": 46.9
+          "yield_bu_ac": 35.7,
+          "yield_ml_bu_ac": 57.4
         },
         "27081": {
           "acres": 0,
-          "yield_bu_ac": 50.3
+          "yield_bu_ac": 35.2,
+          "yield_ml_bu_ac": 55.4
         },
         "27085": {
           "acres": 0,
-          "yield_bu_ac": 46.9
+          "yield_bu_ac": 35.5,
+          "yield_ml_bu_ac": 57.5
         },
         "27087": {
           "acres": 0,
-          "yield_bu_ac": 41.2
+          "yield_bu_ac": 28.2,
+          "yield_ml_bu_ac": 59.9
         },
         "27089": {
           "acres": 0,
-          "yield_bu_ac": 39.7
+          "yield_bu_ac": 25.4,
+          "yield_ml_bu_ac": 55.5
         },
         "27093": {
           "acres": 0,
-          "yield_bu_ac": 48.2
+          "yield_bu_ac": 34.3,
+          "yield_ml_bu_ac": 57.4
         },
         "27095": {
           "acres": 0,
-          "yield_bu_ac": 41.4
+          "yield_bu_ac": 29.5,
+          "yield_ml_bu_ac": 62.7
         },
         "27099": {
           "acres": 0,
-          "yield_bu_ac": 48.4
+          "yield_bu_ac": 36.5,
+          "yield_ml_bu_ac": 57.2
         },
         "27103": {
           "acres": 0,
-          "yield_bu_ac": 47.0
+          "yield_bu_ac": 37.1,
+          "yield_ml_bu_ac": 59.3
         },
         "27109": {
           "acres": 0,
-          "yield_bu_ac": 48.0
+          "yield_bu_ac": 33.4,
+          "yield_ml_bu_ac": 62.2
         },
         "27111": {
           "acres": 0,
-          "yield_bu_ac": 42.3
+          "yield_bu_ac": 30.4,
+          "yield_ml_bu_ac": 58.0
         },
         "27113": {
           "acres": 0,
-          "yield_bu_ac": 39.2
+          "yield_bu_ac": 26.3,
+          "yield_ml_bu_ac": 55.1
         },
         "27115": {
           "acres": 0,
-          "yield_bu_ac": 47.6
+          "yield_bu_ac": 29.4,
+          "yield_ml_bu_ac": 59.4
         },
         "27119": {
           "acres": 0,
-          "yield_bu_ac": 37.6
+          "yield_bu_ac": 27.9,
+          "yield_ml_bu_ac": 60.9
         },
         "27121": {
           "acres": 0,
-          "yield_bu_ac": 48.2
+          "yield_bu_ac": 32.8,
+          "yield_ml_bu_ac": 55.9
         },
         "27125": {
           "acres": 0,
-          "yield_bu_ac": 31.5
+          "yield_bu_ac": 26.7,
+          "yield_ml_bu_ac": 55.8
         },
         "27129": {
           "acres": 0,
-          "yield_bu_ac": 46.6
+          "yield_bu_ac": 37.0,
+          "yield_ml_bu_ac": 56.4
         },
         "27131": {
           "acres": 0,
-          "yield_bu_ac": 46.7
+          "yield_bu_ac": 35.6,
+          "yield_ml_bu_ac": 59.4
         },
         "27135": {
           "acres": 0,
-          "yield_bu_ac": 36.8
+          "yield_bu_ac": 24.7,
+          "yield_ml_bu_ac": 54.1
         },
         "27139": {
           "acres": 0,
-          "yield_bu_ac": 48.8
+          "yield_bu_ac": 35.8,
+          "yield_ml_bu_ac": 59.5
         },
         "27141": {
           "acres": 0,
-          "yield_bu_ac": 23.2
+          "yield_bu_ac": 27.3,
+          "yield_ml_bu_ac": 58.2
         },
         "27143": {
           "acres": 0,
-          "yield_bu_ac": 45.6
+          "yield_bu_ac": 36.2,
+          "yield_ml_bu_ac": 58.4
         },
         "27145": {
           "acres": 0,
-          "yield_bu_ac": 46.9
+          "yield_bu_ac": 31.0,
+          "yield_ml_bu_ac": 58.9
         },
         "27147": {
           "acres": 0,
-          "yield_bu_ac": 47.2
+          "yield_bu_ac": 35.8,
+          "yield_ml_bu_ac": 59.3
         },
         "27149": {
           "acres": 0,
-          "yield_bu_ac": 49.5
+          "yield_bu_ac": 34.0,
+          "yield_ml_bu_ac": 56.6
         },
         "27151": {
           "acres": 0,
-          "yield_bu_ac": 49.4
+          "yield_bu_ac": 34.1,
+          "yield_ml_bu_ac": 53.9
         },
         "27155": {
           "acres": 0,
-          "yield_bu_ac": 47.7
+          "yield_bu_ac": 33.9,
+          "yield_ml_bu_ac": 54.3
         },
         "27157": {
           "acres": 0,
-          "yield_bu_ac": 48.8
+          "yield_bu_ac": 33.3,
+          "yield_ml_bu_ac": 62.9
         },
         "27159": {
           "acres": 0,
-          "yield_bu_ac": 23.0
+          "yield_bu_ac": 28.3,
+          "yield_ml_bu_ac": 60.5
         },
         "27161": {
           "acres": 0,
-          "yield_bu_ac": 46.7
+          "yield_bu_ac": 36.7,
+          "yield_ml_bu_ac": 57.1
         },
         "27163": {
           "acres": 0,
-          "yield_bu_ac": 36.0
+          "yield_bu_ac": 31.1,
+          "yield_ml_bu_ac": 59.4
         },
         "27165": {
           "acres": 0,
-          "yield_bu_ac": 47.9
+          "yield_bu_ac": 36.2,
+          "yield_ml_bu_ac": 58.9
         },
         "27167": {
           "acres": 0,
-          "yield_bu_ac": 45.6
+          "yield_bu_ac": 31.5,
+          "yield_ml_bu_ac": 55.5
         },
         "27169": {
           "acres": 0,
-          "yield_bu_ac": 47.8
+          "yield_bu_ac": 31.3,
+          "yield_ml_bu_ac": 62.1
         },
         "27171": {
           "acres": 0,
-          "yield_bu_ac": 48.7
+          "yield_bu_ac": 32.3,
+          "yield_ml_bu_ac": 59.4
         }
       },
       "missouri": {
         "29001": {
           "acres": 0,
-          "yield_bu_ac": 56.5
+          "yield_bu_ac": 31.5,
+          "yield_ml_bu_ac": 42.8
         },
         "29005": {
           "acres": 0,
-          "yield_bu_ac": 50.5
+          "yield_bu_ac": 30.2,
+          "yield_ml_bu_ac": 51.4
         },
         "29007": {
           "acres": 0,
-          "yield_bu_ac": 56.0
+          "yield_bu_ac": 31.0,
+          "yield_ml_bu_ac": 46.3
         },
         "29011": {
           "acres": 0,
-          "yield_bu_ac": 43.5
+          "yield_bu_ac": 28.2,
+          "yield_ml_bu_ac": 38.2
         },
         "29013": {
           "acres": 0,
-          "yield_bu_ac": 54.0
+          "yield_bu_ac": 29.6,
+          "yield_ml_bu_ac": 49.4
         },
         "29019": {
           "acres": 0,
-          "yield_bu_ac": 54.5
+          "yield_bu_ac": 30.0,
+          "yield_ml_bu_ac": 45.3
         },
         "29023": {
           "acres": 0,
-          "yield_bu_ac": 44.7
+          "yield_bu_ac": 36.2,
+          "yield_ml_bu_ac": 46.2
         },
         "29025": {
           "acres": 0,
-          "yield_bu_ac": 55.5
+          "yield_bu_ac": 31.7,
+          "yield_ml_bu_ac": 50.3
         },
         "29027": {
           "acres": 0,
-          "yield_bu_ac": 51.5
+          "yield_bu_ac": 31.0,
+          "yield_ml_bu_ac": 44.6
         },
         "29033": {
           "acres": 0,
-          "yield_bu_ac": 55.8
+          "yield_bu_ac": 31.9,
+          "yield_ml_bu_ac": 51.4
         },
         "29037": {
           "acres": 0,
-          "yield_bu_ac": 57.8
+          "yield_bu_ac": 32.7,
+          "yield_ml_bu_ac": 50.5
         },
         "29041": {
           "acres": 0,
-          "yield_bu_ac": 57.6
+          "yield_bu_ac": 31.0,
+          "yield_ml_bu_ac": 54.0
         },
         "29045": {
           "acres": 0,
-          "yield_bu_ac": 51.9
+          "yield_bu_ac": 30.9,
+          "yield_ml_bu_ac": 46.8
         },
         "29047": {
           "acres": 0,
-          "yield_bu_ac": 58.1
+          "yield_bu_ac": 31.5,
+          "yield_ml_bu_ac": 47.6
         },
         "29049": {
           "acres": 0,
-          "yield_bu_ac": 54.1
+          "yield_bu_ac": 32.0,
+          "yield_ml_bu_ac": 51.8
         },
         "29057": {
           "acres": 0,
-          "yield_bu_ac": 39.0
+          "yield_bu_ac": 27.2,
+          "yield_ml_bu_ac": 34.8
         },
         "29061": {
           "acres": 0,
-          "yield_bu_ac": 52.4
+          "yield_bu_ac": 31.1,
+          "yield_ml_bu_ac": 47.9
         },
         "29069": {
           "acres": 0,
-          "yield_bu_ac": 41.6
+          "yield_bu_ac": 35.9,
+          "yield_ml_bu_ac": 47.9
         },
         "29071": {
           "acres": 0,
-          "yield_bu_ac": 50.7
+          "yield_bu_ac": 31.1,
+          "yield_ml_bu_ac": 48.3
         },
         "29073": {
           "acres": 0,
-          "yield_bu_ac": 50.6
+          "yield_bu_ac": 29.7,
+          "yield_ml_bu_ac": 46.0
         },
         "29077": {
           "acres": 0,
-          "yield_bu_ac": 36.7
+          "yield_bu_ac": 28.6,
+          "yield_ml_bu_ac": 32.3
         },
         "29079": {
           "acres": 0,
-          "yield_bu_ac": 55.7
+          "yield_bu_ac": 31.7,
+          "yield_ml_bu_ac": 46.5
         },
         "29081": {
           "acres": 0,
-          "yield_bu_ac": 51.1
+          "yield_bu_ac": 30.9,
+          "yield_ml_bu_ac": 46.2
         },
         "29083": {
           "acres": 0,
-          "yield_bu_ac": 54.1
+          "yield_bu_ac": 29.9,
+          "yield_ml_bu_ac": 51.6
         },
         "29089": {
           "acres": 0,
-          "yield_bu_ac": 55.3
+          "yield_bu_ac": 30.8,
+          "yield_ml_bu_ac": 53.4
         },
         "29095": {
           "acres": 0,
-          "yield_bu_ac": 57.9
+          "yield_bu_ac": 31.9,
+          "yield_ml_bu_ac": 51.9
         },
         "29097": {
           "acres": 0,
-          "yield_bu_ac": 38.1
+          "yield_bu_ac": 26.8,
+          "yield_ml_bu_ac": 33.8
         },
         "29107": {
           "acres": 0,
-          "yield_bu_ac": 58.2
+          "yield_bu_ac": 33.0,
+          "yield_ml_bu_ac": 52.6
         },
         "29111": {
           "acres": 0,
-          "yield_bu_ac": 57.4
+          "yield_bu_ac": 31.5,
+          "yield_ml_bu_ac": 49.5
         },
         "29117": {
           "acres": 0,
-          "yield_bu_ac": 56.2
+          "yield_bu_ac": 32.2,
+          "yield_ml_bu_ac": 50.8
         },
         "29127": {
           "acres": 0,
-          "yield_bu_ac": 57.8
+          "yield_bu_ac": 32.2,
+          "yield_ml_bu_ac": 48.3
         },
         "29131": {
           "acres": 0,
-          "yield_bu_ac": 49.7
+          "yield_bu_ac": 32.3,
+          "yield_ml_bu_ac": 42.9
         },
         "29133": {
           "acres": 0,
-          "yield_bu_ac": 46.2
+          "yield_bu_ac": 35.1,
+          "yield_ml_bu_ac": 51.6
         },
         "29135": {
           "acres": 0,
-          "yield_bu_ac": 54.3
+          "yield_bu_ac": 31.7,
+          "yield_ml_bu_ac": 45.9
         },
         "29139": {
           "acres": 0,
-          "yield_bu_ac": 46.6
+          "yield_bu_ac": 32.1,
+          "yield_ml_bu_ac": 46.4
         },
         "29143": {
           "acres": 0,
-          "yield_bu_ac": 43.8
+          "yield_bu_ac": 34.7,
+          "yield_ml_bu_ac": 47.9
         },
         "29145": {
           "acres": 0,
-          "yield_bu_ac": 26.9
+          "yield_bu_ac": 27.0,
+          "yield_ml_bu_ac": 27.3
         },
         "29151": {
           "acres": 0,
-          "yield_bu_ac": 49.8
+          "yield_bu_ac": 31.1,
+          "yield_ml_bu_ac": 45.1
         },
         "29155": {
           "acres": 0,
-          "yield_bu_ac": 42.9
+          "yield_bu_ac": 36.3,
+          "yield_ml_bu_ac": 46.4
         },
         "29157": {
           "acres": 0,
-          "yield_bu_ac": 45.3
+          "yield_bu_ac": 31.1,
+          "yield_ml_bu_ac": 42.3
         },
         "29159": {
           "acres": 0,
-          "yield_bu_ac": 57.7
+          "yield_bu_ac": 30.6,
+          "yield_ml_bu_ac": 52.7
         },
         "29163": {
           "acres": 0,
-          "yield_bu_ac": 51.9
+          "yield_bu_ac": 33.9,
+          "yield_ml_bu_ac": 50.4
         },
         "29165": {
           "acres": 0,
-          "yield_bu_ac": 56.2
+          "yield_bu_ac": 29.6,
+          "yield_ml_bu_ac": 53.2
         },
         "29173": {
           "acres": 0,
-          "yield_bu_ac": 58.5
+          "yield_bu_ac": 32.2,
+          "yield_ml_bu_ac": 49.1
         },
         "29175": {
           "acres": 0,
-          "yield_bu_ac": 58.8
+          "yield_bu_ac": 30.1,
+          "yield_ml_bu_ac": 45.5
         },
         "29177": {
           "acres": 0,
-          "yield_bu_ac": 59.4
+          "yield_bu_ac": 30.9,
+          "yield_ml_bu_ac": 50.7
         },
         "29185": {
           "acres": 0,
-          "yield_bu_ac": 46.0
+          "yield_bu_ac": 29.4,
+          "yield_ml_bu_ac": 43.5
         },
         "29186": {
           "acres": 0,
-          "yield_bu_ac": 48.4
+          "yield_bu_ac": 30.9,
+          "yield_ml_bu_ac": 40.9
         },
         "29195": {
           "acres": 0,
-          "yield_bu_ac": 57.3
+          "yield_bu_ac": 32.3,
+          "yield_ml_bu_ac": 50.3
         },
         "29205": {
           "acres": 0,
-          "yield_bu_ac": 59.4
+          "yield_bu_ac": 30.9,
+          "yield_ml_bu_ac": 48.4
         },
         "29207": {
           "acres": 0,
-          "yield_bu_ac": 39.5
+          "yield_bu_ac": 35.1,
+          "yield_ml_bu_ac": 48.5
         },
         "29211": {
           "acres": 0,
-          "yield_bu_ac": 56.2
+          "yield_bu_ac": 31.1,
+          "yield_ml_bu_ac": 45.3
         },
         "29219": {
           "acres": 0,
-          "yield_bu_ac": 50.1
+          "yield_bu_ac": 31.7,
+          "yield_ml_bu_ac": 44.1
         },
         "29227": {
           "acres": 0,
-          "yield_bu_ac": 53.4
+          "yield_bu_ac": 32.7,
+          "yield_ml_bu_ac": 49.8
         }
       },
       "wisconsin": {
         "55001": {
           "acres": 0,
-          "yield_bu_ac": 51.4
+          "yield_bu_ac": 29.1,
+          "yield_ml_bu_ac": 53.8
         },
         "55005": {
           "acres": 0,
-          "yield_bu_ac": 42.4
+          "yield_bu_ac": 28.0,
+          "yield_ml_bu_ac": 58.7
         },
         "55009": {
           "acres": 0,
-          "yield_bu_ac": 45.9
+          "yield_bu_ac": 24.4,
+          "yield_ml_bu_ac": 62.1
         },
         "55011": {
           "acres": 0,
-          "yield_bu_ac": 46.3
+          "yield_bu_ac": 29.5,
+          "yield_ml_bu_ac": 58.2
         },
         "55013": {
           "acres": 0,
-          "yield_bu_ac": 46.1
+          "yield_bu_ac": 26.9,
+          "yield_ml_bu_ac": 57.5
         },
         "55015": {
           "acres": 0,
-          "yield_bu_ac": 46.0
+          "yield_bu_ac": 25.5,
+          "yield_ml_bu_ac": 59.5
         },
         "55017": {
           "acres": 0,
-          "yield_bu_ac": 51.0
+          "yield_bu_ac": 26.5,
+          "yield_ml_bu_ac": 58.4
         },
         "55019": {
           "acres": 0,
-          "yield_bu_ac": 44.8
+          "yield_bu_ac": 26.4,
+          "yield_ml_bu_ac": 56.8
         },
         "55021": {
           "acres": 0,
-          "yield_bu_ac": 51.3
+          "yield_bu_ac": 28.1,
+          "yield_ml_bu_ac": 60.7
         },
         "55023": {
           "acres": 0,
-          "yield_bu_ac": 50.8
+          "yield_bu_ac": 29.7,
+          "yield_ml_bu_ac": 59.2
         },
         "55025": {
           "acres": 0,
-          "yield_bu_ac": 52.8
+          "yield_bu_ac": 28.5,
+          "yield_ml_bu_ac": 57.1
         },
         "55027": {
           "acres": 0,
-          "yield_bu_ac": 50.4
+          "yield_bu_ac": 27.6,
+          "yield_ml_bu_ac": 61.8
         },
         "55029": {
           "acres": 0,
-          "yield_bu_ac": 38.3
+          "yield_bu_ac": 21.9,
+          "yield_ml_bu_ac": 61.3
         },
         "55033": {
           "acres": 0,
-          "yield_bu_ac": 45.9
+          "yield_bu_ac": 28.5,
+          "yield_ml_bu_ac": 56.7
         },
         "55035": {
           "acres": 0,
-          "yield_bu_ac": 46.6
+          "yield_bu_ac": 28.5,
+          "yield_ml_bu_ac": 59.6
         },
         "55039": {
           "acres": 0,
-          "yield_bu_ac": 48.6
+          "yield_bu_ac": 26.3,
+          "yield_ml_bu_ac": 57.6
         },
         "55041": {
           "acres": 0,
-          "yield_bu_ac": 29.8
+          "yield_bu_ac": 27.1,
+          "yield_ml_bu_ac": 61.3
         },
         "55043": {
           "acres": 0,
-          "yield_bu_ac": 50.2
+          "yield_bu_ac": 32.2,
+          "yield_ml_bu_ac": 61.5
         },
         "55045": {
           "acres": 0,
-          "yield_bu_ac": 53.9
+          "yield_bu_ac": 28.8,
+          "yield_ml_bu_ac": 59.8
         },
         "55047": {
           "acres": 0,
-          "yield_bu_ac": 49.4
+          "yield_bu_ac": 27.2,
+          "yield_ml_bu_ac": 58.6
         },
         "55049": {
           "acres": 0,
-          "yield_bu_ac": 51.3
+          "yield_bu_ac": 30.5,
+          "yield_ml_bu_ac": 58.3
         },
         "55053": {
           "acres": 0,
-          "yield_bu_ac": 46.1
+          "yield_bu_ac": 28.7,
+          "yield_ml_bu_ac": 56.9
         },
         "55055": {
           "acres": 0,
-          "yield_bu_ac": 49.9
+          "yield_bu_ac": 26.8,
+          "yield_ml_bu_ac": 59.4
         },
         "55057": {
           "acres": 0,
-          "yield_bu_ac": 50.2
+          "yield_bu_ac": 29.1,
+          "yield_ml_bu_ac": 53.6
         },
         "55059": {
           "acres": 0,
-          "yield_bu_ac": 51.4
+          "yield_bu_ac": 26.3,
+          "yield_ml_bu_ac": 60.7
         },
         "55063": {
           "acres": 0,
-          "yield_bu_ac": 47.4
+          "yield_bu_ac": 28.4,
+          "yield_ml_bu_ac": 58.4
         },
         "55065": {
           "acres": 0,
-          "yield_bu_ac": 53.2
+          "yield_bu_ac": 30.6,
+          "yield_ml_bu_ac": 60.2
         },
         "55067": {
           "acres": 0,
-          "yield_bu_ac": 32.6
+          "yield_bu_ac": 27.1,
+          "yield_ml_bu_ac": 62.6
         },
         "55069": {
           "acres": 0,
-          "yield_bu_ac": 31.2
+          "yield_bu_ac": 27.1,
+          "yield_ml_bu_ac": 59.8
         },
         "55071": {
           "acres": 0,
-          "yield_bu_ac": 44.0
+          "yield_bu_ac": 25.5,
+          "yield_ml_bu_ac": 58.4
         },
         "55073": {
           "acres": 0,
-          "yield_bu_ac": 35.2
+          "yield_bu_ac": 27.5,
+          "yield_ml_bu_ac": 57.4
         },
         "55075": {
           "acres": 0,
-          "yield_bu_ac": 38.6
+          "yield_bu_ac": 24.0,
+          "yield_ml_bu_ac": 61.0
         },
         "55077": {
           "acres": 0,
-          "yield_bu_ac": 54.1
+          "yield_bu_ac": 28.2,
+          "yield_ml_bu_ac": 59.1
         },
         "55081": {
           "acres": 0,
-          "yield_bu_ac": 47.5
+          "yield_bu_ac": 28.7,
+          "yield_ml_bu_ac": 52.3
         },
         "55083": {
           "acres": 0,
-          "yield_bu_ac": 44.9
+          "yield_bu_ac": 25.3,
+          "yield_ml_bu_ac": 61.9
         },
         "55087": {
           "acres": 0,
-          "yield_bu_ac": 46.0
+          "yield_bu_ac": 26.4,
+          "yield_ml_bu_ac": 64.8
         },
         "55089": {
           "acres": 0,
-          "yield_bu_ac": 45.8
+          "yield_bu_ac": 26.3,
+          "yield_ml_bu_ac": 56.9
         },
         "55091": {
           "acres": 0,
-          "yield_bu_ac": 41.4
+          "yield_bu_ac": 28.7,
+          "yield_ml_bu_ac": 61.2
         },
         "55093": {
           "acres": 0,
-          "yield_bu_ac": 46.9
+          "yield_bu_ac": 30.6,
+          "yield_ml_bu_ac": 61.4
         },
         "55095": {
           "acres": 0,
-          "yield_bu_ac": 45.2
+          "yield_bu_ac": 28.2,
+          "yield_ml_bu_ac": 61.2
         },
         "55097": {
           "acres": 0,
-          "yield_bu_ac": 43.1
+          "yield_bu_ac": 28.0,
+          "yield_ml_bu_ac": 59.9
         },
         "55099": {
           "acres": 0,
-          "yield_bu_ac": 34.5
+          "yield_bu_ac": 25.8,
+          "yield_ml_bu_ac": 62.8
         },
         "55101": {
           "acres": 0,
-          "yield_bu_ac": 50.8
+          "yield_bu_ac": 26.1,
+          "yield_ml_bu_ac": 62.6
         },
         "55103": {
           "acres": 0,
-          "yield_bu_ac": 50.2
+          "yield_bu_ac": 29.9,
+          "yield_ml_bu_ac": 59.4
         },
         "55105": {
           "acres": 0,
-          "yield_bu_ac": 50.6
+          "yield_bu_ac": 27.2,
+          "yield_ml_bu_ac": 60.6
         },
         "55107": {
           "acres": 0,
-          "yield_bu_ac": 40.9
+          "yield_bu_ac": 25.4,
+          "yield_ml_bu_ac": 60.5
         },
         "55109": {
           "acres": 0,
-          "yield_bu_ac": 44.9
+          "yield_bu_ac": 29.0,
+          "yield_ml_bu_ac": 60.3
         },
         "55111": {
           "acres": 0,
-          "yield_bu_ac": 51.8
+          "yield_bu_ac": 29.9,
+          "yield_ml_bu_ac": 57.9
         },
         "55113": {
           "acres": 0,
-          "yield_bu_ac": 37.9
+          "yield_bu_ac": 26.1,
+          "yield_ml_bu_ac": 57.2
         },
         "55115": {
           "acres": 0,
-          "yield_bu_ac": 47.4
+          "yield_bu_ac": 25.8,
+          "yield_ml_bu_ac": 64.8
         },
         "55117": {
           "acres": 0,
-          "yield_bu_ac": 45.0
+          "yield_bu_ac": 26.4,
+          "yield_ml_bu_ac": 58.4
         },
         "55119": {
           "acres": 0,
-          "yield_bu_ac": 35.6
+          "yield_bu_ac": 25.2,
+          "yield_ml_bu_ac": 59.6
         },
         "55121": {
           "acres": 0,
-          "yield_bu_ac": 47.6
+          "yield_bu_ac": 28.2,
+          "yield_ml_bu_ac": 61.4
         },
         "55123": {
           "acres": 0,
-          "yield_bu_ac": 50.4
+          "yield_bu_ac": 28.6,
+          "yield_ml_bu_ac": 55.8
         },
         "55127": {
           "acres": 0,
-          "yield_bu_ac": 54.0
+          "yield_bu_ac": 26.8,
+          "yield_ml_bu_ac": 60.8
         },
         "55129": {
           "acres": 0,
-          "yield_bu_ac": 38.9
+          "yield_bu_ac": 27.1,
+          "yield_ml_bu_ac": 58.7
         },
         "55131": {
           "acres": 0,
-          "yield_bu_ac": 46.1
+          "yield_bu_ac": 26.6,
+          "yield_ml_bu_ac": 58.4
         },
         "55133": {
           "acres": 0,
-          "yield_bu_ac": 49.7
+          "yield_bu_ac": 26.3,
+          "yield_ml_bu_ac": 57.9
         },
         "55135": {
           "acres": 0,
-          "yield_bu_ac": 48.8
+          "yield_bu_ac": 27.1,
+          "yield_ml_bu_ac": 61.0
         },
         "55137": {
           "acres": 0,
-          "yield_bu_ac": 43.5
+          "yield_bu_ac": 26.2,
+          "yield_ml_bu_ac": 56.7
         },
         "55139": {
           "acres": 0,
-          "yield_bu_ac": 49.1
+          "yield_bu_ac": 26.7,
+          "yield_ml_bu_ac": 55.9
         },
         "55141": {
           "acres": 0,
-          "yield_bu_ac": 44.1
+          "yield_bu_ac": 27.5,
+          "yield_ml_bu_ac": 56.8
         }
       }
     },
@@ -2430,1195 +3093,1526 @@
       "illinois": {
         "17003": {
           "acres": 0,
-          "yield_bu_ac": 52.9
+          "yield_bu_ac": 26.6,
+          "yield_ml_bu_ac": 44.7
         },
         "17005": {
           "acres": 0,
-          "yield_bu_ac": 57.1
+          "yield_bu_ac": 23.0,
+          "yield_ml_bu_ac": 54.8
         },
         "17007": {
           "acres": 0,
-          "yield_bu_ac": 55.4
+          "yield_bu_ac": 21.8,
+          "yield_ml_bu_ac": 52.6
         },
         "17011": {
           "acres": 0,
-          "yield_bu_ac": 59.2
+          "yield_bu_ac": 22.5,
+          "yield_ml_bu_ac": 54.0
         },
         "17013": {
           "acres": 0,
-          "yield_bu_ac": 55.5
+          "yield_bu_ac": 25.2,
+          "yield_ml_bu_ac": 43.3
         },
         "17015": {
           "acres": 0,
-          "yield_bu_ac": 56.9
+          "yield_bu_ac": 21.9,
+          "yield_ml_bu_ac": 57.0
         },
         "17023": {
           "acres": 0,
-          "yield_bu_ac": 59.7
+          "yield_bu_ac": 24.9,
+          "yield_ml_bu_ac": 52.9
         },
         "17025": {
           "acres": 0,
-          "yield_bu_ac": 57.6
+          "yield_bu_ac": 24.1,
+          "yield_ml_bu_ac": 47.8
         },
         "17033": {
           "acres": 0,
-          "yield_bu_ac": 59.7
+          "yield_bu_ac": 23.6,
+          "yield_ml_bu_ac": 52.6
         },
         "17037": {
           "acres": 0,
-          "yield_bu_ac": 59.9
+          "yield_bu_ac": 22.2,
+          "yield_ml_bu_ac": 57.1
         },
         "17041": {
           "acres": 0,
-          "yield_bu_ac": 58.2
+          "yield_bu_ac": 22.7,
+          "yield_ml_bu_ac": 56.9
         },
         "17049": {
           "acres": 0,
-          "yield_bu_ac": 59.6
+          "yield_bu_ac": 24.8,
+          "yield_ml_bu_ac": 53.5
         },
         "17055": {
           "acres": 0,
-          "yield_bu_ac": 56.1
+          "yield_bu_ac": 24.1,
+          "yield_ml_bu_ac": 42.0
         },
         "17057": {
           "acres": 0,
-          "yield_bu_ac": 57.9
+          "yield_bu_ac": 23.6,
+          "yield_ml_bu_ac": 49.4
         },
         "17061": {
           "acres": 0,
-          "yield_bu_ac": 56.6
+          "yield_bu_ac": 25.5,
+          "yield_ml_bu_ac": 51.5
         },
         "17071": {
           "acres": 0,
-          "yield_bu_ac": 57.4
+          "yield_bu_ac": 24.4,
+          "yield_ml_bu_ac": 54.0
         },
         "17075": {
           "acres": 0,
-          "yield_bu_ac": 60.7
+          "yield_bu_ac": 23.8,
+          "yield_ml_bu_ac": 58.0
         },
         "17077": {
           "acres": 0,
-          "yield_bu_ac": 55.4
+          "yield_bu_ac": 25.0,
+          "yield_ml_bu_ac": 41.7
         },
         "17079": {
           "acres": 0,
-          "yield_bu_ac": 60.2
+          "yield_bu_ac": 24.0,
+          "yield_ml_bu_ac": 51.3
         },
         "17081": {
           "acres": 0,
-          "yield_bu_ac": 58.1
+          "yield_bu_ac": 24.2,
+          "yield_ml_bu_ac": 42.0
         },
         "17085": {
           "acres": 0,
-          "yield_bu_ac": 55.1
+          "yield_bu_ac": 21.5,
+          "yield_ml_bu_ac": 53.6
         },
         "17087": {
           "acres": 0,
-          "yield_bu_ac": 55.6
+          "yield_bu_ac": 25.6,
+          "yield_ml_bu_ac": 41.8
         },
         "17089": {
           "acres": 0,
-          "yield_bu_ac": 59.8
+          "yield_bu_ac": 21.7,
+          "yield_ml_bu_ac": 55.3
         },
         "17095": {
           "acres": 0,
-          "yield_bu_ac": 59.5
+          "yield_bu_ac": 22.0,
+          "yield_ml_bu_ac": 52.9
         },
         "17097": {
           "acres": 0,
-          "yield_bu_ac": 59.3
+          "yield_bu_ac": 19.8,
+          "yield_ml_bu_ac": 50.4
         },
         "17099": {
           "acres": 0,
-          "yield_bu_ac": 58.0
+          "yield_bu_ac": 23.9,
+          "yield_ml_bu_ac": 56.2
         },
         "17101": {
           "acres": 0,
-          "yield_bu_ac": 58.2
+          "yield_bu_ac": 24.9,
+          "yield_ml_bu_ac": 51.2
         },
         "17105": {
           "acres": 0,
-          "yield_bu_ac": 57.7
+          "yield_bu_ac": 23.4,
+          "yield_ml_bu_ac": 57.1
         },
         "17111": {
           "acres": 0,
-          "yield_bu_ac": 58.6
+          "yield_bu_ac": 21.6,
+          "yield_ml_bu_ac": 53.6
         },
         "17113": {
           "acres": 0,
-          "yield_bu_ac": 59.3
+          "yield_bu_ac": 23.8,
+          "yield_ml_bu_ac": 57.1
         },
         "17115": {
           "acres": 0,
-          "yield_bu_ac": 59.5
+          "yield_bu_ac": 23.4,
+          "yield_ml_bu_ac": 56.4
         },
         "17117": {
           "acres": 0,
-          "yield_bu_ac": 56.4
+          "yield_bu_ac": 23.7,
+          "yield_ml_bu_ac": 54.0
         },
         "17119": {
           "acres": 0,
-          "yield_bu_ac": 57.1
+          "yield_bu_ac": 25.4,
+          "yield_ml_bu_ac": 48.4
         },
         "17121": {
           "acres": 0,
-          "yield_bu_ac": 59.2
+          "yield_bu_ac": 23.7,
+          "yield_ml_bu_ac": 47.9
         },
         "17123": {
           "acres": 0,
-          "yield_bu_ac": 58.9
+          "yield_bu_ac": 23.6,
+          "yield_ml_bu_ac": 56.7
         },
         "17125": {
           "acres": 0,
-          "yield_bu_ac": 54.7
+          "yield_bu_ac": 24.4,
+          "yield_ml_bu_ac": 53.4
         },
         "17127": {
           "acres": 0,
-          "yield_bu_ac": 55.0
+          "yield_bu_ac": 26.4,
+          "yield_ml_bu_ac": 44.8
         },
         "17133": {
           "acres": 0,
-          "yield_bu_ac": 57.4
+          "yield_bu_ac": 25.1,
+          "yield_ml_bu_ac": 44.7
         },
         "17139": {
           "acres": 0,
-          "yield_bu_ac": 60.0
+          "yield_bu_ac": 22.8,
+          "yield_ml_bu_ac": 56.4
         },
         "17143": {
           "acres": 0,
-          "yield_bu_ac": 58.1
+          "yield_bu_ac": 22.8,
+          "yield_ml_bu_ac": 53.3
         },
         "17145": {
           "acres": 0,
-          "yield_bu_ac": 55.9
+          "yield_bu_ac": 24.6,
+          "yield_ml_bu_ac": 42.6
         },
         "17147": {
           "acres": 0,
-          "yield_bu_ac": 59.1
+          "yield_bu_ac": 24.4,
+          "yield_ml_bu_ac": 57.8
         },
         "17151": {
           "acres": 0,
-          "yield_bu_ac": 57.2
+          "yield_bu_ac": 25.9,
+          "yield_ml_bu_ac": 48.7
         },
         "17153": {
           "acres": 0,
-          "yield_bu_ac": 52.9
+          "yield_bu_ac": 27.0,
+          "yield_ml_bu_ac": 43.0
         },
         "17155": {
           "acres": 0,
-          "yield_bu_ac": 58.3
+          "yield_bu_ac": 22.8,
+          "yield_ml_bu_ac": 54.7
         },
         "17157": {
           "acres": 0,
-          "yield_bu_ac": 55.3
+          "yield_bu_ac": 24.7,
+          "yield_ml_bu_ac": 41.2
         },
         "17159": {
           "acres": 0,
-          "yield_bu_ac": 58.5
+          "yield_bu_ac": 25.3,
+          "yield_ml_bu_ac": 49.0
         },
         "17161": {
           "acres": 0,
-          "yield_bu_ac": 57.8
+          "yield_bu_ac": 22.0,
+          "yield_ml_bu_ac": 58.5
         },
         "17163": {
           "acres": 0,
-          "yield_bu_ac": 55.2
+          "yield_bu_ac": 25.7,
+          "yield_ml_bu_ac": 46.9
         },
         "17167": {
           "acres": 0,
-          "yield_bu_ac": 59.6
+          "yield_bu_ac": 23.4,
+          "yield_ml_bu_ac": 53.6
         },
         "17173": {
           "acres": 0,
-          "yield_bu_ac": 58.3
+          "yield_bu_ac": 23.8,
+          "yield_ml_bu_ac": 53.2
         },
         "17175": {
           "acres": 0,
-          "yield_bu_ac": 59.3
+          "yield_bu_ac": 22.5,
+          "yield_ml_bu_ac": 56.5
         },
         "17177": {
           "acres": 0,
-          "yield_bu_ac": 59.6
+          "yield_bu_ac": 21.5,
+          "yield_ml_bu_ac": 55.4
         },
         "17179": {
           "acres": 0,
-          "yield_bu_ac": 58.2
+          "yield_bu_ac": 23.2,
+          "yield_ml_bu_ac": 56.6
         },
         "17183": {
           "acres": 0,
-          "yield_bu_ac": 58.5
+          "yield_bu_ac": 22.8,
+          "yield_ml_bu_ac": 55.2
         },
         "17185": {
           "acres": 0,
-          "yield_bu_ac": 56.7
+          "yield_bu_ac": 24.8,
+          "yield_ml_bu_ac": 50.6
         },
         "17189": {
           "acres": 0,
-          "yield_bu_ac": 55.8
+          "yield_bu_ac": 24.5,
+          "yield_ml_bu_ac": 42.1
         },
         "17191": {
           "acres": 0,
-          "yield_bu_ac": 57.6
+          "yield_bu_ac": 24.0,
+          "yield_ml_bu_ac": 44.7
         },
         "17195": {
           "acres": 0,
-          "yield_bu_ac": 60.3
+          "yield_bu_ac": 22.3,
+          "yield_ml_bu_ac": 60.6
         },
         "17199": {
           "acres": 0,
-          "yield_bu_ac": 56.3
+          "yield_bu_ac": 25.4,
+          "yield_ml_bu_ac": 42.6
         },
         "17201": {
           "acres": 0,
-          "yield_bu_ac": 58.2
+          "yield_bu_ac": 21.1,
+          "yield_ml_bu_ac": 53.4
         },
         "17203": {
           "acres": 0,
-          "yield_bu_ac": 58.2
+          "yield_bu_ac": 23.1,
+          "yield_ml_bu_ac": 58.3
         }
       },
       "indiana": {
         "18001": {
           "acres": 0,
-          "yield_bu_ac": 60.7
+          "yield_bu_ac": 31.8,
+          "yield_ml_bu_ac": 50.5
         },
         "18003": {
           "acres": 0,
-          "yield_bu_ac": 59.0
+          "yield_bu_ac": 31.7,
+          "yield_ml_bu_ac": 50.8
         },
         "18005": {
           "acres": 0,
-          "yield_bu_ac": 57.4
+          "yield_bu_ac": 33.4,
+          "yield_ml_bu_ac": 52.5
         },
         "18007": {
           "acres": 0,
-          "yield_bu_ac": 59.3
+          "yield_bu_ac": 32.8,
+          "yield_ml_bu_ac": 56.5
         },
         "18009": {
           "acres": 0,
-          "yield_bu_ac": 58.7
+          "yield_bu_ac": 30.2,
+          "yield_ml_bu_ac": 53.1
         },
         "18011": {
           "acres": 0,
-          "yield_bu_ac": 57.4
+          "yield_bu_ac": 31.2,
+          "yield_ml_bu_ac": 54.0
         },
         "18013": {
           "acres": 0,
-          "yield_bu_ac": 54.1
+          "yield_bu_ac": 31.8,
+          "yield_ml_bu_ac": 52.3
         },
         "18015": {
           "acres": 0,
-          "yield_bu_ac": 59.2
+          "yield_bu_ac": 32.0,
+          "yield_ml_bu_ac": 55.5
         },
         "18017": {
           "acres": 0,
-          "yield_bu_ac": 59.7
+          "yield_bu_ac": 31.4,
+          "yield_ml_bu_ac": 54.7
         },
         "18019": {
           "acres": 0,
-          "yield_bu_ac": 54.7
+          "yield_bu_ac": 31.0,
+          "yield_ml_bu_ac": 44.0
         },
         "18021": {
           "acres": 0,
-          "yield_bu_ac": 57.3
+          "yield_bu_ac": 33.2,
+          "yield_ml_bu_ac": 48.8
         },
         "18023": {
           "acres": 0,
-          "yield_bu_ac": 58.3
+          "yield_bu_ac": 32.3,
+          "yield_ml_bu_ac": 56.1
         },
         "18027": {
           "acres": 0,
-          "yield_bu_ac": 52.4
+          "yield_bu_ac": 32.3,
+          "yield_ml_bu_ac": 47.0
         },
         "18029": {
           "acres": 0,
-          "yield_bu_ac": 56.0
+          "yield_bu_ac": 34.7,
+          "yield_ml_bu_ac": 49.9
         },
         "18031": {
           "acres": 0,
-          "yield_bu_ac": 57.9
+          "yield_bu_ac": 35.7,
+          "yield_ml_bu_ac": 54.0
         },
         "18033": {
           "acres": 0,
-          "yield_bu_ac": 59.4
+          "yield_bu_ac": 32.1,
+          "yield_ml_bu_ac": 49.8
         },
         "18037": {
           "acres": 0,
-          "yield_bu_ac": 51.0
+          "yield_bu_ac": 31.5,
+          "yield_ml_bu_ac": 45.4
         },
         "18041": {
           "acres": 0,
-          "yield_bu_ac": 55.5
+          "yield_bu_ac": 33.0,
+          "yield_ml_bu_ac": 50.9
         },
         "18047": {
           "acres": 0,
-          "yield_bu_ac": 56.6
+          "yield_bu_ac": 34.1,
+          "yield_ml_bu_ac": 55.0
         },
         "18049": {
           "acres": 0,
-          "yield_bu_ac": 45.4
+          "yield_bu_ac": 30.9,
+          "yield_ml_bu_ac": 49.5
         },
         "18051": {
           "acres": 0,
-          "yield_bu_ac": 53.9
+          "yield_bu_ac": 35.8,
+          "yield_ml_bu_ac": 48.0
         },
         "18055": {
           "acres": 0,
-          "yield_bu_ac": 55.5
+          "yield_bu_ac": 32.8,
+          "yield_ml_bu_ac": 50.8
         },
         "18057": {
           "acres": 0,
-          "yield_bu_ac": 58.1
+          "yield_bu_ac": 31.4,
+          "yield_ml_bu_ac": 52.7
         },
         "18059": {
           "acres": 0,
-          "yield_bu_ac": 58.4
+          "yield_bu_ac": 32.9,
+          "yield_ml_bu_ac": 52.9
         },
         "18061": {
           "acres": 0,
-          "yield_bu_ac": 50.5
+          "yield_bu_ac": 29.3,
+          "yield_ml_bu_ac": 42.8
         },
         "18063": {
           "acres": 0,
-          "yield_bu_ac": 57.2
+          "yield_bu_ac": 31.8,
+          "yield_ml_bu_ac": 56.4
         },
         "18065": {
           "acres": 0,
-          "yield_bu_ac": 56.0
+          "yield_bu_ac": 31.7,
+          "yield_ml_bu_ac": 53.9
         },
         "18067": {
           "acres": 0,
-          "yield_bu_ac": 59.3
+          "yield_bu_ac": 32.1,
+          "yield_ml_bu_ac": 55.7
         },
         "18069": {
           "acres": 0,
-          "yield_bu_ac": 58.9
+          "yield_bu_ac": 29.8,
+          "yield_ml_bu_ac": 53.5
         },
         "18073": {
           "acres": 0,
-          "yield_bu_ac": 56.5
+          "yield_bu_ac": 31.8,
+          "yield_ml_bu_ac": 54.5
         },
         "18075": {
           "acres": 0,
-          "yield_bu_ac": 60.0
+          "yield_bu_ac": 32.9,
+          "yield_ml_bu_ac": 50.7
         },
         "18081": {
           "acres": 0,
-          "yield_bu_ac": 56.3
+          "yield_bu_ac": 32.3,
+          "yield_ml_bu_ac": 53.9
         },
         "18085": {
           "acres": 0,
-          "yield_bu_ac": 55.3
+          "yield_bu_ac": 31.0,
+          "yield_ml_bu_ac": 51.5
         },
         "18087": {
           "acres": 0,
-          "yield_bu_ac": 59.5
+          "yield_bu_ac": 29.7,
+          "yield_ml_bu_ac": 49.4
         },
         "18089": {
           "acres": 0,
-          "yield_bu_ac": 46.8
+          "yield_bu_ac": 31.7,
+          "yield_ml_bu_ac": 54.3
         },
         "18091": {
           "acres": 0,
-          "yield_bu_ac": 56.3
+          "yield_bu_ac": 29.7,
+          "yield_ml_bu_ac": 51.9
         },
         "18093": {
           "acres": 0,
-          "yield_bu_ac": 52.1
+          "yield_bu_ac": 31.1,
+          "yield_ml_bu_ac": 43.2
         },
         "18095": {
           "acres": 0,
-          "yield_bu_ac": 58.9
+          "yield_bu_ac": 31.9,
+          "yield_ml_bu_ac": 52.2
         },
         "18099": {
           "acres": 0,
-          "yield_bu_ac": 57.5
+          "yield_bu_ac": 30.7,
+          "yield_ml_bu_ac": 54.0
         },
         "18103": {
           "acres": 0,
-          "yield_bu_ac": 59.3
+          "yield_bu_ac": 30.7,
+          "yield_ml_bu_ac": 52.3
         },
         "18107": {
           "acres": 0,
-          "yield_bu_ac": 58.7
+          "yield_bu_ac": 33.2,
+          "yield_ml_bu_ac": 55.9
         },
         "18109": {
           "acres": 0,
-          "yield_bu_ac": 56.3
+          "yield_bu_ac": 33.4,
+          "yield_ml_bu_ac": 52.7
         },
         "18111": {
           "acres": 0,
-          "yield_bu_ac": 56.3
+          "yield_bu_ac": 32.0,
+          "yield_ml_bu_ac": 57.6
         },
         "18113": {
           "acres": 0,
-          "yield_bu_ac": 59.4
+          "yield_bu_ac": 30.5,
+          "yield_ml_bu_ac": 51.5
         },
         "18123": {
           "acres": 0,
-          "yield_bu_ac": 51.1
+          "yield_bu_ac": 33.9,
+          "yield_ml_bu_ac": 47.7
         },
         "18125": {
           "acres": 0,
-          "yield_bu_ac": 51.0
+          "yield_bu_ac": 33.1,
+          "yield_ml_bu_ac": 46.8
         },
         "18129": {
           "acres": 0,
-          "yield_bu_ac": 55.3
+          "yield_bu_ac": 37.2,
+          "yield_ml_bu_ac": 50.2
         },
         "18145": {
           "acres": 0,
-          "yield_bu_ac": 58.5
+          "yield_bu_ac": 32.8,
+          "yield_ml_bu_ac": 51.9
         },
         "18147": {
           "acres": 0,
-          "yield_bu_ac": 55.1
+          "yield_bu_ac": 34.1,
+          "yield_ml_bu_ac": 51.0
         },
         "18151": {
           "acres": 0,
-          "yield_bu_ac": 59.0
+          "yield_bu_ac": 30.3,
+          "yield_ml_bu_ac": 49.6
         },
         "18153": {
           "acres": 0,
-          "yield_bu_ac": 58.4
+          "yield_bu_ac": 33.2,
+          "yield_ml_bu_ac": 49.6
         },
         "18157": {
           "acres": 0,
-          "yield_bu_ac": 58.5
+          "yield_bu_ac": 33.3,
+          "yield_ml_bu_ac": 53.7
         },
         "18159": {
           "acres": 0,
-          "yield_bu_ac": 59.1
+          "yield_bu_ac": 32.4,
+          "yield_ml_bu_ac": 57.4
         },
         "18161": {
           "acres": 0,
-          "yield_bu_ac": 57.5
+          "yield_bu_ac": 33.5,
+          "yield_ml_bu_ac": 53.6
         },
         "18171": {
           "acres": 0,
-          "yield_bu_ac": 57.9
+          "yield_bu_ac": 35.0,
+          "yield_ml_bu_ac": 55.4
         },
         "18175": {
           "acres": 0,
-          "yield_bu_ac": 47.9
+          "yield_bu_ac": 29.5,
+          "yield_ml_bu_ac": 42.1
         },
         "18179": {
           "acres": 0,
-          "yield_bu_ac": 59.5
+          "yield_bu_ac": 30.8,
+          "yield_ml_bu_ac": 54.1
         },
         "18183": {
           "acres": 0,
-          "yield_bu_ac": 59.2
+          "yield_bu_ac": 31.4,
+          "yield_ml_bu_ac": 55.3
         }
       },
       "minnesota": {
         "27003": {
           "acres": 0,
-          "yield_bu_ac": 39.2
+          "yield_bu_ac": 29.5,
+          "yield_ml_bu_ac": 53.3
         },
         "27005": {
           "acres": 0,
-          "yield_bu_ac": 44.1
+          "yield_bu_ac": 30.9,
+          "yield_ml_bu_ac": 53.0
         },
         "27007": {
           "acres": 0,
-          "yield_bu_ac": 42.2
+          "yield_bu_ac": 28.6,
+          "yield_ml_bu_ac": 52.1
         },
         "27011": {
           "acres": 0,
-          "yield_bu_ac": 54.6
+          "yield_bu_ac": 38.4,
+          "yield_ml_bu_ac": 51.3
         },
         "27013": {
           "acres": 0,
-          "yield_bu_ac": 58.7
+          "yield_bu_ac": 37.6,
+          "yield_ml_bu_ac": 56.5
         },
         "27015": {
           "acres": 0,
-          "yield_bu_ac": 54.2
+          "yield_bu_ac": 35.4,
+          "yield_ml_bu_ac": 55.7
         },
         "27017": {
           "acres": 0,
-          "yield_bu_ac": 45.7
+          "yield_bu_ac": 29.4,
+          "yield_ml_bu_ac": 57.4
         },
         "27019": {
           "acres": 0,
-          "yield_bu_ac": 55.7
+          "yield_bu_ac": 37.4,
+          "yield_ml_bu_ac": 55.3
+        },
+        "27021": {
+          "acres": 0,
+          "yield_bu_ac": 19.0,
+          "yield_ml_bu_ac": 41.6
+        },
+        "27023": {
+          "acres": 0,
+          "yield_bu_ac": 22.3,
+          "yield_ml_bu_ac": 56.1
+        },
+        "27027": {
+          "acres": 0,
+          "yield_bu_ac": 20.5,
+          "yield_ml_bu_ac": 44.4
+        },
+        "27029": {
+          "acres": 0,
+          "yield_bu_ac": 18.7,
+          "yield_ml_bu_ac": 39.4
+        },
+        "27033": {
+          "acres": 0,
+          "yield_bu_ac": 22.9,
+          "yield_ml_bu_ac": 53.5
+        },
+        "27037": {
+          "acres": 0,
+          "yield_bu_ac": 22.5,
+          "yield_ml_bu_ac": 53.7
+        },
+        "27039": {
+          "acres": 0,
+          "yield_bu_ac": 22.9,
+          "yield_ml_bu_ac": 52.5
         },
         "27041": {
           "acres": 0,
-          "yield_bu_ac": 51.3
+          "yield_bu_ac": 33.2,
+          "yield_ml_bu_ac": 55.8
         },
         "27043": {
           "acres": 0,
-          "yield_bu_ac": 59.7
+          "yield_bu_ac": 38.4,
+          "yield_ml_bu_ac": 55.2
         },
         "27045": {
           "acres": 0,
-          "yield_bu_ac": 60.4
+          "yield_bu_ac": 35.2,
+          "yield_ml_bu_ac": 55.5
         },
         "27047": {
           "acres": 0,
-          "yield_bu_ac": 57.7
+          "yield_bu_ac": 37.0,
+          "yield_ml_bu_ac": 51.8
         },
         "27049": {
           "acres": 0,
-          "yield_bu_ac": 58.3
+          "yield_bu_ac": 37.5,
+          "yield_ml_bu_ac": 58.3
         },
         "27051": {
           "acres": 0,
-          "yield_bu_ac": 51.8
+          "yield_bu_ac": 34.2,
+          "yield_ml_bu_ac": 53.4
         },
         "27055": {
           "acres": 0,
-          "yield_bu_ac": 59.6
+          "yield_bu_ac": 33.7,
+          "yield_ml_bu_ac": 54.7
         },
         "27057": {
           "acres": 0,
-          "yield_bu_ac": 39.9
+          "yield_bu_ac": 29.2,
+          "yield_ml_bu_ac": 53.0
         },
         "27059": {
           "acres": 0,
-          "yield_bu_ac": 49.0
+          "yield_bu_ac": 30.5,
+          "yield_ml_bu_ac": 54.5
         },
         "27061": {
           "acres": 0,
-          "yield_bu_ac": 29.4
+          "yield_bu_ac": 27.8,
+          "yield_ml_bu_ac": 52.7
         },
         "27063": {
           "acres": 0,
-          "yield_bu_ac": 58.5
+          "yield_bu_ac": 38.8,
+          "yield_ml_bu_ac": 53.4
         },
         "27065": {
           "acres": 0,
-          "yield_bu_ac": 54.3
+          "yield_bu_ac": 33.0,
+          "yield_ml_bu_ac": 53.8
         },
         "27067": {
           "acres": 0,
-          "yield_bu_ac": 56.8
+          "yield_bu_ac": 37.0,
+          "yield_ml_bu_ac": 53.8
         },
         "27069": {
           "acres": 0,
-          "yield_bu_ac": 44.4
+          "yield_bu_ac": 27.1,
+          "yield_ml_bu_ac": 51.1
         },
         "27071": {
           "acres": 0,
-          "yield_bu_ac": 38.3
+          "yield_bu_ac": 28.5,
+          "yield_ml_bu_ac": 55.1
         },
         "27073": {
           "acres": 0,
-          "yield_bu_ac": 54.9
+          "yield_bu_ac": 37.5,
+          "yield_ml_bu_ac": 52.6
         },
         "27077": {
           "acres": 0,
-          "yield_bu_ac": 44.0
+          "yield_bu_ac": 26.6,
+          "yield_ml_bu_ac": 54.6
         },
         "27079": {
           "acres": 0,
-          "yield_bu_ac": 58.9
+          "yield_bu_ac": 37.8,
+          "yield_ml_bu_ac": 55.0
         },
         "27081": {
           "acres": 0,
-          "yield_bu_ac": 55.6
+          "yield_bu_ac": 36.5,
+          "yield_ml_bu_ac": 51.5
         },
         "27085": {
           "acres": 0,
-          "yield_bu_ac": 56.4
+          "yield_bu_ac": 37.4,
+          "yield_ml_bu_ac": 55.1
         },
         "27087": {
           "acres": 0,
-          "yield_bu_ac": 46.9
+          "yield_bu_ac": 31.0,
+          "yield_ml_bu_ac": 55.2
         },
         "27089": {
           "acres": 0,
-          "yield_bu_ac": 46.9
+          "yield_bu_ac": 28.1,
+          "yield_ml_bu_ac": 52.6
         },
         "27093": {
           "acres": 0,
-          "yield_bu_ac": 55.8
+          "yield_bu_ac": 36.9,
+          "yield_ml_bu_ac": 52.3
         },
         "27095": {
           "acres": 0,
-          "yield_bu_ac": 51.7
+          "yield_bu_ac": 32.0,
+          "yield_ml_bu_ac": 56.5
         },
         "27099": {
           "acres": 0,
-          "yield_bu_ac": 58.7
+          "yield_bu_ac": 35.9,
+          "yield_ml_bu_ac": 53.7
         },
         "27103": {
           "acres": 0,
-          "yield_bu_ac": 56.5
+          "yield_bu_ac": 38.1,
+          "yield_ml_bu_ac": 56.3
         },
         "27109": {
           "acres": 0,
-          "yield_bu_ac": 58.4
+          "yield_bu_ac": 36.1,
+          "yield_ml_bu_ac": 57.5
         },
         "27111": {
           "acres": 0,
-          "yield_bu_ac": 52.3
+          "yield_bu_ac": 31.7,
+          "yield_ml_bu_ac": 54.5
         },
         "27113": {
           "acres": 0,
-          "yield_bu_ac": 44.7
+          "yield_bu_ac": 27.6,
+          "yield_ml_bu_ac": 51.6
         },
         "27115": {
           "acres": 0,
-          "yield_bu_ac": 52.5
+          "yield_bu_ac": 32.4,
+          "yield_ml_bu_ac": 53.3
         },
         "27119": {
           "acres": 0,
-          "yield_bu_ac": 43.4
+          "yield_bu_ac": 30.1,
+          "yield_ml_bu_ac": 54.6
         },
         "27121": {
           "acres": 0,
-          "yield_bu_ac": 52.4
+          "yield_bu_ac": 36.1,
+          "yield_ml_bu_ac": 51.2
         },
         "27125": {
           "acres": 0,
-          "yield_bu_ac": 41.9
+          "yield_bu_ac": 29.2,
+          "yield_ml_bu_ac": 52.6
         },
         "27129": {
           "acres": 0,
-          "yield_bu_ac": 56.7
+          "yield_bu_ac": 38.2,
+          "yield_ml_bu_ac": 53.5
         },
         "27131": {
           "acres": 0,
-          "yield_bu_ac": 57.8
+          "yield_bu_ac": 36.3,
+          "yield_ml_bu_ac": 56.3
         },
         "27135": {
           "acres": 0,
-          "yield_bu_ac": 44.6
+          "yield_bu_ac": 26.5,
+          "yield_ml_bu_ac": 50.0
         },
         "27139": {
           "acres": 0,
-          "yield_bu_ac": 55.8
+          "yield_bu_ac": 37.2,
+          "yield_ml_bu_ac": 55.3
         },
         "27141": {
           "acres": 0,
-          "yield_bu_ac": 32.3
+          "yield_bu_ac": 27.2,
+          "yield_ml_bu_ac": 53.7
         },
         "27143": {
           "acres": 0,
-          "yield_bu_ac": 58.0
+          "yield_bu_ac": 38.0,
+          "yield_ml_bu_ac": 55.7
         },
         "27145": {
           "acres": 0,
-          "yield_bu_ac": 51.8
+          "yield_bu_ac": 34.2,
+          "yield_ml_bu_ac": 54.8
         },
         "27147": {
           "acres": 0,
-          "yield_bu_ac": 57.4
+          "yield_bu_ac": 36.9,
+          "yield_ml_bu_ac": 56.1
         },
         "27149": {
           "acres": 0,
-          "yield_bu_ac": 53.2
+          "yield_bu_ac": 36.9,
+          "yield_ml_bu_ac": 52.8
         },
         "27151": {
           "acres": 0,
-          "yield_bu_ac": 55.2
+          "yield_bu_ac": 36.6,
+          "yield_ml_bu_ac": 49.5
         },
         "27155": {
           "acres": 0,
-          "yield_bu_ac": 51.8
+          "yield_bu_ac": 36.2,
+          "yield_ml_bu_ac": 49.6
         },
         "27157": {
           "acres": 0,
-          "yield_bu_ac": 58.9
+          "yield_bu_ac": 36.4,
+          "yield_ml_bu_ac": 58.5
         },
         "27159": {
           "acres": 0,
-          "yield_bu_ac": 39.4
+          "yield_bu_ac": 28.0,
+          "yield_ml_bu_ac": 54.5
         },
         "27161": {
           "acres": 0,
-          "yield_bu_ac": 58.0
+          "yield_bu_ac": 37.9,
+          "yield_ml_bu_ac": 54.5
         },
         "27163": {
           "acres": 0,
-          "yield_bu_ac": 42.3
+          "yield_bu_ac": 32.8,
+          "yield_ml_bu_ac": 54.4
         },
         "27165": {
           "acres": 0,
-          "yield_bu_ac": 58.5
+          "yield_bu_ac": 38.7,
+          "yield_ml_bu_ac": 55.3
         },
         "27167": {
           "acres": 0,
-          "yield_bu_ac": 48.6
+          "yield_bu_ac": 34.8,
+          "yield_ml_bu_ac": 49.6
         },
         "27169": {
           "acres": 0,
-          "yield_bu_ac": 60.4
+          "yield_bu_ac": 34.4,
+          "yield_ml_bu_ac": 56.8
         },
         "27171": {
           "acres": 0,
-          "yield_bu_ac": 56.2
+          "yield_bu_ac": 35.0,
+          "yield_ml_bu_ac": 55.4
         }
       },
       "missouri": {
         "29001": {
           "acres": 0,
-          "yield_bu_ac": 57.3
+          "yield_bu_ac": 32.2,
+          "yield_ml_bu_ac": 42.0
         },
         "29005": {
           "acres": 0,
-          "yield_bu_ac": 52.9
+          "yield_bu_ac": 34.8,
+          "yield_ml_bu_ac": 47.0
         },
         "29007": {
           "acres": 0,
-          "yield_bu_ac": 54.3
+          "yield_bu_ac": 31.6,
+          "yield_ml_bu_ac": 44.9
         },
         "29011": {
           "acres": 0,
-          "yield_bu_ac": 44.4
+          "yield_bu_ac": 31.8,
+          "yield_ml_bu_ac": 36.0
         },
         "29013": {
           "acres": 0,
-          "yield_bu_ac": 52.8
+          "yield_bu_ac": 34.3,
+          "yield_ml_bu_ac": 44.6
         },
         "29019": {
           "acres": 0,
-          "yield_bu_ac": 54.4
+          "yield_bu_ac": 32.6,
+          "yield_ml_bu_ac": 40.9
         },
         "29023": {
           "acres": 0,
-          "yield_bu_ac": 52.1
+          "yield_bu_ac": 36.4,
+          "yield_ml_bu_ac": 42.9
         },
         "29025": {
           "acres": 0,
-          "yield_bu_ac": 55.4
+          "yield_bu_ac": 33.4,
+          "yield_ml_bu_ac": 48.0
         },
         "29027": {
           "acres": 0,
-          "yield_bu_ac": 52.1
+          "yield_bu_ac": 32.5,
+          "yield_ml_bu_ac": 41.0
         },
         "29033": {
           "acres": 0,
-          "yield_bu_ac": 56.8
+          "yield_bu_ac": 33.0,
+          "yield_ml_bu_ac": 48.5
         },
         "29037": {
           "acres": 0,
-          "yield_bu_ac": 56.6
+          "yield_bu_ac": 34.8,
+          "yield_ml_bu_ac": 45.9
         },
         "29041": {
           "acres": 0,
-          "yield_bu_ac": 57.9
+          "yield_bu_ac": 33.7,
+          "yield_ml_bu_ac": 48.5
         },
         "29045": {
           "acres": 0,
-          "yield_bu_ac": 56.6
+          "yield_bu_ac": 32.5,
+          "yield_ml_bu_ac": 44.7
         },
         "29047": {
           "acres": 0,
-          "yield_bu_ac": 55.6
+          "yield_bu_ac": 32.5,
+          "yield_ml_bu_ac": 46.6
         },
         "29049": {
           "acres": 0,
-          "yield_bu_ac": 55.8
+          "yield_bu_ac": 34.0,
+          "yield_ml_bu_ac": 47.9
         },
         "29057": {
           "acres": 0,
-          "yield_bu_ac": 39.8
+          "yield_bu_ac": 31.6,
+          "yield_ml_bu_ac": 30.0
         },
         "29061": {
           "acres": 0,
-          "yield_bu_ac": 55.7
+          "yield_bu_ac": 32.4,
+          "yield_ml_bu_ac": 45.0
         },
         "29069": {
           "acres": 0,
-          "yield_bu_ac": 50.8
+          "yield_bu_ac": 36.6,
+          "yield_ml_bu_ac": 42.1
         },
         "29071": {
           "acres": 0,
-          "yield_bu_ac": 53.3
+          "yield_bu_ac": 33.6,
+          "yield_ml_bu_ac": 43.6
         },
         "29073": {
           "acres": 0,
-          "yield_bu_ac": 53.5
+          "yield_bu_ac": 33.7,
+          "yield_ml_bu_ac": 41.5
         },
         "29077": {
           "acres": 0,
-          "yield_bu_ac": 41.1
+          "yield_bu_ac": 33.2,
+          "yield_ml_bu_ac": 27.5
         },
         "29079": {
           "acres": 0,
-          "yield_bu_ac": 57.0
+          "yield_bu_ac": 32.8,
+          "yield_ml_bu_ac": 45.7
         },
         "29081": {
           "acres": 0,
-          "yield_bu_ac": 53.3
+          "yield_bu_ac": 31.2,
+          "yield_ml_bu_ac": 44.1
         },
         "29083": {
           "acres": 0,
-          "yield_bu_ac": 54.7
+          "yield_bu_ac": 32.4,
+          "yield_ml_bu_ac": 43.4
         },
         "29089": {
           "acres": 0,
-          "yield_bu_ac": 56.3
+          "yield_bu_ac": 33.8,
+          "yield_ml_bu_ac": 49.1
         },
         "29095": {
           "acres": 0,
-          "yield_bu_ac": 56.6
+          "yield_bu_ac": 33.7,
+          "yield_ml_bu_ac": 50.4
         },
         "29097": {
           "acres": 0,
-          "yield_bu_ac": 38.1
+          "yield_bu_ac": 32.0,
+          "yield_ml_bu_ac": 29.6
         },
         "29107": {
           "acres": 0,
-          "yield_bu_ac": 55.7
+          "yield_bu_ac": 33.9,
+          "yield_ml_bu_ac": 46.4
         },
         "29111": {
           "acres": 0,
-          "yield_bu_ac": 57.2
+          "yield_bu_ac": 32.9,
+          "yield_ml_bu_ac": 47.0
         },
         "29117": {
           "acres": 0,
-          "yield_bu_ac": 57.4
+          "yield_bu_ac": 33.1,
+          "yield_ml_bu_ac": 48.3
         },
         "29127": {
           "acres": 0,
-          "yield_bu_ac": 57.2
+          "yield_bu_ac": 33.4,
+          "yield_ml_bu_ac": 45.5
         },
         "29131": {
           "acres": 0,
-          "yield_bu_ac": 51.3
+          "yield_bu_ac": 33.1,
+          "yield_ml_bu_ac": 41.0
         },
         "29133": {
           "acres": 0,
-          "yield_bu_ac": 54.9
+          "yield_bu_ac": 32.7,
+          "yield_ml_bu_ac": 47.6
         },
         "29135": {
           "acres": 0,
-          "yield_bu_ac": 53.8
+          "yield_bu_ac": 32.0,
+          "yield_ml_bu_ac": 45.8
         },
         "29139": {
           "acres": 0,
-          "yield_bu_ac": 52.7
+          "yield_bu_ac": 33.5,
+          "yield_ml_bu_ac": 46.2
         },
         "29143": {
           "acres": 0,
-          "yield_bu_ac": 53.4
+          "yield_bu_ac": 35.0,
+          "yield_ml_bu_ac": 42.8
         },
         "29145": {
           "acres": 0,
-          "yield_bu_ac": 28.7
+          "yield_bu_ac": 30.3,
+          "yield_ml_bu_ac": 23.3
         },
         "29151": {
           "acres": 0,
-          "yield_bu_ac": 52.9
+          "yield_bu_ac": 33.4,
+          "yield_ml_bu_ac": 42.1
         },
         "29155": {
           "acres": 0,
-          "yield_bu_ac": 52.0
+          "yield_bu_ac": 35.7,
+          "yield_ml_bu_ac": 41.2
         },
         "29157": {
           "acres": 0,
-          "yield_bu_ac": 52.2
+          "yield_bu_ac": 32.7,
+          "yield_ml_bu_ac": 39.9
         },
         "29159": {
           "acres": 0,
-          "yield_bu_ac": 57.2
+          "yield_bu_ac": 33.9,
+          "yield_ml_bu_ac": 49.4
         },
         "29163": {
           "acres": 0,
-          "yield_bu_ac": 55.7
+          "yield_bu_ac": 36.4,
+          "yield_ml_bu_ac": 44.8
         },
         "29165": {
           "acres": 0,
-          "yield_bu_ac": 54.7
+          "yield_bu_ac": 34.0,
+          "yield_ml_bu_ac": 48.4
         },
         "29173": {
           "acres": 0,
-          "yield_bu_ac": 59.9
+          "yield_bu_ac": 33.4,
+          "yield_ml_bu_ac": 47.0
         },
         "29175": {
           "acres": 0,
-          "yield_bu_ac": 58.3
+          "yield_bu_ac": 33.0,
+          "yield_ml_bu_ac": 42.0
         },
         "29177": {
           "acres": 0,
-          "yield_bu_ac": 56.7
+          "yield_bu_ac": 33.2,
+          "yield_ml_bu_ac": 47.3
         },
         "29185": {
           "acres": 0,
-          "yield_bu_ac": 45.2
+          "yield_bu_ac": 32.2,
+          "yield_ml_bu_ac": 39.8
         },
         "29186": {
           "acres": 0,
-          "yield_bu_ac": 53.0
+          "yield_bu_ac": 32.6,
+          "yield_ml_bu_ac": 37.9
         },
         "29195": {
           "acres": 0,
-          "yield_bu_ac": 56.3
+          "yield_bu_ac": 32.7,
+          "yield_ml_bu_ac": 48.9
         },
         "29205": {
           "acres": 0,
-          "yield_bu_ac": 58.8
+          "yield_bu_ac": 32.5,
+          "yield_ml_bu_ac": 48.4
         },
         "29207": {
           "acres": 0,
-          "yield_bu_ac": 53.3
+          "yield_bu_ac": 37.3,
+          "yield_ml_bu_ac": 44.9
         },
         "29211": {
           "acres": 0,
-          "yield_bu_ac": 58.2
+          "yield_bu_ac": 32.2,
+          "yield_ml_bu_ac": 44.4
         },
         "29219": {
           "acres": 0,
-          "yield_bu_ac": 53.7
+          "yield_bu_ac": 33.0,
+          "yield_ml_bu_ac": 41.2
         },
         "29227": {
           "acres": 0,
-          "yield_bu_ac": 53.8
+          "yield_bu_ac": 33.4,
+          "yield_ml_bu_ac": 48.7
         }
       },
       "wisconsin": {
         "55001": {
           "acres": 0,
-          "yield_bu_ac": 57.8
+          "yield_bu_ac": 31.3,
+          "yield_ml_bu_ac": 48.2
         },
         "55005": {
           "acres": 0,
-          "yield_bu_ac": 44.5
+          "yield_bu_ac": 30.2,
+          "yield_ml_bu_ac": 52.2
         },
         "55009": {
           "acres": 0,
-          "yield_bu_ac": 55.3
+          "yield_bu_ac": 27.0,
+          "yield_ml_bu_ac": 56.7
         },
         "55011": {
           "acres": 0,
-          "yield_bu_ac": 59.3
+          "yield_bu_ac": 32.7,
+          "yield_ml_bu_ac": 53.3
         },
         "55013": {
           "acres": 0,
-          "yield_bu_ac": 49.6
+          "yield_bu_ac": 29.6,
+          "yield_ml_bu_ac": 50.3
         },
         "55015": {
           "acres": 0,
-          "yield_bu_ac": 58.0
+          "yield_bu_ac": 28.3,
+          "yield_ml_bu_ac": 53.4
         },
         "55017": {
           "acres": 0,
-          "yield_bu_ac": 52.8
+          "yield_bu_ac": 28.9,
+          "yield_ml_bu_ac": 53.4
         },
         "55019": {
           "acres": 0,
-          "yield_bu_ac": 54.7
+          "yield_bu_ac": 28.2,
+          "yield_ml_bu_ac": 50.9
         },
         "55021": {
           "acres": 0,
-          "yield_bu_ac": 61.5
+          "yield_bu_ac": 30.5,
+          "yield_ml_bu_ac": 54.5
         },
         "55023": {
           "acres": 0,
-          "yield_bu_ac": 58.5
+          "yield_bu_ac": 32.4,
+          "yield_ml_bu_ac": 55.2
         },
         "55025": {
           "acres": 0,
-          "yield_bu_ac": 61.4
+          "yield_bu_ac": 31.3,
+          "yield_ml_bu_ac": 52.7
         },
         "55027": {
           "acres": 0,
-          "yield_bu_ac": 60.7
+          "yield_bu_ac": 30.2,
+          "yield_ml_bu_ac": 54.8
         },
         "55029": {
           "acres": 0,
-          "yield_bu_ac": 44.4
+          "yield_bu_ac": 24.4,
+          "yield_ml_bu_ac": 59.0
         },
         "55033": {
           "acres": 0,
-          "yield_bu_ac": 53.8
+          "yield_bu_ac": 31.8,
+          "yield_ml_bu_ac": 50.5
         },
         "55035": {
           "acres": 0,
-          "yield_bu_ac": 58.2
+          "yield_bu_ac": 31.0,
+          "yield_ml_bu_ac": 52.9
         },
         "55039": {
           "acres": 0,
-          "yield_bu_ac": 57.9
+          "yield_bu_ac": 28.6,
+          "yield_ml_bu_ac": 51.0
         },
         "55041": {
           "acres": 0,
-          "yield_bu_ac": 35.9
+          "yield_bu_ac": 29.0,
+          "yield_ml_bu_ac": 53.7
         },
         "55043": {
           "acres": 0,
-          "yield_bu_ac": 60.4
+          "yield_bu_ac": 32.8,
+          "yield_ml_bu_ac": 58.2
         },
         "55045": {
           "acres": 0,
-          "yield_bu_ac": 60.5
+          "yield_bu_ac": 31.1,
+          "yield_ml_bu_ac": 55.5
         },
         "55047": {
           "acres": 0,
-          "yield_bu_ac": 61.2
+          "yield_bu_ac": 30.1,
+          "yield_ml_bu_ac": 52.3
         },
         "55049": {
           "acres": 0,
-          "yield_bu_ac": 60.8
+          "yield_bu_ac": 33.0,
+          "yield_ml_bu_ac": 54.3
         },
         "55053": {
           "acres": 0,
-          "yield_bu_ac": 55.6
+          "yield_bu_ac": 31.1,
+          "yield_ml_bu_ac": 51.4
         },
         "55055": {
           "acres": 0,
-          "yield_bu_ac": 59.2
+          "yield_bu_ac": 30.9,
+          "yield_ml_bu_ac": 54.1
         },
         "55057": {
           "acres": 0,
-          "yield_bu_ac": 59.6
+          "yield_bu_ac": 31.7,
+          "yield_ml_bu_ac": 49.0
         },
         "55059": {
           "acres": 0,
-          "yield_bu_ac": 60.2
+          "yield_bu_ac": 29.7,
+          "yield_ml_bu_ac": 55.4
         },
         "55063": {
           "acres": 0,
-          "yield_bu_ac": 58.3
+          "yield_bu_ac": 31.4,
+          "yield_ml_bu_ac": 53.2
         },
         "55065": {
           "acres": 0,
-          "yield_bu_ac": 61.0
+          "yield_bu_ac": 32.8,
+          "yield_ml_bu_ac": 55.4
         },
         "55067": {
           "acres": 0,
-          "yield_bu_ac": 37.8
+          "yield_bu_ac": 28.5,
+          "yield_ml_bu_ac": 57.2
         },
         "55069": {
           "acres": 0,
-          "yield_bu_ac": 37.9
+          "yield_bu_ac": 28.8,
+          "yield_ml_bu_ac": 53.7
         },
         "55071": {
           "acres": 0,
-          "yield_bu_ac": 56.8
+          "yield_bu_ac": 27.5,
+          "yield_ml_bu_ac": 54.0
         },
         "55073": {
           "acres": 0,
-          "yield_bu_ac": 42.3
+          "yield_bu_ac": 29.4,
+          "yield_ml_bu_ac": 52.2
         },
         "55075": {
           "acres": 0,
-          "yield_bu_ac": 49.5
+          "yield_bu_ac": 26.1,
+          "yield_ml_bu_ac": 56.3
         },
         "55077": {
           "acres": 0,
-          "yield_bu_ac": 61.6
+          "yield_bu_ac": 30.9,
+          "yield_ml_bu_ac": 52.7
         },
         "55081": {
           "acres": 0,
-          "yield_bu_ac": 56.8
+          "yield_bu_ac": 30.9,
+          "yield_ml_bu_ac": 47.1
         },
         "55083": {
           "acres": 0,
-          "yield_bu_ac": 55.2
+          "yield_bu_ac": 27.1,
+          "yield_ml_bu_ac": 57.1
         },
         "55087": {
           "acres": 0,
-          "yield_bu_ac": 58.7
+          "yield_bu_ac": 28.1,
+          "yield_ml_bu_ac": 56.8
         },
         "55089": {
           "acres": 0,
-          "yield_bu_ac": 55.9
+          "yield_bu_ac": 28.8,
+          "yield_ml_bu_ac": 51.0
         },
         "55091": {
           "acres": 0,
-          "yield_bu_ac": 54.3
+          "yield_bu_ac": 31.4,
+          "yield_ml_bu_ac": 55.4
         },
         "55093": {
           "acres": 0,
-          "yield_bu_ac": 54.1
+          "yield_bu_ac": 33.3,
+          "yield_ml_bu_ac": 55.1
         },
         "55095": {
           "acres": 0,
-          "yield_bu_ac": 50.3
+          "yield_bu_ac": 31.4,
+          "yield_ml_bu_ac": 55.5
         },
         "55097": {
           "acres": 0,
-          "yield_bu_ac": 50.2
+          "yield_bu_ac": 29.4,
+          "yield_ml_bu_ac": 54.4
         },
         "55099": {
           "acres": 0,
-          "yield_bu_ac": 35.2
+          "yield_bu_ac": 27.7,
+          "yield_ml_bu_ac": 59.0
         },
         "55101": {
           "acres": 0,
-          "yield_bu_ac": 59.9
+          "yield_bu_ac": 28.4,
+          "yield_ml_bu_ac": 57.8
         },
         "55103": {
           "acres": 0,
-          "yield_bu_ac": 60.7
+          "yield_bu_ac": 32.2,
+          "yield_ml_bu_ac": 54.6
         },
         "55105": {
           "acres": 0,
-          "yield_bu_ac": 61.4
+          "yield_bu_ac": 30.1,
+          "yield_ml_bu_ac": 55.5
         },
         "55107": {
           "acres": 0,
-          "yield_bu_ac": 43.2
+          "yield_bu_ac": 27.9,
+          "yield_ml_bu_ac": 54.8
         },
         "55109": {
           "acres": 0,
-          "yield_bu_ac": 52.2
+          "yield_bu_ac": 31.8,
+          "yield_ml_bu_ac": 54.0
         },
         "55111": {
           "acres": 0,
-          "yield_bu_ac": 60.1
+          "yield_bu_ac": 32.7,
+          "yield_ml_bu_ac": 52.8
         },
         "55113": {
           "acres": 0,
-          "yield_bu_ac": 41.4
+          "yield_bu_ac": 28.6,
+          "yield_ml_bu_ac": 54.0
         },
         "55115": {
           "acres": 0,
-          "yield_bu_ac": 57.0
+          "yield_bu_ac": 28.0,
+          "yield_ml_bu_ac": 60.1
         },
         "55117": {
           "acres": 0,
-          "yield_bu_ac": 56.5
+          "yield_bu_ac": 29.3,
+          "yield_ml_bu_ac": 51.6
         },
         "55119": {
           "acres": 0,
-          "yield_bu_ac": 39.7
+          "yield_bu_ac": 27.3,
+          "yield_ml_bu_ac": 53.6
         },
         "55121": {
           "acres": 0,
-          "yield_bu_ac": 60.1
+          "yield_bu_ac": 31.6,
+          "yield_ml_bu_ac": 54.6
         },
         "55123": {
           "acres": 0,
-          "yield_bu_ac": 59.8
+          "yield_bu_ac": 32.1,
+          "yield_ml_bu_ac": 49.5
         },
         "55127": {
           "acres": 0,
-          "yield_bu_ac": 61.0
+          "yield_bu_ac": 29.3,
+          "yield_ml_bu_ac": 56.2
         },
         "55129": {
           "acres": 0,
-          "yield_bu_ac": 40.7
+          "yield_bu_ac": 29.7,
+          "yield_ml_bu_ac": 53.9
         },
         "55131": {
           "acres": 0,
-          "yield_bu_ac": 57.0
+          "yield_bu_ac": 29.9,
+          "yield_ml_bu_ac": 52.0
         },
         "55133": {
           "acres": 0,
-          "yield_bu_ac": 59.6
+          "yield_bu_ac": 29.8,
+          "yield_ml_bu_ac": 50.6
         },
         "55135": {
           "acres": 0,
-          "yield_bu_ac": 57.7
+          "yield_bu_ac": 28.4,
+          "yield_ml_bu_ac": 56.0
         },
         "55137": {
           "acres": 0,
-          "yield_bu_ac": 53.2
+          "yield_bu_ac": 27.0,
+          "yield_ml_bu_ac": 50.3
         },
         "55139": {
           "acres": 0,
-          "yield_bu_ac": 61.0
+          "yield_bu_ac": 29.8,
+          "yield_ml_bu_ac": 50.3
         },
         "55141": {
           "acres": 0,
-          "yield_bu_ac": 51.1
+          "yield_bu_ac": 29.6,
+          "yield_ml_bu_ac": 51.5
         }
       }
     },
@@ -3626,1195 +4620,1526 @@
       "illinois": {
         "17003": {
           "acres": 0,
-          "yield_bu_ac": 52.0
+          "yield_bu_ac": 21.9,
+          "yield_ml_bu_ac": 54.8
         },
         "17005": {
           "acres": 0,
-          "yield_bu_ac": 35.6
+          "yield_bu_ac": 19.7,
+          "yield_ml_bu_ac": 58.1
         },
         "17007": {
           "acres": 0,
-          "yield_bu_ac": 37.7
+          "yield_bu_ac": 18.7,
+          "yield_ml_bu_ac": 55.5
         },
         "17011": {
           "acres": 0,
-          "yield_bu_ac": 46.9
+          "yield_bu_ac": 19.1,
+          "yield_ml_bu_ac": 55.9
         },
         "17013": {
           "acres": 0,
-          "yield_bu_ac": 26.5
+          "yield_bu_ac": 20.1,
+          "yield_ml_bu_ac": 51.7
         },
         "17015": {
           "acres": 0,
-          "yield_bu_ac": 27.8
+          "yield_bu_ac": 18.5,
+          "yield_ml_bu_ac": 55.3
         },
         "17023": {
           "acres": 0,
-          "yield_bu_ac": 46.8
+          "yield_bu_ac": 20.0,
+          "yield_ml_bu_ac": 57.0
         },
         "17025": {
           "acres": 0,
-          "yield_bu_ac": 50.0
+          "yield_bu_ac": 20.2,
+          "yield_ml_bu_ac": 54.4
         },
         "17033": {
           "acres": 0,
-          "yield_bu_ac": 44.2
+          "yield_bu_ac": 19.6,
+          "yield_ml_bu_ac": 54.8
         },
         "17037": {
           "acres": 0,
-          "yield_bu_ac": 44.7
+          "yield_bu_ac": 18.6,
+          "yield_ml_bu_ac": 61.2
         },
         "17041": {
           "acres": 0,
-          "yield_bu_ac": 36.7
+          "yield_bu_ac": 19.4,
+          "yield_ml_bu_ac": 60.3
         },
         "17049": {
           "acres": 0,
-          "yield_bu_ac": 45.9
+          "yield_bu_ac": 20.6,
+          "yield_ml_bu_ac": 59.9
         },
         "17055": {
           "acres": 0,
-          "yield_bu_ac": 50.5
+          "yield_bu_ac": 21.4,
+          "yield_ml_bu_ac": 48.4
         },
         "17057": {
           "acres": 0,
-          "yield_bu_ac": 35.5
+          "yield_bu_ac": 20.3,
+          "yield_ml_bu_ac": 50.9
         },
         "17061": {
           "acres": 0,
-          "yield_bu_ac": 27.1
+          "yield_bu_ac": 19.8,
+          "yield_ml_bu_ac": 56.2
         },
         "17071": {
           "acres": 0,
-          "yield_bu_ac": 40.5
+          "yield_bu_ac": 18.9,
+          "yield_ml_bu_ac": 58.0
         },
         "17075": {
           "acres": 0,
-          "yield_bu_ac": 42.8
+          "yield_bu_ac": 20.2,
+          "yield_ml_bu_ac": 58.8
         },
         "17077": {
           "acres": 0,
-          "yield_bu_ac": 53.5
+          "yield_bu_ac": 20.8,
+          "yield_ml_bu_ac": 51.1
         },
         "17079": {
           "acres": 0,
-          "yield_bu_ac": 44.0
+          "yield_bu_ac": 19.2,
+          "yield_ml_bu_ac": 55.2
         },
         "17081": {
           "acres": 0,
-          "yield_bu_ac": 49.5
+          "yield_bu_ac": 20.1,
+          "yield_ml_bu_ac": 45.2
         },
         "17085": {
           "acres": 0,
-          "yield_bu_ac": 31.4
+          "yield_bu_ac": 18.7,
+          "yield_ml_bu_ac": 54.1
         },
         "17087": {
           "acres": 0,
-          "yield_bu_ac": 55.2
+          "yield_bu_ac": 21.8,
+          "yield_ml_bu_ac": 48.1
         },
         "17089": {
           "acres": 0,
-          "yield_bu_ac": 40.4
+          "yield_bu_ac": 18.8,
+          "yield_ml_bu_ac": 59.2
         },
         "17095": {
           "acres": 0,
-          "yield_bu_ac": 49.2
+          "yield_bu_ac": 19.6,
+          "yield_ml_bu_ac": 52.6
         },
         "17097": {
           "acres": 0,
-          "yield_bu_ac": 37.8
+          "yield_bu_ac": 18.3,
+          "yield_ml_bu_ac": 52.4
         },
         "17099": {
           "acres": 0,
-          "yield_bu_ac": 41.6
+          "yield_bu_ac": 20.0,
+          "yield_ml_bu_ac": 57.9
         },
         "17101": {
           "acres": 0,
-          "yield_bu_ac": 45.0
+          "yield_bu_ac": 20.8,
+          "yield_ml_bu_ac": 53.4
         },
         "17105": {
           "acres": 0,
-          "yield_bu_ac": 35.8
+          "yield_bu_ac": 19.6,
+          "yield_ml_bu_ac": 55.6
         },
         "17111": {
           "acres": 0,
-          "yield_bu_ac": 40.5
+          "yield_bu_ac": 19.0,
+          "yield_ml_bu_ac": 56.4
         },
         "17113": {
           "acres": 0,
-          "yield_bu_ac": 35.7
+          "yield_bu_ac": 20.8,
+          "yield_ml_bu_ac": 59.2
         },
         "17115": {
           "acres": 0,
-          "yield_bu_ac": 43.4
+          "yield_bu_ac": 20.5,
+          "yield_ml_bu_ac": 60.3
         },
         "17117": {
           "acres": 0,
-          "yield_bu_ac": 28.6
+          "yield_bu_ac": 20.0,
+          "yield_ml_bu_ac": 58.3
         },
         "17119": {
           "acres": 0,
-          "yield_bu_ac": 37.3
+          "yield_bu_ac": 20.4,
+          "yield_ml_bu_ac": 54.8
         },
         "17121": {
           "acres": 0,
-          "yield_bu_ac": 52.5
+          "yield_bu_ac": 20.1,
+          "yield_ml_bu_ac": 49.4
         },
         "17123": {
           "acres": 0,
-          "yield_bu_ac": 50.1
+          "yield_bu_ac": 19.8,
+          "yield_ml_bu_ac": 57.5
         },
         "17125": {
           "acres": 0,
-          "yield_bu_ac": 51.0
+          "yield_bu_ac": 21.5,
+          "yield_ml_bu_ac": 51.6
         },
         "17127": {
           "acres": 0,
-          "yield_bu_ac": 55.6
+          "yield_bu_ac": 21.8,
+          "yield_ml_bu_ac": 54.7
         },
         "17133": {
           "acres": 0,
-          "yield_bu_ac": 45.9
+          "yield_bu_ac": 20.7,
+          "yield_ml_bu_ac": 51.0
         },
         "17139": {
           "acres": 0,
-          "yield_bu_ac": 37.7
+          "yield_bu_ac": 19.2,
+          "yield_ml_bu_ac": 55.3
         },
         "17143": {
           "acres": 0,
-          "yield_bu_ac": 42.1
+          "yield_bu_ac": 20.2,
+          "yield_ml_bu_ac": 51.6
         },
         "17145": {
           "acres": 0,
-          "yield_bu_ac": 45.6
+          "yield_bu_ac": 20.9,
+          "yield_ml_bu_ac": 47.4
         },
         "17147": {
           "acres": 0,
-          "yield_bu_ac": 50.9
+          "yield_bu_ac": 21.0,
+          "yield_ml_bu_ac": 58.4
         },
         "17151": {
           "acres": 0,
-          "yield_bu_ac": 54.9
+          "yield_bu_ac": 22.0,
+          "yield_ml_bu_ac": 50.2
         },
         "17153": {
           "acres": 0,
-          "yield_bu_ac": 52.6
+          "yield_bu_ac": 22.6,
+          "yield_ml_bu_ac": 50.8
         },
         "17155": {
           "acres": 0,
-          "yield_bu_ac": 48.2
+          "yield_bu_ac": 18.9,
+          "yield_ml_bu_ac": 54.8
         },
         "17157": {
           "acres": 0,
-          "yield_bu_ac": 41.3
+          "yield_bu_ac": 20.1,
+          "yield_ml_bu_ac": 47.2
         },
         "17159": {
           "acres": 0,
-          "yield_bu_ac": 51.0
+          "yield_bu_ac": 21.3,
+          "yield_ml_bu_ac": 53.7
         },
         "17161": {
           "acres": 0,
-          "yield_bu_ac": 36.8
+          "yield_bu_ac": 18.5,
+          "yield_ml_bu_ac": 57.2
         },
         "17163": {
           "acres": 0,
-          "yield_bu_ac": 33.7
+          "yield_bu_ac": 21.3,
+          "yield_ml_bu_ac": 53.0
         },
         "17167": {
           "acres": 0,
-          "yield_bu_ac": 46.2
+          "yield_bu_ac": 20.0,
+          "yield_ml_bu_ac": 55.7
         },
         "17173": {
           "acres": 0,
-          "yield_bu_ac": 36.4
+          "yield_bu_ac": 19.3,
+          "yield_ml_bu_ac": 58.7
         },
         "17175": {
           "acres": 0,
-          "yield_bu_ac": 50.8
+          "yield_bu_ac": 19.7,
+          "yield_ml_bu_ac": 56.8
         },
         "17177": {
           "acres": 0,
-          "yield_bu_ac": 30.0
+          "yield_bu_ac": 18.5,
+          "yield_ml_bu_ac": 53.3
         },
         "17179": {
           "acres": 0,
-          "yield_bu_ac": 36.8
+          "yield_bu_ac": 20.2,
+          "yield_ml_bu_ac": 55.3
         },
         "17183": {
           "acres": 0,
-          "yield_bu_ac": 41.5
+          "yield_bu_ac": 20.7,
+          "yield_ml_bu_ac": 54.9
         },
         "17185": {
           "acres": 0,
-          "yield_bu_ac": 47.0
+          "yield_bu_ac": 20.7,
+          "yield_ml_bu_ac": 54.1
         },
         "17189": {
           "acres": 0,
-          "yield_bu_ac": 45.0
+          "yield_bu_ac": 20.2,
+          "yield_ml_bu_ac": 49.4
         },
         "17191": {
           "acres": 0,
-          "yield_bu_ac": 50.8
+          "yield_bu_ac": 20.4,
+          "yield_ml_bu_ac": 50.0
         },
         "17195": {
           "acres": 0,
-          "yield_bu_ac": 44.0
+          "yield_bu_ac": 19.0,
+          "yield_ml_bu_ac": 57.5
         },
         "17199": {
           "acres": 0,
-          "yield_bu_ac": 56.2
+          "yield_bu_ac": 21.6,
+          "yield_ml_bu_ac": 49.4
         },
         "17201": {
           "acres": 0,
-          "yield_bu_ac": 35.5
+          "yield_bu_ac": 18.8,
+          "yield_ml_bu_ac": 55.1
         },
         "17203": {
           "acres": 0,
-          "yield_bu_ac": 42.8
+          "yield_bu_ac": 19.4,
+          "yield_ml_bu_ac": 59.9
         }
       },
       "indiana": {
         "18001": {
           "acres": 0,
-          "yield_bu_ac": 51.2
+          "yield_bu_ac": 29.3,
+          "yield_ml_bu_ac": 58.6
         },
         "18003": {
           "acres": 0,
-          "yield_bu_ac": 52.5
+          "yield_bu_ac": 28.0,
+          "yield_ml_bu_ac": 56.3
         },
         "18005": {
           "acres": 0,
-          "yield_bu_ac": 49.0
+          "yield_bu_ac": 28.0,
+          "yield_ml_bu_ac": 57.1
         },
         "18007": {
           "acres": 0,
-          "yield_bu_ac": 52.8
+          "yield_bu_ac": 29.9,
+          "yield_ml_bu_ac": 59.4
         },
         "18009": {
           "acres": 0,
-          "yield_bu_ac": 50.5
+          "yield_bu_ac": 26.7,
+          "yield_ml_bu_ac": 58.4
         },
         "18011": {
           "acres": 0,
-          "yield_bu_ac": 51.8
+          "yield_bu_ac": 28.4,
+          "yield_ml_bu_ac": 60.1
         },
         "18013": {
           "acres": 0,
-          "yield_bu_ac": 45.7
+          "yield_bu_ac": 27.3,
+          "yield_ml_bu_ac": 57.8
         },
         "18015": {
           "acres": 0,
-          "yield_bu_ac": 53.7
+          "yield_bu_ac": 29.6,
+          "yield_ml_bu_ac": 60.3
         },
         "18017": {
           "acres": 0,
-          "yield_bu_ac": 53.7
+          "yield_bu_ac": 29.3,
+          "yield_ml_bu_ac": 59.6
         },
         "18019": {
           "acres": 0,
-          "yield_bu_ac": 44.9
+          "yield_bu_ac": 25.4,
+          "yield_ml_bu_ac": 49.0
         },
         "18021": {
           "acres": 0,
-          "yield_bu_ac": 50.0
+          "yield_bu_ac": 26.6,
+          "yield_ml_bu_ac": 55.0
         },
         "18023": {
           "acres": 0,
-          "yield_bu_ac": 51.0
+          "yield_bu_ac": 27.7,
+          "yield_ml_bu_ac": 60.3
         },
         "18027": {
           "acres": 0,
-          "yield_bu_ac": 44.1
+          "yield_bu_ac": 25.9,
+          "yield_ml_bu_ac": 55.0
         },
         "18029": {
           "acres": 0,
-          "yield_bu_ac": 51.3
+          "yield_bu_ac": 30.6,
+          "yield_ml_bu_ac": 60.2
         },
         "18031": {
           "acres": 0,
-          "yield_bu_ac": 50.0
+          "yield_bu_ac": 29.9,
+          "yield_ml_bu_ac": 61.4
         },
         "18033": {
           "acres": 0,
-          "yield_bu_ac": 52.5
+          "yield_bu_ac": 29.6,
+          "yield_ml_bu_ac": 52.7
         },
         "18037": {
           "acres": 0,
-          "yield_bu_ac": 41.5
+          "yield_bu_ac": 25.4,
+          "yield_ml_bu_ac": 53.6
         },
         "18041": {
           "acres": 0,
-          "yield_bu_ac": 50.7
+          "yield_bu_ac": 27.6,
+          "yield_ml_bu_ac": 64.9
         },
         "18047": {
           "acres": 0,
-          "yield_bu_ac": 49.1
+          "yield_bu_ac": 29.4,
+          "yield_ml_bu_ac": 65.9
         },
         "18049": {
           "acres": 0,
-          "yield_bu_ac": 47.4
+          "yield_bu_ac": 28.8,
+          "yield_ml_bu_ac": 53.1
         },
         "18051": {
           "acres": 0,
-          "yield_bu_ac": 46.9
+          "yield_bu_ac": 28.6,
+          "yield_ml_bu_ac": 56.5
         },
         "18055": {
           "acres": 0,
-          "yield_bu_ac": 44.1
+          "yield_bu_ac": 25.7,
+          "yield_ml_bu_ac": 58.3
         },
         "18057": {
           "acres": 0,
-          "yield_bu_ac": 49.9
+          "yield_bu_ac": 27.9,
+          "yield_ml_bu_ac": 59.1
         },
         "18059": {
           "acres": 0,
-          "yield_bu_ac": 50.7
+          "yield_bu_ac": 29.1,
+          "yield_ml_bu_ac": 65.9
         },
         "18061": {
           "acres": 0,
-          "yield_bu_ac": 40.1
+          "yield_bu_ac": 24.0,
+          "yield_ml_bu_ac": 49.5
         },
         "18063": {
           "acres": 0,
-          "yield_bu_ac": 49.0
+          "yield_bu_ac": 28.6,
+          "yield_ml_bu_ac": 62.6
         },
         "18065": {
           "acres": 0,
-          "yield_bu_ac": 50.2
+          "yield_bu_ac": 28.3,
+          "yield_ml_bu_ac": 60.6
         },
         "18067": {
           "acres": 0,
-          "yield_bu_ac": 51.8
+          "yield_bu_ac": 28.5,
+          "yield_ml_bu_ac": 59.9
         },
         "18069": {
           "acres": 0,
-          "yield_bu_ac": 50.8
+          "yield_bu_ac": 25.9,
+          "yield_ml_bu_ac": 59.6
         },
         "18073": {
           "acres": 0,
-          "yield_bu_ac": 51.3
+          "yield_bu_ac": 29.7,
+          "yield_ml_bu_ac": 57.9
         },
         "18075": {
           "acres": 0,
-          "yield_bu_ac": 51.1
+          "yield_bu_ac": 28.6,
+          "yield_ml_bu_ac": 61.3
         },
         "18081": {
           "acres": 0,
-          "yield_bu_ac": 49.7
+          "yield_bu_ac": 28.0,
+          "yield_ml_bu_ac": 67.0
         },
         "18085": {
           "acres": 0,
-          "yield_bu_ac": 51.0
+          "yield_bu_ac": 28.3,
+          "yield_ml_bu_ac": 54.2
         },
         "18087": {
           "acres": 0,
-          "yield_bu_ac": 54.2
+          "yield_bu_ac": 27.4,
+          "yield_ml_bu_ac": 56.5
         },
         "18089": {
           "acres": 0,
-          "yield_bu_ac": 49.0
+          "yield_bu_ac": 29.8,
+          "yield_ml_bu_ac": 55.3
         },
         "18091": {
           "acres": 0,
-          "yield_bu_ac": 49.9
+          "yield_bu_ac": 28.1,
+          "yield_ml_bu_ac": 59.6
         },
         "18093": {
           "acres": 0,
-          "yield_bu_ac": 39.4
+          "yield_bu_ac": 24.9,
+          "yield_ml_bu_ac": 47.9
         },
         "18095": {
           "acres": 0,
-          "yield_bu_ac": 52.9
+          "yield_bu_ac": 27.5,
+          "yield_ml_bu_ac": 62.7
         },
         "18099": {
           "acres": 0,
-          "yield_bu_ac": 50.3
+          "yield_bu_ac": 28.0,
+          "yield_ml_bu_ac": 56.2
         },
         "18103": {
           "acres": 0,
-          "yield_bu_ac": 51.8
+          "yield_bu_ac": 27.6,
+          "yield_ml_bu_ac": 55.6
         },
         "18107": {
           "acres": 0,
-          "yield_bu_ac": 53.8
+          "yield_bu_ac": 29.5,
+          "yield_ml_bu_ac": 57.3
         },
         "18109": {
           "acres": 0,
-          "yield_bu_ac": 50.2
+          "yield_bu_ac": 28.4,
+          "yield_ml_bu_ac": 59.0
         },
         "18111": {
           "acres": 0,
-          "yield_bu_ac": 50.9
+          "yield_bu_ac": 29.0,
+          "yield_ml_bu_ac": 61.6
         },
         "18113": {
           "acres": 0,
-          "yield_bu_ac": 52.2
+          "yield_bu_ac": 27.8,
+          "yield_ml_bu_ac": 57.4
         },
         "18123": {
           "acres": 0,
-          "yield_bu_ac": 48.5
+          "yield_bu_ac": 29.5,
+          "yield_ml_bu_ac": 54.6
         },
         "18125": {
           "acres": 0,
-          "yield_bu_ac": 42.6
+          "yield_bu_ac": 25.3,
+          "yield_ml_bu_ac": 57.1
         },
         "18129": {
           "acres": 0,
-          "yield_bu_ac": 47.5
+          "yield_bu_ac": 32.7,
+          "yield_ml_bu_ac": 54.4
         },
         "18145": {
           "acres": 0,
-          "yield_bu_ac": 51.1
+          "yield_bu_ac": 29.8,
+          "yield_ml_bu_ac": 61.3
         },
         "18147": {
           "acres": 0,
-          "yield_bu_ac": 47.1
+          "yield_bu_ac": 29.2,
+          "yield_ml_bu_ac": 55.4
         },
         "18151": {
           "acres": 0,
-          "yield_bu_ac": 52.3
+          "yield_bu_ac": 29.0,
+          "yield_ml_bu_ac": 53.4
         },
         "18153": {
           "acres": 0,
-          "yield_bu_ac": 46.4
+          "yield_bu_ac": 27.8,
+          "yield_ml_bu_ac": 59.2
         },
         "18157": {
           "acres": 0,
-          "yield_bu_ac": 54.1
+          "yield_bu_ac": 28.7,
+          "yield_ml_bu_ac": 57.5
         },
         "18159": {
           "acres": 0,
-          "yield_bu_ac": 53.9
+          "yield_bu_ac": 28.1,
+          "yield_ml_bu_ac": 63.4
         },
         "18161": {
           "acres": 0,
-          "yield_bu_ac": 51.0
+          "yield_bu_ac": 29.8,
+          "yield_ml_bu_ac": 63.5
         },
         "18171": {
           "acres": 0,
-          "yield_bu_ac": 52.5
+          "yield_bu_ac": 30.7,
+          "yield_ml_bu_ac": 60.2
         },
         "18175": {
           "acres": 0,
-          "yield_bu_ac": 34.3
+          "yield_bu_ac": 24.4,
+          "yield_ml_bu_ac": 50.1
         },
         "18179": {
           "acres": 0,
-          "yield_bu_ac": 50.8
+          "yield_bu_ac": 27.9,
+          "yield_ml_bu_ac": 59.4
         },
         "18183": {
           "acres": 0,
-          "yield_bu_ac": 52.2
+          "yield_bu_ac": 28.4,
+          "yield_ml_bu_ac": 59.5
         }
       },
       "minnesota": {
         "27003": {
           "acres": 0,
-          "yield_bu_ac": 42.6
+          "yield_bu_ac": 28.0,
+          "yield_ml_bu_ac": 57.4
         },
         "27005": {
           "acres": 0,
-          "yield_bu_ac": 38.8
+          "yield_bu_ac": 30.0,
+          "yield_ml_bu_ac": 58.5
         },
         "27007": {
           "acres": 0,
-          "yield_bu_ac": 35.4
+          "yield_bu_ac": 25.7,
+          "yield_ml_bu_ac": 53.4
         },
         "27011": {
           "acres": 0,
-          "yield_bu_ac": 53.5
+          "yield_bu_ac": 35.5,
+          "yield_ml_bu_ac": 56.8
         },
         "27013": {
           "acres": 0,
-          "yield_bu_ac": 52.3
+          "yield_bu_ac": 35.3,
+          "yield_ml_bu_ac": 58.9
         },
         "27015": {
           "acres": 0,
-          "yield_bu_ac": 48.2
+          "yield_bu_ac": 33.1,
+          "yield_ml_bu_ac": 61.5
         },
         "27017": {
           "acres": 0,
-          "yield_bu_ac": 42.6
+          "yield_bu_ac": 26.1,
+          "yield_ml_bu_ac": 58.8
         },
         "27019": {
           "acres": 0,
-          "yield_bu_ac": 51.7
+          "yield_bu_ac": 32.9,
+          "yield_ml_bu_ac": 57.8
+        },
+        "27021": {
+          "acres": 0,
+          "yield_bu_ac": 17.8,
+          "yield_ml_bu_ac": 37.1
+        },
+        "27023": {
+          "acres": 0,
+          "yield_bu_ac": 20.2,
+          "yield_ml_bu_ac": 59.4
+        },
+        "27027": {
+          "acres": 0,
+          "yield_bu_ac": 18.9,
+          "yield_ml_bu_ac": 42.8
+        },
+        "27029": {
+          "acres": 0,
+          "yield_bu_ac": 17.9,
+          "yield_ml_bu_ac": 36.6
+        },
+        "27033": {
+          "acres": 0,
+          "yield_bu_ac": 20.1,
+          "yield_ml_bu_ac": 57.0
+        },
+        "27037": {
+          "acres": 0,
+          "yield_bu_ac": 19.6,
+          "yield_ml_bu_ac": 57.4
+        },
+        "27039": {
+          "acres": 0,
+          "yield_bu_ac": 20.1,
+          "yield_ml_bu_ac": 53.0
         },
         "27041": {
           "acres": 0,
-          "yield_bu_ac": 49.7
+          "yield_bu_ac": 30.3,
+          "yield_ml_bu_ac": 60.1
         },
         "27043": {
           "acres": 0,
-          "yield_bu_ac": 51.9
+          "yield_bu_ac": 35.5,
+          "yield_ml_bu_ac": 57.0
         },
         "27045": {
           "acres": 0,
-          "yield_bu_ac": 55.7
+          "yield_bu_ac": 33.1,
+          "yield_ml_bu_ac": 60.5
         },
         "27047": {
           "acres": 0,
-          "yield_bu_ac": 52.1
+          "yield_bu_ac": 35.4,
+          "yield_ml_bu_ac": 55.7
         },
         "27049": {
           "acres": 0,
-          "yield_bu_ac": 54.5
+          "yield_bu_ac": 35.3,
+          "yield_ml_bu_ac": 61.7
         },
         "27051": {
           "acres": 0,
-          "yield_bu_ac": 48.3
+          "yield_bu_ac": 32.6,
+          "yield_ml_bu_ac": 59.3
         },
         "27055": {
           "acres": 0,
-          "yield_bu_ac": 52.3
+          "yield_bu_ac": 28.9,
+          "yield_ml_bu_ac": 60.0
         },
         "27057": {
           "acres": 0,
-          "yield_bu_ac": 34.7
+          "yield_bu_ac": 27.1,
+          "yield_ml_bu_ac": 55.6
         },
         "27059": {
           "acres": 0,
-          "yield_bu_ac": 47.6
+          "yield_bu_ac": 27.9,
+          "yield_ml_bu_ac": 58.9
         },
         "27061": {
           "acres": 0,
-          "yield_bu_ac": 28.2
+          "yield_bu_ac": 26.1,
+          "yield_ml_bu_ac": 56.2
         },
         "27063": {
           "acres": 0,
-          "yield_bu_ac": 58.6
+          "yield_bu_ac": 36.5,
+          "yield_ml_bu_ac": 58.3
         },
         "27065": {
           "acres": 0,
-          "yield_bu_ac": 50.7
+          "yield_bu_ac": 28.6,
+          "yield_ml_bu_ac": 59.5
         },
         "27067": {
           "acres": 0,
-          "yield_bu_ac": 55.2
+          "yield_bu_ac": 34.8,
+          "yield_ml_bu_ac": 60.1
         },
         "27069": {
           "acres": 0,
-          "yield_bu_ac": 42.4
+          "yield_bu_ac": 24.9,
+          "yield_ml_bu_ac": 54.8
         },
         "27071": {
           "acres": 0,
-          "yield_bu_ac": 34.0
+          "yield_bu_ac": 25.1,
+          "yield_ml_bu_ac": 59.6
         },
         "27073": {
           "acres": 0,
-          "yield_bu_ac": 52.6
+          "yield_bu_ac": 34.8,
+          "yield_ml_bu_ac": 58.3
         },
         "27077": {
           "acres": 0,
-          "yield_bu_ac": 39.5
+          "yield_bu_ac": 24.8,
+          "yield_ml_bu_ac": 56.8
         },
         "27079": {
           "acres": 0,
-          "yield_bu_ac": 51.2
+          "yield_bu_ac": 33.4,
+          "yield_ml_bu_ac": 57.5
         },
         "27081": {
           "acres": 0,
-          "yield_bu_ac": 52.8
+          "yield_bu_ac": 33.9,
+          "yield_ml_bu_ac": 56.7
         },
         "27085": {
           "acres": 0,
-          "yield_bu_ac": 51.5
+          "yield_bu_ac": 33.6,
+          "yield_ml_bu_ac": 63.3
         },
         "27087": {
           "acres": 0,
-          "yield_bu_ac": 43.2
+          "yield_bu_ac": 28.8,
+          "yield_ml_bu_ac": 60.0
         },
         "27089": {
           "acres": 0,
-          "yield_bu_ac": 39.3
+          "yield_bu_ac": 26.4,
+          "yield_ml_bu_ac": 55.9
         },
         "27093": {
           "acres": 0,
-          "yield_bu_ac": 53.3
+          "yield_bu_ac": 33.5,
+          "yield_ml_bu_ac": 58.6
         },
         "27095": {
           "acres": 0,
-          "yield_bu_ac": 47.8
+          "yield_bu_ac": 29.0,
+          "yield_ml_bu_ac": 60.9
         },
         "27099": {
           "acres": 0,
-          "yield_bu_ac": 55.2
+          "yield_bu_ac": 34.4,
+          "yield_ml_bu_ac": 57.4
         },
         "27103": {
           "acres": 0,
-          "yield_bu_ac": 52.2
+          "yield_bu_ac": 34.2,
+          "yield_ml_bu_ac": 60.4
         },
         "27109": {
           "acres": 0,
-          "yield_bu_ac": 52.2
+          "yield_bu_ac": 34.4,
+          "yield_ml_bu_ac": 61.4
         },
         "27111": {
           "acres": 0,
-          "yield_bu_ac": 43.9
+          "yield_bu_ac": 30.4,
+          "yield_ml_bu_ac": 58.6
         },
         "27113": {
           "acres": 0,
-          "yield_bu_ac": 37.5
+          "yield_bu_ac": 26.3,
+          "yield_ml_bu_ac": 56.2
         },
         "27115": {
           "acres": 0,
-          "yield_bu_ac": 50.3
+          "yield_bu_ac": 28.8,
+          "yield_ml_bu_ac": 56.6
         },
         "27119": {
           "acres": 0,
-          "yield_bu_ac": 40.6
+          "yield_bu_ac": 28.1,
+          "yield_ml_bu_ac": 60.5
         },
         "27121": {
           "acres": 0,
-          "yield_bu_ac": 51.7
+          "yield_bu_ac": 32.9,
+          "yield_ml_bu_ac": 55.3
         },
         "27125": {
           "acres": 0,
-          "yield_bu_ac": 36.4
+          "yield_bu_ac": 27.3,
+          "yield_ml_bu_ac": 54.9
         },
         "27129": {
           "acres": 0,
-          "yield_bu_ac": 56.5
+          "yield_bu_ac": 35.8,
+          "yield_ml_bu_ac": 62.1
         },
         "27131": {
           "acres": 0,
-          "yield_bu_ac": 53.8
+          "yield_bu_ac": 33.4,
+          "yield_ml_bu_ac": 59.0
         },
         "27135": {
           "acres": 0,
-          "yield_bu_ac": 42.4
+          "yield_bu_ac": 24.8,
+          "yield_ml_bu_ac": 54.2
         },
         "27139": {
           "acres": 0,
-          "yield_bu_ac": 52.3
+          "yield_bu_ac": 34.3,
+          "yield_ml_bu_ac": 59.9
         },
         "27141": {
           "acres": 0,
-          "yield_bu_ac": 39.8
+          "yield_bu_ac": 27.0,
+          "yield_ml_bu_ac": 57.6
         },
         "27143": {
           "acres": 0,
-          "yield_bu_ac": 51.7
+          "yield_bu_ac": 33.9,
+          "yield_ml_bu_ac": 61.4
         },
         "27145": {
           "acres": 0,
-          "yield_bu_ac": 50.7
+          "yield_bu_ac": 30.2,
+          "yield_ml_bu_ac": 58.2
         },
         "27147": {
           "acres": 0,
-          "yield_bu_ac": 52.6
+          "yield_bu_ac": 34.5,
+          "yield_ml_bu_ac": 59.6
         },
         "27149": {
           "acres": 0,
-          "yield_bu_ac": 53.8
+          "yield_bu_ac": 34.7,
+          "yield_ml_bu_ac": 58.3
         },
         "27151": {
           "acres": 0,
-          "yield_bu_ac": 56.1
+          "yield_bu_ac": 33.6,
+          "yield_ml_bu_ac": 53.4
         },
         "27155": {
           "acres": 0,
-          "yield_bu_ac": 52.2
+          "yield_bu_ac": 35.1,
+          "yield_ml_bu_ac": 55.7
         },
         "27157": {
           "acres": 0,
-          "yield_bu_ac": 53.1
+          "yield_bu_ac": 34.4,
+          "yield_ml_bu_ac": 62.7
         },
         "27159": {
           "acres": 0,
-          "yield_bu_ac": 32.1
+          "yield_bu_ac": 27.0,
+          "yield_ml_bu_ac": 57.9
         },
         "27161": {
           "acres": 0,
-          "yield_bu_ac": 51.6
+          "yield_bu_ac": 35.6,
+          "yield_ml_bu_ac": 57.4
         },
         "27163": {
           "acres": 0,
-          "yield_bu_ac": 46.3
+          "yield_bu_ac": 31.2,
+          "yield_ml_bu_ac": 59.2
         },
         "27165": {
           "acres": 0,
-          "yield_bu_ac": 53.2
+          "yield_bu_ac": 35.9,
+          "yield_ml_bu_ac": 58.3
         },
         "27167": {
           "acres": 0,
-          "yield_bu_ac": 50.1
+          "yield_bu_ac": 33.0,
+          "yield_ml_bu_ac": 55.7
         },
         "27169": {
           "acres": 0,
-          "yield_bu_ac": 55.5
+          "yield_bu_ac": 31.0,
+          "yield_ml_bu_ac": 61.1
         },
         "27171": {
           "acres": 0,
-          "yield_bu_ac": 51.0
+          "yield_bu_ac": 31.9,
+          "yield_ml_bu_ac": 61.5
         }
       },
       "missouri": {
         "29001": {
           "acres": 0,
-          "yield_bu_ac": 43.0
+          "yield_bu_ac": 24.4,
+          "yield_ml_bu_ac": 48.6
         },
         "29005": {
           "acres": 0,
-          "yield_bu_ac": 42.2
+          "yield_bu_ac": 25.9,
+          "yield_ml_bu_ac": 52.3
         },
         "29007": {
           "acres": 0,
-          "yield_bu_ac": 51.2
+          "yield_bu_ac": 24.7,
+          "yield_ml_bu_ac": 50.7
         },
         "29011": {
           "acres": 0,
-          "yield_bu_ac": 35.3
+          "yield_bu_ac": 27.4,
+          "yield_ml_bu_ac": 38.4
         },
         "29013": {
           "acres": 0,
-          "yield_bu_ac": 45.9
+          "yield_bu_ac": 28.6,
+          "yield_ml_bu_ac": 51.0
         },
         "29019": {
           "acres": 0,
-          "yield_bu_ac": 50.6
+          "yield_bu_ac": 23.6,
+          "yield_ml_bu_ac": 49.6
         },
         "29023": {
           "acres": 0,
-          "yield_bu_ac": 50.0
+          "yield_bu_ac": 33.3,
+          "yield_ml_bu_ac": 48.3
         },
         "29025": {
           "acres": 0,
-          "yield_bu_ac": 49.6
+          "yield_bu_ac": 24.8,
+          "yield_ml_bu_ac": 57.9
         },
         "29027": {
           "acres": 0,
-          "yield_bu_ac": 52.7
+          "yield_bu_ac": 24.5,
+          "yield_ml_bu_ac": 49.6
         },
         "29033": {
           "acres": 0,
-          "yield_bu_ac": 58.8
+          "yield_bu_ac": 23.8,
+          "yield_ml_bu_ac": 59.9
         },
         "29037": {
           "acres": 0,
-          "yield_bu_ac": 55.8
+          "yield_bu_ac": 25.6,
+          "yield_ml_bu_ac": 58.5
         },
         "29041": {
           "acres": 0,
-          "yield_bu_ac": 46.8
+          "yield_bu_ac": 25.5,
+          "yield_ml_bu_ac": 58.8
         },
         "29045": {
           "acres": 0,
-          "yield_bu_ac": 48.4
+          "yield_bu_ac": 24.0,
+          "yield_ml_bu_ac": 52.8
         },
         "29047": {
           "acres": 0,
-          "yield_bu_ac": 51.1
+          "yield_bu_ac": 22.7,
+          "yield_ml_bu_ac": 58.4
         },
         "29049": {
           "acres": 0,
-          "yield_bu_ac": 44.8
+          "yield_bu_ac": 23.8,
+          "yield_ml_bu_ac": 59.4
         },
         "29057": {
           "acres": 0,
-          "yield_bu_ac": 33.8
+          "yield_bu_ac": 25.6,
+          "yield_ml_bu_ac": 35.8
         },
         "29061": {
           "acres": 0,
-          "yield_bu_ac": 44.6
+          "yield_bu_ac": 23.5,
+          "yield_ml_bu_ac": 56.0
         },
         "29069": {
           "acres": 0,
-          "yield_bu_ac": 46.2
+          "yield_bu_ac": 33.8,
+          "yield_ml_bu_ac": 45.7
         },
         "29071": {
           "acres": 0,
-          "yield_bu_ac": 36.8
+          "yield_bu_ac": 28.3,
+          "yield_ml_bu_ac": 51.9
         },
         "29073": {
           "acres": 0,
-          "yield_bu_ac": 38.9
+          "yield_bu_ac": 27.5,
+          "yield_ml_bu_ac": 47.1
         },
         "29077": {
           "acres": 0,
-          "yield_bu_ac": 34.9
+          "yield_bu_ac": 25.3,
+          "yield_ml_bu_ac": 34.0
         },
         "29079": {
           "acres": 0,
-          "yield_bu_ac": 44.4
+          "yield_bu_ac": 25.2,
+          "yield_ml_bu_ac": 52.7
         },
         "29081": {
           "acres": 0,
-          "yield_bu_ac": 43.0
+          "yield_bu_ac": 23.6,
+          "yield_ml_bu_ac": 53.8
         },
         "29083": {
           "acres": 0,
-          "yield_bu_ac": 45.6
+          "yield_bu_ac": 27.7,
+          "yield_ml_bu_ac": 49.9
         },
         "29089": {
           "acres": 0,
-          "yield_bu_ac": 53.4
+          "yield_bu_ac": 25.5,
+          "yield_ml_bu_ac": 59.1
         },
         "29095": {
           "acres": 0,
-          "yield_bu_ac": 50.8
+          "yield_bu_ac": 25.2,
+          "yield_ml_bu_ac": 60.9
         },
         "29097": {
           "acres": 0,
-          "yield_bu_ac": 29.7
+          "yield_bu_ac": 26.5,
+          "yield_ml_bu_ac": 36.1
         },
         "29107": {
           "acres": 0,
-          "yield_bu_ac": 58.9
+          "yield_bu_ac": 25.6,
+          "yield_ml_bu_ac": 59.2
         },
         "29111": {
           "acres": 0,
-          "yield_bu_ac": 45.9
+          "yield_bu_ac": 24.8,
+          "yield_ml_bu_ac": 54.8
         },
         "29117": {
           "acres": 0,
-          "yield_bu_ac": 53.9
+          "yield_bu_ac": 24.9,
+          "yield_ml_bu_ac": 58.9
         },
         "29127": {
           "acres": 0,
-          "yield_bu_ac": 50.0
+          "yield_bu_ac": 26.4,
+          "yield_ml_bu_ac": 53.9
         },
         "29131": {
           "acres": 0,
-          "yield_bu_ac": 45.2
+          "yield_bu_ac": 25.1,
+          "yield_ml_bu_ac": 48.5
         },
         "29133": {
           "acres": 0,
-          "yield_bu_ac": 49.0
+          "yield_bu_ac": 29.1,
+          "yield_ml_bu_ac": 53.9
         },
         "29135": {
           "acres": 0,
-          "yield_bu_ac": 44.4
+          "yield_bu_ac": 23.7,
+          "yield_ml_bu_ac": 53.8
         },
         "29139": {
           "acres": 0,
-          "yield_bu_ac": 52.9
+          "yield_bu_ac": 25.3,
+          "yield_ml_bu_ac": 52.3
         },
         "29143": {
           "acres": 0,
-          "yield_bu_ac": 47.1
+          "yield_bu_ac": 33.3,
+          "yield_ml_bu_ac": 49.7
         },
         "29145": {
           "acres": 0,
-          "yield_bu_ac": 24.5
+          "yield_bu_ac": 25.3,
+          "yield_ml_bu_ac": 28.7
         },
         "29151": {
           "acres": 0,
-          "yield_bu_ac": 45.5
+          "yield_bu_ac": 24.4,
+          "yield_ml_bu_ac": 53.6
         },
         "29155": {
           "acres": 0,
-          "yield_bu_ac": 47.0
+          "yield_bu_ac": 34.9,
+          "yield_ml_bu_ac": 46.4
         },
         "29157": {
           "acres": 0,
-          "yield_bu_ac": 43.4
+          "yield_bu_ac": 26.4,
+          "yield_ml_bu_ac": 46.4
         },
         "29159": {
           "acres": 0,
-          "yield_bu_ac": 53.0
+          "yield_bu_ac": 28.8,
+          "yield_ml_bu_ac": 55.5
         },
         "29163": {
           "acres": 0,
-          "yield_bu_ac": 55.1
+          "yield_bu_ac": 28.4,
+          "yield_ml_bu_ac": 51.5
         },
         "29165": {
           "acres": 0,
-          "yield_bu_ac": 47.1
+          "yield_bu_ac": 23.4,
+          "yield_ml_bu_ac": 59.6
         },
         "29173": {
           "acres": 0,
-          "yield_bu_ac": 48.4
+          "yield_bu_ac": 26.8,
+          "yield_ml_bu_ac": 54.7
         },
         "29175": {
           "acres": 0,
-          "yield_bu_ac": 46.9
+          "yield_bu_ac": 25.3,
+          "yield_ml_bu_ac": 49.7
         },
         "29177": {
           "acres": 0,
-          "yield_bu_ac": 55.9
+          "yield_bu_ac": 24.3,
+          "yield_ml_bu_ac": 60.7
         },
         "29185": {
           "acres": 0,
-          "yield_bu_ac": 39.1
+          "yield_bu_ac": 27.3,
+          "yield_ml_bu_ac": 42.0
         },
         "29186": {
           "acres": 0,
-          "yield_bu_ac": 34.7
+          "yield_bu_ac": 26.5,
+          "yield_ml_bu_ac": 42.9
         },
         "29195": {
           "acres": 0,
-          "yield_bu_ac": 43.9
+          "yield_bu_ac": 24.3,
+          "yield_ml_bu_ac": 61.1
         },
         "29205": {
           "acres": 0,
-          "yield_bu_ac": 46.7
+          "yield_bu_ac": 24.9,
+          "yield_ml_bu_ac": 53.4
         },
         "29207": {
           "acres": 0,
-          "yield_bu_ac": 48.7
+          "yield_bu_ac": 32.7,
+          "yield_ml_bu_ac": 47.9
         },
         "29211": {
           "acres": 0,
-          "yield_bu_ac": 42.0
+          "yield_bu_ac": 23.4,
+          "yield_ml_bu_ac": 52.9
         },
         "29219": {
           "acres": 0,
-          "yield_bu_ac": 45.6
+          "yield_bu_ac": 27.3,
+          "yield_ml_bu_ac": 47.4
         },
         "29227": {
           "acres": 0,
-          "yield_bu_ac": 41.4
+          "yield_bu_ac": 25.7,
+          "yield_ml_bu_ac": 54.8
         }
       },
       "wisconsin": {
         "55001": {
           "acres": 0,
-          "yield_bu_ac": 51.1
+          "yield_bu_ac": 27.8,
+          "yield_ml_bu_ac": 53.0
         },
         "55005": {
           "acres": 0,
-          "yield_bu_ac": 40.2
+          "yield_bu_ac": 27.9,
+          "yield_ml_bu_ac": 57.0
         },
         "55009": {
           "acres": 0,
-          "yield_bu_ac": 53.5
+          "yield_bu_ac": 23.6,
+          "yield_ml_bu_ac": 58.9
         },
         "55011": {
           "acres": 0,
-          "yield_bu_ac": 54.8
+          "yield_bu_ac": 29.3,
+          "yield_ml_bu_ac": 59.3
         },
         "55013": {
           "acres": 0,
-          "yield_bu_ac": 44.6
+          "yield_bu_ac": 26.5,
+          "yield_ml_bu_ac": 54.6
         },
         "55015": {
           "acres": 0,
-          "yield_bu_ac": 50.9
+          "yield_bu_ac": 25.3,
+          "yield_ml_bu_ac": 58.8
         },
         "55017": {
           "acres": 0,
-          "yield_bu_ac": 45.9
+          "yield_bu_ac": 26.5,
+          "yield_ml_bu_ac": 58.4
         },
         "55019": {
           "acres": 0,
-          "yield_bu_ac": 47.2
+          "yield_bu_ac": 24.5,
+          "yield_ml_bu_ac": 54.7
         },
         "55021": {
           "acres": 0,
-          "yield_bu_ac": 47.8
+          "yield_bu_ac": 27.6,
+          "yield_ml_bu_ac": 58.9
         },
         "55023": {
           "acres": 0,
-          "yield_bu_ac": 49.5
+          "yield_bu_ac": 27.4,
+          "yield_ml_bu_ac": 60.1
         },
         "55025": {
           "acres": 0,
-          "yield_bu_ac": 52.2
+          "yield_bu_ac": 27.9,
+          "yield_ml_bu_ac": 58.7
         },
         "55027": {
           "acres": 0,
-          "yield_bu_ac": 51.6
+          "yield_bu_ac": 26.5,
+          "yield_ml_bu_ac": 59.7
         },
         "55029": {
           "acres": 0,
-          "yield_bu_ac": 43.1
+          "yield_bu_ac": 21.8,
+          "yield_ml_bu_ac": 61.3
         },
         "55033": {
           "acres": 0,
-          "yield_bu_ac": 46.7
+          "yield_bu_ac": 29.6,
+          "yield_ml_bu_ac": 56.0
         },
         "55035": {
           "acres": 0,
-          "yield_bu_ac": 51.9
+          "yield_bu_ac": 29.3,
+          "yield_ml_bu_ac": 59.1
         },
         "55039": {
           "acres": 0,
-          "yield_bu_ac": 47.2
+          "yield_bu_ac": 26.0,
+          "yield_ml_bu_ac": 55.8
         },
         "55041": {
           "acres": 0,
-          "yield_bu_ac": 29.5
+          "yield_bu_ac": 25.1,
+          "yield_ml_bu_ac": 58.2
         },
         "55043": {
           "acres": 0,
-          "yield_bu_ac": 50.8
+          "yield_bu_ac": 28.3,
+          "yield_ml_bu_ac": 61.6
         },
         "55045": {
           "acres": 0,
-          "yield_bu_ac": 52.6
+          "yield_bu_ac": 26.9,
+          "yield_ml_bu_ac": 59.7
         },
         "55047": {
           "acres": 0,
-          "yield_bu_ac": 52.1
+          "yield_bu_ac": 26.8,
+          "yield_ml_bu_ac": 56.6
         },
         "55049": {
           "acres": 0,
-          "yield_bu_ac": 51.1
+          "yield_bu_ac": 27.6,
+          "yield_ml_bu_ac": 59.6
         },
         "55053": {
           "acres": 0,
-          "yield_bu_ac": 49.8
+          "yield_bu_ac": 27.0,
+          "yield_ml_bu_ac": 56.7
         },
         "55055": {
           "acres": 0,
-          "yield_bu_ac": 52.1
+          "yield_bu_ac": 26.0,
+          "yield_ml_bu_ac": 57.3
         },
         "55057": {
           "acres": 0,
-          "yield_bu_ac": 49.4
+          "yield_bu_ac": 27.4,
+          "yield_ml_bu_ac": 51.6
         },
         "55059": {
           "acres": 0,
-          "yield_bu_ac": 54.6
+          "yield_bu_ac": 25.5,
+          "yield_ml_bu_ac": 66.2
         },
         "55063": {
           "acres": 0,
-          "yield_bu_ac": 45.9
+          "yield_bu_ac": 27.2,
+          "yield_ml_bu_ac": 58.0
         },
         "55065": {
           "acres": 0,
-          "yield_bu_ac": 52.0
+          "yield_bu_ac": 28.1,
+          "yield_ml_bu_ac": 61.6
         },
         "55067": {
           "acres": 0,
-          "yield_bu_ac": 33.4
+          "yield_bu_ac": 25.0,
+          "yield_ml_bu_ac": 59.4
         },
         "55069": {
           "acres": 0,
-          "yield_bu_ac": 32.5
+          "yield_bu_ac": 25.1,
+          "yield_ml_bu_ac": 56.8
         },
         "55071": {
           "acres": 0,
-          "yield_bu_ac": 49.0
+          "yield_bu_ac": 24.1,
+          "yield_ml_bu_ac": 57.0
         },
         "55073": {
           "acres": 0,
-          "yield_bu_ac": 35.4
+          "yield_bu_ac": 25.5,
+          "yield_ml_bu_ac": 55.3
         },
         "55075": {
           "acres": 0,
-          "yield_bu_ac": 47.8
+          "yield_bu_ac": 23.0,
+          "yield_ml_bu_ac": 60.2
         },
         "55077": {
           "acres": 0,
-          "yield_bu_ac": 48.9
+          "yield_bu_ac": 27.0,
+          "yield_ml_bu_ac": 57.8
         },
         "55081": {
           "acres": 0,
-          "yield_bu_ac": 47.1
+          "yield_bu_ac": 26.3,
+          "yield_ml_bu_ac": 52.0
         },
         "55083": {
           "acres": 0,
-          "yield_bu_ac": 54.1
+          "yield_bu_ac": 24.0,
+          "yield_ml_bu_ac": 60.5
         },
         "55087": {
           "acres": 0,
-          "yield_bu_ac": 57.1
+          "yield_bu_ac": 25.8,
+          "yield_ml_bu_ac": 60.6
         },
         "55089": {
           "acres": 0,
-          "yield_bu_ac": 48.4
+          "yield_bu_ac": 25.2,
+          "yield_ml_bu_ac": 56.2
         },
         "55091": {
           "acres": 0,
-          "yield_bu_ac": 49.2
+          "yield_bu_ac": 29.5,
+          "yield_ml_bu_ac": 61.2
         },
         "55093": {
           "acres": 0,
-          "yield_bu_ac": 52.0
+          "yield_bu_ac": 31.3,
+          "yield_ml_bu_ac": 59.3
         },
         "55095": {
           "acres": 0,
-          "yield_bu_ac": 47.2
+          "yield_bu_ac": 27.7,
+          "yield_ml_bu_ac": 59.3
         },
         "55097": {
           "acres": 0,
-          "yield_bu_ac": 45.1
+          "yield_bu_ac": 26.2,
+          "yield_ml_bu_ac": 58.3
         },
         "55099": {
           "acres": 0,
-          "yield_bu_ac": 31.8
+          "yield_bu_ac": 26.4,
+          "yield_ml_bu_ac": 62.0
         },
         "55101": {
           "acres": 0,
-          "yield_bu_ac": 54.0
+          "yield_bu_ac": 25.3,
+          "yield_ml_bu_ac": 65.2
         },
         "55103": {
           "acres": 0,
-          "yield_bu_ac": 51.5
+          "yield_bu_ac": 27.2,
+          "yield_ml_bu_ac": 59.6
         },
         "55105": {
           "acres": 0,
-          "yield_bu_ac": 56.7
+          "yield_bu_ac": 25.8,
+          "yield_ml_bu_ac": 61.3
         },
         "55107": {
           "acres": 0,
-          "yield_bu_ac": 38.1
+          "yield_bu_ac": 25.2,
+          "yield_ml_bu_ac": 59.0
         },
         "55109": {
           "acres": 0,
-          "yield_bu_ac": 47.3
+          "yield_bu_ac": 29.5,
+          "yield_ml_bu_ac": 60.0
         },
         "55111": {
           "acres": 0,
-          "yield_bu_ac": 49.8
+          "yield_bu_ac": 28.3,
+          "yield_ml_bu_ac": 57.4
         },
         "55113": {
           "acres": 0,
-          "yield_bu_ac": 38.2
+          "yield_bu_ac": 25.8,
+          "yield_ml_bu_ac": 56.6
         },
         "55115": {
           "acres": 0,
-          "yield_bu_ac": 56.2
+          "yield_bu_ac": 24.8,
+          "yield_ml_bu_ac": 63.4
         },
         "55117": {
           "acres": 0,
-          "yield_bu_ac": 46.2
+          "yield_bu_ac": 25.5,
+          "yield_ml_bu_ac": 57.1
         },
         "55119": {
           "acres": 0,
-          "yield_bu_ac": 35.9
+          "yield_bu_ac": 24.1,
+          "yield_ml_bu_ac": 55.9
         },
         "55121": {
           "acres": 0,
-          "yield_bu_ac": 54.9
+          "yield_bu_ac": 27.6,
+          "yield_ml_bu_ac": 60.9
         },
         "55123": {
           "acres": 0,
-          "yield_bu_ac": 47.5
+          "yield_bu_ac": 27.7,
+          "yield_ml_bu_ac": 55.6
         },
         "55127": {
           "acres": 0,
-          "yield_bu_ac": 56.8
+          "yield_bu_ac": 25.5,
+          "yield_ml_bu_ac": 61.7
         },
         "55129": {
           "acres": 0,
-          "yield_bu_ac": 36.3
+          "yield_bu_ac": 26.8,
+          "yield_ml_bu_ac": 58.3
         },
         "55131": {
           "acres": 0,
-          "yield_bu_ac": 48.9
+          "yield_bu_ac": 25.9,
+          "yield_ml_bu_ac": 57.9
         },
         "55133": {
           "acres": 0,
-          "yield_bu_ac": 48.7
+          "yield_bu_ac": 25.6,
+          "yield_ml_bu_ac": 55.2
         },
         "55135": {
           "acres": 0,
-          "yield_bu_ac": 55.4
+          "yield_bu_ac": 26.1,
+          "yield_ml_bu_ac": 58.9
         },
         "55137": {
           "acres": 0,
-          "yield_bu_ac": 46.6
+          "yield_bu_ac": 25.3,
+          "yield_ml_bu_ac": 54.5
         },
         "55139": {
           "acres": 0,
-          "yield_bu_ac": 51.4
+          "yield_bu_ac": 26.2,
+          "yield_ml_bu_ac": 53.9
         },
         "55141": {
           "acres": 0,
-          "yield_bu_ac": 42.0
+          "yield_bu_ac": 24.9,
+          "yield_ml_bu_ac": 55.1
         }
       }
     }
