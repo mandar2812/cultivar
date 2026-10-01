@@ -109,6 +109,13 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-
         <option value="wet">Wet</option>
       </select>
     </div>
+    <div class="control-group">
+      <label for="modelSelect">Model</label>
+      <select id="modelSelect">
+        <option value="mechanistic">Simulation</option>
+        <option value="ml" disabled>ML estimator</option>
+      </select>
+    </div>
     <button id="refreshBtn">↻ Refresh</button>
   </div>
 </div>
@@ -203,6 +210,7 @@ let countyLayer = L.geoJSON(null, {
 }).addTo(map);
 
 let yieldData = {};
+let lastPredictions = null;
 let currentHistoState = null;
 let currentCountyFips = null;
 let countiesJson = null;
@@ -565,28 +573,88 @@ async function loadCrops() {
   return crops;
 }
 
+function selectedModel() {
+  return document.getElementById('modelSelect').value;
+}
+
+function estimatorName() {
+  return lastPredictions?.metadata?.yield_estimator || 'none';
+}
+
+function rebuildYieldData() {
+  if (!lastPredictions) return null;
+  const scenario = document.getElementById('scenarioSelect').value;
+  const scenarioData = lastPredictions.scenarios?.[scenario];
+  if (!scenarioData) throw new Error(`Scenario "${scenario}" not found in predictions`);
+  const useML = selectedModel() === 'ml';
+  const states = [];
+  yieldData = {};
+  let mlCounties = 0;
+  for (const [state, counties] of Object.entries(scenarioData)) {
+    states.push(state);
+    for (const [fips, info] of Object.entries(counties)) {
+      const mlVal = info.yield_ml_bu_ac;
+      if (useML && mlVal != null) {
+        yieldData[fips] = mlVal;
+        mlCounties += 1;
+      } else {
+        yieldData[fips] = info.yield_bu_ac;
+      }
+    }
+  }
+  return { states, mlCounties };
+}
+
+function refreshStatus() {
+  if (!lastPredictions) return;
+  const modelLabel = selectedModel() === 'ml'
+    ? `ML: ${estimatorName()}`
+    : 'Model: simulation';
+  statusEl.textContent =
+    `Data through DOY ${lastPredictions.data_through_julian || '?'}` +
+    ` | Run: ${lastPredictions.run_date || '?'}` +
+    ` | ${modelLabel}` +
+    ` | ${Object.keys(yieldData).length} counties`;
+}
+
+function updateLegend() {
+  const h4 = document.querySelector('#legend h4');
+  h4.textContent = selectedModel() === 'ml'
+    ? `Yield (bu/ac) — ML (${estimatorName()})`
+    : 'Yield (bu/ac) — simulation';
+}
+
+function refreshAfterSelectionChange() {
+  rebuildYieldData();
+  updateMap();
+  refreshStatus();
+  updateLegend();
+  if (histoPanel.style.display === 'block') {
+    renderHistogram(histoStateSel.value, histoYearSel.value);
+    renderCountyTimeSeries(histoStateSel.value, currentCountyFips);
+  }
+}
+
 async function loadPredictions() {
   statusEl.textContent = 'Loading predictions... ';
   try {
     const url = predictionsUrl() + '?t=' + Date.now();
     const resp = await fetch(url);
     const data = await resp.json();
-    const scenario = document.getElementById('scenarioSelect').value;
-    const scenarioData = data.scenarios?.[scenario];
-    if (!scenarioData) throw new Error(`Scenario "${scenario}" not found in predictions`);
-    const dataThrough = data.data_through_julian || '?';
-    const runDate = data.run_date || '?';
-    // Build state list for histogram
-    const states = [];
-    yieldData = {};
-    for (const [state, counties] of Object.entries(scenarioData)) {
-      states.push(state);
-      for (const [fips, info] of Object.entries(counties)) {
-        yieldData[fips] = info.yield_bu_ac;
-      }
+    lastPredictions = data;
+    const estimator = lastPredictions.metadata?.yield_estimator || 'none';
+    const mlOpt = document.querySelector('#modelSelect option[value="ml"]');
+    mlOpt.disabled = estimator === 'none';
+    mlOpt.textContent = estimator === 'none' ? 'ML estimator (n/a)' : `ML (${estimator})`;
+    if (estimator === 'none' && selectedModel() === 'ml') {
+      document.getElementById('modelSelect').value = 'mechanistic';
     }
+    const rebuilt = rebuildYieldData();
+    if (!rebuilt) throw new Error('No scenarios in predictions file');
+    const states = rebuilt.states;
     updateMap();
-    statusEl.textContent = `Data through DOY ${dataThrough} | Run: ${runDate} | ${Object.keys(yieldData).length} counties`;
+    refreshStatus();
+    updateLegend();
 
     // Update histogram state selector
     histoStateSel.innerHTML = '';
@@ -610,10 +678,19 @@ async function loadPredictions() {
 
 document.getElementById('cropSelect').addEventListener('change', loadPredictions);
 document.getElementById('scenarioSelect').addEventListener('change', () => {
-  updateMap();
-  if (histoPanel.style.display === 'block') {
-    renderHistogram(histoStateSel.value, histoYearSel.value);
-    renderCountyTimeSeries(histoStateSel.value, currentCountyFips);
+  try {
+    refreshAfterSelectionChange();
+  } catch (e) {
+    statusEl.textContent = 'Error: ' + e.message;
+    console.error(e);
+  }
+});
+document.getElementById('modelSelect').addEventListener('change', () => {
+  try {
+    refreshAfterSelectionChange();
+  } catch (e) {
+    statusEl.textContent = 'Error: ' + e.message;
+    console.error(e);
   }
 });
 document.getElementById('refreshBtn').addEventListener('click', loadPredictions);
