@@ -267,7 +267,7 @@ const histoChartEl = document.getElementById('histoChart');
 function getStateNameFromFips(fips) {
   const code = fips.slice(0, 2);
   const lookup = {
-    '17': 'illinois', '18': 'indiana', '19': 'iowa', '27': 'minnesota', '55': 'wisconsin'
+    '17': 'illinois', '18': 'indiana', '19': 'iowa', '27': 'minnesota', '29': 'missouri', '55': 'wisconsin'
   };
   return lookup[code] || null;
 }
@@ -446,6 +446,8 @@ function renderCountyTimeSeries(state, fips) {
   if (!stateYields) { countyTsTitle.style.display = 'none'; return; }
 
   const years = Object.keys(stateYields).sort((a, b) => +a - +b);
+  const scenario = document.getElementById('scenarioSelect').value;
+  const modelTag = selectedModel() === 'ml' ? `ML (${estimatorName()})` : 'simulation';
   const data = [];
   for (const y of years) {
     const yld = stateYields[y]?.[countyName];
@@ -456,7 +458,9 @@ function renderCountyTimeSeries(state, fips) {
 
   if (data.length < 2) { countyTsTitle.style.display = 'none'; return; }
   countyTsTitle.style.display = 'block';
-  countyTsTitle.textContent = `${countyName.charAt(0).toUpperCase() + countyName.slice(1)}, ${state.charAt(0).toUpperCase() + state.slice(1)}`;
+  countyTsTitle.textContent =
+    `${countyName.charAt(0).toUpperCase() + countyName.slice(1)}, ` +
+    `${state.charAt(0).toUpperCase() + state.slice(1)} — ${scenario} · ${modelTag}`;
 
   const margin = { top: 8, right: 12, bottom: 24, left: 42 };
   const width = countyTsChartEl.clientWidth || 420;
@@ -535,7 +539,7 @@ function renderCountyTimeSeries(state, fips) {
     .attr('stroke-width', d => d.source === 'pred' ? 2 : 0)
     .on('mouseover', function (event, d) {
       tooltip.innerHTML = `<strong>${d.year}</strong>: ${d.yield.toFixed(1)} bu/ac` +
-        (d.source === 'pred' ? ' <em>(predicted)</em>' : '');
+        (d.source === 'pred' ? ` <em>(predicted · ${scenario} · ${modelTag})</em>` : '');
       tooltip.style.display = 'block';
       tooltip.style.left = (event.pageX + 12) + 'px';
       tooltip.style.top = (event.pageY - 10) + 'px';
@@ -613,18 +617,28 @@ function refreshStatus() {
   const modelLabel = selectedModel() === 'ml'
     ? `ML: ${estimatorName()}`
     : 'Model: simulation';
+  const scenario = document.getElementById('scenarioSelect').value;
   statusEl.textContent =
     `Data through DOY ${lastPredictions.data_through_julian || '?'}` +
     ` | Run: ${lastPredictions.run_date || '?'}` +
+    ` | Scenario: ${scenario}` +
     ` | ${modelLabel}` +
     ` | ${Object.keys(yieldData).length} counties`;
 }
 
 function updateLegend() {
   const h4 = document.querySelector('#legend h4');
-  h4.textContent = selectedModel() === 'ml'
-    ? `Yield (bu/ac) — ML (${estimatorName()})`
-    : 'Yield (bu/ac) — simulation';
+  const scenario = document.getElementById('scenarioSelect').value;
+  const modelTag = selectedModel() === 'ml'
+    ? `ML (${estimatorName()})`
+    : 'simulation';
+  h4.textContent = `Yield (bu/ac) — ${modelTag}`;
+  const predItem = document.querySelector('.histo-legend-item[data-series="pred"]');
+  if (predItem) {
+    predItem.innerHTML =
+      '<span class="histo-legend-swatch histo-bar-pred"></span> Predicted (' +
+      `${scenario} · ${modelTag})`;
+  }
 }
 
 function refreshAfterSelectionChange() {
