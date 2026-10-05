@@ -438,12 +438,16 @@ const countyTsTitle = document.getElementById('countyTsTitle');
 const countyTsChartEl = document.getElementById('countyTsChart');
 
 function renderCountyTimeSeries(state, fips) {
-  if (!fips) { countyTsTitle.style.display = 'none'; return; }
+  const clearTs = () => {
+    countyTsTitle.style.display = 'none';
+    d3.select('#countyTsChart').selectAll('svg').remove();
+  };
+  if (!fips) { clearTs(); return; }
   const cinfo = fipsCountyMap[fips];
-  if (!cinfo) { countyTsTitle.style.display = 'none'; return; }
+  if (!cinfo) { clearTs(); return; }
   const countyName = cinfo.county;
   const stateYields = usdaYields[state];
-  if (!stateYields) { countyTsTitle.style.display = 'none'; return; }
+  if (!stateYields) { clearTs(); return; }
 
   const years = Object.keys(stateYields).sort((a, b) => +a - +b);
   const scenario = document.getElementById('scenarioSelect').value;
@@ -456,7 +460,7 @@ function renderCountyTimeSeries(state, fips) {
   const predYield = yieldData[fips];
   if (predYield != null) data.push({ year: +years[years.length - 1] + 1, yield: predYield, source: 'pred' });
 
-  if (data.length < 2) { countyTsTitle.style.display = 'none'; return; }
+  if (data.length < 2) { clearTs(); return; }
   countyTsTitle.style.display = 'block';
   countyTsTitle.textContent =
     `${countyName.charAt(0).toUpperCase() + countyName.slice(1)}, ` +
